@@ -11,3 +11,7 @@ args = ["run", "--release", "--bin", "prepare_aeon_models", "benchmarks_real_lif
 command = "cargo"
 dependencies = ["prepare-aeon-models"]
 args = ["run", "--release", "--bin", "aeon_to_bnet", "benchmarks_real_life", "benchmarks_real_life"]
+
+[tasks.algorithm-basic]
+command = "cargo"
+args = ["run", "--release", "--bin", "algorithm_basic"]

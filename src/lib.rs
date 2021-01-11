@@ -6,6 +6,7 @@ pub mod max_in_degree_distribution;
 pub mod max_out_degree_distribution;
 pub mod out_degree_relative_distribution;
 pub mod connectivity_distribution;
+pub mod algorithms;
 
 pub struct SampledDistribution {
     cumulative_distribution: Vec<(f64, f64)>,
