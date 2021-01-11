@@ -1,0 +1,71 @@
+Agent M
+	Vars:
+		v0: boolean;
+		v1: boolean;
+		v10: boolean;
+		v11: boolean;
+		v12: boolean;
+		v13: boolean;
+		v14: boolean;
+		v15: boolean;
+		v16: boolean;
+		v17: boolean;
+		v18: boolean;
+		v2: boolean;
+		v3: boolean;
+		v4: boolean;
+		v5: boolean;
+		v6: boolean;
+		v7: boolean;
+		v8: boolean;
+		v9: boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		v0=true  if ((v13&(((v10&v17)&v8)|(v10&v8)))&~(v9&v2))=true;
+		v0=false if ((v13&(((v10&v17)&v8)|(v10&v8)))&~(v9&v2))=false;
+		v1=true  if (v15&~(v9&(v16&v2)))=true;
+		v1=false if (v15&~(v9&(v16&v2)))=false;
+		v10=true  if ((((v17&~(v9&v16))|(v15&~(v9&v16)))|(v8&~(v9&v16)))|(v1&~(v9&v16)))=true;
+		v10=false if ((((v17&~(v9&v16))|(v15&~(v9&v16)))|(v8&~(v9&v16)))|(v1&~(v9&v16)))=false;
+		v11=true  if v13=true;
+		v11=false if v13=false;
+		v12=true  if ((v16&~v4)|(v2&~v4))=true;
+		v12=false if ((v16&~v4)|(v2&~v4))=false;
+		v13=true  if ((((((v1&v14)&~((v7|v16)|v2))|(v14&~((v7|v16)|v2)))|(v11&~((v7|v16)|v2)))|((v8&(v10&v14))&~((v7|v16)|v2)))|((v6&v13)&~((v7|v16)|v2)))=true;
+		v13=false if ((((((v1&v14)&~((v7|v16)|v2))|(v14&~((v7|v16)|v2)))|(v11&~((v7|v16)|v2)))|((v8&(v10&v14))&~((v7|v16)|v2)))|((v6&v13)&~((v7|v16)|v2)))=false;
+		v14=true  if (((((v8&((v10&v1)&v18))&~v2)|(v13&~v2))|(v14&~v2))|((v1&(v10&v17))&~v2))=true;
+		v14=false if (((((v8&((v10&v1)&v18))&~v2)|(v13&~v2))|(v14&~v2))|((v1&(v10&v17))&~v2))=false;
+		v15=true  if (v15&~(v10|v16))=true;
+		v15=false if (v15&~(v10|v16))=false;
+		v16=true  if ((((v9&~(v4|v6))|(v2&~(v4|v6)))|(v8&~(v4|v6)))|(v12&~(v4|v6)))=true;
+		v16=false if ((((v9&~(v4|v6))|(v2&~(v4|v6)))|(v8&~(v4|v6)))|(v12&~(v4|v6)))=false;
+		v17=true  if (v15|v8)=true;
+		v17=false if (v15|v8)=false;
+		v18=true  if ((v8&~(v16&v2))|(v15&~(v16&v2)))=true;
+		v18=false if ((v8&~(v16&v2))|(v15&~(v16&v2)))=false;
+		v2=true  if ((v12&~(v14|(v13&v0)))|(v16&~(v14|(v13&v0))))=true;
+		v2=false if ((v12&~(v14|(v13&v0)))|(v16&~(v14|(v13&v0))))=false;
+		v3=true  if v13=true;
+		v3=false if v13=false;
+		v4=true  if (v13|v14)=true;
+		v4=false if (v13|v14)=false;
+		v5=true  if ((v14&~v7)|(v13&~v7))=true;
+		v5=false if ((v14&~v7)|(v13&~v7))=false;
+		v6=true  if (v13&~v16)=true;
+		v6=false if (v13&~v16)=false;
+		v7=true  if ((v16&v2)&~(v5|v13))=true;
+		v7=false if ((v16&v2)&~(v5|v13))=false;
+		v8=true  if (((v16|v14)|v10)|v15)=true;
+		v8=false if (((v16|v14)|v10)|v15)=false;
+		v9=true  if ((v17&~(v10&v13))|((v16&v2)&~(v10&v13)))=true;
+		v9=false if ((v17&~(v10&v13))|((v16&v2)&~(v10&v13)))=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.v0=true or M.v0=false;
+end InitStates

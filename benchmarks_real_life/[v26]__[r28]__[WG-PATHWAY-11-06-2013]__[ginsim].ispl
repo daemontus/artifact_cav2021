@@ -1,0 +1,92 @@
+Agent M
+	Vars:
+		v0: boolean;
+		v1: boolean;
+		v10: boolean;
+		v11: boolean;
+		v12: boolean;
+		v13: boolean;
+		v14: boolean;
+		v15: boolean;
+		v16: boolean;
+		v17: boolean;
+		v18: boolean;
+		v19: boolean;
+		v2: boolean;
+		v20: boolean;
+		v21: boolean;
+		v22: boolean;
+		v23: boolean;
+		v24: boolean;
+		v25: boolean;
+		v3: boolean;
+		v4: boolean;
+		v5: boolean;
+		v6: boolean;
+		v7: boolean;
+		v8: boolean;
+		v9: boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		v0=true  if ~v5=true;
+		v0=false if ~v5=false;
+		v1=true  if ((((((~v3&~v21)&~v0)&v4)&~v15)&v9)|((((((~v3&~v21)&~v0)&v4)&v15)&v9)&~v17))=true;
+		v1=false if ((((((~v3&~v21)&~v0)&v4)&~v15)&v9)|((((((~v3&~v21)&~v0)&v4)&v15)&v9)&~v17))=false;
+		v10=true  if v1|~v1=true;
+		v10=false if v1|~v1=false;
+		v11=true  if v1|~v1=true;
+		v11=false if v1|~v1=false;
+		v12=true  if v1|~v1=true;
+		v12=false if v1|~v1=false;
+		v13=true  if v1|~v1=true;
+		v13=false if v1|~v1=false;
+		v14=true  if (v1&~v13)=true;
+		v14=false if (v1&~v13)=false;
+		v15=true  if v1|~v1=true;
+		v15=false if v1|~v1=false;
+		v16=true  if v1|~v1=true;
+		v16=false if v1|~v1=false;
+		v17=true  if v1|~v1=true;
+		v17=false if v1|~v1=false;
+		v18=true  if (((((v14&v11)&v12)&~v8)&v10)&v16)=true;
+		v18=false if (((((v14&v11)&v12)&~v8)&v10)&v16)=false;
+		v19=true  if v1|~v1=true;
+		v19=false if v1|~v1=false;
+		v2=true  if v6=true;
+		v2=false if v6=false;
+		v20=true  if v1|~v1=true;
+		v20=false if v1|~v1=false;
+		v21=true  if ~v5=true;
+		v21=false if ~v5=false;
+		v22=true  if v1|~v1=true;
+		v22=false if v1|~v1=false;
+		v23=true  if (v19&~v20)=true;
+		v23=false if (v19&~v20)=false;
+		v24=true  if (v19&~v20)=true;
+		v24=false if (v19&~v20)=false;
+		v25=true  if v1|~v1=true;
+		v25=false if v1|~v1=false;
+		v3=true  if ~v5=true;
+		v3=false if ~v5=false;
+		v4=true  if v1&~v1=true;
+		v4=false if v1&~v1=false;
+		v5=true  if (((~v7&v2)&~v25)|(v7&~v25))=true;
+		v5=false if (((~v7&v2)&~v25)|(v7&~v25))=false;
+		v6=true  if v1|~v1=true;
+		v6=false if v1|~v1=false;
+		v7=true  if (v6&v22)=true;
+		v7=false if (v6&v22)=false;
+		v8=true  if v1|~v1=true;
+		v8=false if v1|~v1=false;
+		v9=true  if v1|~v1=true;
+		v9=false if v1|~v1=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.v0=true or M.v0=false;
+end InitStates

@@ -1,0 +1,17 @@
+miR_9 -| her6
+Neural_Precursor -| her6
+her6 -| miR_9
+Neural_Precursor -| miR_9
+elavl3_HuC -> Neural_Precursor
+miR_9 -| zic5
+Neural_Precursor -| zic5
+miR_9 -| elavl3_HuC
+Progenitor -| elavl3_HuC
+her6 -> Progenitor
+zic5 -> Progenitor
+$Neural_Precursor: elavl3_HuC
+$Progenitor: ((!her6 & zic5) | her6)
+$elavl3_HuC: (!miR_9 & !Progenitor)
+$her6: (!miR_9 & !Neural_Precursor)
+$miR_9: (!her6 & !Neural_Precursor)
+$zic5: (!miR_9 & !Neural_Precursor)

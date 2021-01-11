@@ -1,0 +1,98 @@
+Agent M
+	Vars:
+		v0: boolean;
+		v1: boolean;
+		v10: boolean;
+		v11: boolean;
+		v12: boolean;
+		v13: boolean;
+		v14: boolean;
+		v15: boolean;
+		v16: boolean;
+		v17: boolean;
+		v18: boolean;
+		v19: boolean;
+		v2: boolean;
+		v20: boolean;
+		v21: boolean;
+		v22: boolean;
+		v23: boolean;
+		v24: boolean;
+		v25: boolean;
+		v26: boolean;
+		v27: boolean;
+		v3: boolean;
+		v4: boolean;
+		v5: boolean;
+		v6: boolean;
+		v7: boolean;
+		v8: boolean;
+		v9: boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		v0=true  if ((v0&~v22)|((v20&(v25|v9))&~v22))=true;
+		v0=false if ((v0&~v22)|((v20&(v25|v9))&~v22))=false;
+		v1=true  if ((v8&~v6)|(v2&~v6))=true;
+		v1=false if ((v8&~v6)|(v2&~v6))=false;
+		v10=true  if ((v27&v3)|((v11&v27)&~v6))=true;
+		v10=false if ((v27&v3)|((v11&v27)&~v6))=false;
+		v11=true  if ((v14&((v2|v1)|(v15&v8)))&~v24)=true;
+		v11=false if ((v14&((v2|v1)|(v15&v8)))&~v24)=false;
+		v12=true  if ((v27&(v2|v1))|(v17&(v2|v1)))=true;
+		v12=false if ((v27&(v2|v1))|(v17&(v2|v1)))=false;
+		v13=true  if (v17&~v6)=true;
+		v13=false if (v17&~v6)=false;
+		v14=true  if ((v13&(v2|v1))&~v6)=true;
+		v14=false if ((v13&(v2|v1))&~v6)=false;
+		v15=true  if ((v8&((v7|v2)|v1))&~v6)=true;
+		v15=false if ((v8&((v7|v2)|v1))&~v6)=false;
+		v16=true  if ((v8&((v10&v3)&v23))&~v6)=true;
+		v16=false if ((v8&((v10&v3)&v23))&~v6)=false;
+		v17=true  if (v17&~v8)=true;
+		v17=false if (v17&~v8)=false;
+		v18=true  if (v8&~((v11|v19)|v6))=true;
+		v18=false if (v8&~((v11|v19)|v6))=false;
+		v19=true  if ((v8&v1)&~((v6|(v18&v11))|v23))=true;
+		v19=false if ((v8&v1)&~((v6|(v18&v11))|v23))=false;
+		v2=true  if (((v1&~v6)|(v13&~v6))|(v27&~v6))=true;
+		v2=false if (((v1&~v6)|(v13&~v6))|(v27&~v6))=false;
+		v20=true  if v17=true;
+		v20=false if v17=false;
+		v21=true  if (((v25&(v8&v7))&~((v12&v27)|v6))|((v18&(v8&v7))&~(v1&v2)))=true;
+		v21=false if (((v25&(v8&v7))&~((v12&v27)|v6))|((v18&(v8&v7))&~(v1&v2)))=false;
+		v22=true  if (((v14&v0)&~(v24|v9))|(v0&~(v24|v9)))=true;
+		v22=false if (((v14&v0)&~(v24|v9))|(v0&~(v24|v9)))=false;
+		v23=true  if ((v27&v10)&~v6)=true;
+		v23=false if ((v27&v10)&~v6)=false;
+		v24=true  if ((v22&~v13)|((v10&v11)&~v13))=true;
+		v24=false if ((v22&~v13)|((v10&v11)&~v13))=false;
+		v25=true  if (((v26&v20)&~(v14&(v9&v11)))|(v20&~v13))=true;
+		v25=false if (((v26&v20)&~(v14&(v9&v11)))|(v20&~v13))=false;
+		v26=true  if ((((v2&v4)&~v6)|((v1&v5)&~v6))|(v7&~v6))=true;
+		v26=false if ((((v2&v4)&~v6)|((v1&v5)&~v6))|(v7&~v6))=false;
+		v27=true  if ((v8&(v19|(v12&v11)))&~(v23|v18))=true;
+		v27=false if ((v8&(v19|(v12&v11)))&~(v23|v18))=false;
+		v3=true  if ((v8&((v5|v2)|v1))&~v6)=true;
+		v3=false if ((v8&((v5|v2)|v1))&~v6)=false;
+		v4=true  if (((v7&~v6)|(v2&~v6))|(v1&~v6))=true;
+		v4=false if (((v7&~v6)|(v2&~v6))|(v1&~v6))=false;
+		v5=true  if (((v1&~v6)|(v7&~v6))|(v2&~v6))=true;
+		v5=false if (((v1&~v6)|(v7&~v6))|(v2&~v6))=false;
+		v6=true  if ((((v22&~v8)|(v21&~v8))|(v16&~v8))|~((((((v22|v17)|v8)|v0)|v16)|v6)|v21))=true;
+		v6=false if ((((v22&~v8)|(v21&~v8))|(v16&~v8))|~((((((v22|v17)|v8)|v0)|v16)|v6)|v21))=false;
+		v7=true  if ((v8&v18)&~v6)=true;
+		v7=false if ((v8&v18)&~v6)=false;
+		v8=true  if (((v8&~(v16|v21))|(v25&~(v16|v21)))|(v9&~(v16|v21)))=true;
+		v8=false if (((v8&~(v16|v21))|(v25&~(v16|v21)))|(v9&~(v16|v21)))=false;
+		v9=true  if (v20&v11)=true;
+		v9=false if (v20&v11)=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.v0=true or M.v0=false;
+end InitStates

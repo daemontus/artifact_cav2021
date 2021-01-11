@@ -1,0 +1,80 @@
+E2Fb -> MYB77
+CYCD3_1 -> MYB77
+RBR -| MYB77
+KRP1 -| MYB77
+MYB77 -> APC_C
+E2Fa -> APC_C
+RBR -| APC_C
+MYB3R1_4 -> APC_C
+E2Fe -| APC_C
+E2Fc -| E2Fa
+CYCA2_3 -? E2Fa
+CDKB1_1 -? E2Fa
+E2Fa -? E2Fa
+E2Fa -> RBR
+CYCD3_1 -| RBR
+RBR -| RBR
+MYB3R1_4 -> RBR
+KRP1 -> RBR
+MYB77 -> MYB3R1_4
+MYB3R1_4 -> MYB3R1_4
+KRP1 -| MYB3R1_4
+CYCB1_1 -> MYB3R1_4
+E2Fc -? E2Fe
+MYB77 -? E2Fe
+E2Fb -? E2Fe
+CYCD3_1 -? E2Fe
+RBR -? E2Fe
+KRP1 -? E2Fe
+APC_C -| CYCB1_1
+E2Fc -| CYCB1_1
+MYB77 -> CYCB1_1
+E2Fb -> CYCB1_1
+CYCD3_1 -> CYCB1_1
+RBR -| CYCB1_1
+MYB3R1_4 -> CYCB1_1
+KRP1 -| CYCB1_1
+E2Fa -> E2Fc
+CYCD3_1 -| E2Fc
+RBR -| E2Fc
+MYB3R1_4 -> E2Fc
+SCF -| E2Fc
+KRP1 -> E2Fc
+E2Fa -> E2Fb
+RBR -| E2Fb
+SCF -| CYCD3_1
+CDKB1_1 -| KRP1
+CYCA2_3 -| KRP1
+MYB77 -> KRP1
+MYB3R1_4 -> KRP1
+SCF -| KRP1
+APC_C -| SCF
+E2Fb -> SCF
+CYCD3_1 -> SCF
+RBR -| SCF
+MYB3R1_4 -> SCF
+KRP1 -| SCF
+E2Fc -| CDKB1_1
+MYB77 -> CDKB1_1
+E2Fb -> CDKB1_1
+CYCD3_1 -> CDKB1_1
+RBR -| CDKB1_1
+MYB3R1_4 -> CDKB1_1
+KRP1 -| CDKB1_1
+APC_C -| CYCA2_3
+MYB77 -> CYCA2_3
+MYB3R1_4 -> CYCA2_3
+$APC_C: (((E2Fa & !(E2Fe | RBR)) | (MYB3R1_4 & !E2Fe)) | (MYB77 & !E2Fe))
+$CDKB1_1: ((MYB77 | ((E2Fb & (!RBR | (CYCD3_1 & !KRP1))) & !E2Fc)) | MYB3R1_4)
+$CYCA2_3: ((MYB77 & !APC_C) | (MYB3R1_4 & !APC_C))
+$CYCB1_1: (((MYB77 & !APC_C) | ((E2Fb & (!RBR | (CYCD3_1 & !KRP1))) & !(E2Fc | APC_C))) | (MYB3R1_4 & !APC_C))
+$CYCD3_1: !SCF
+$E2Fa: ((((CYCA2_3 & ((!E2Fc & !CDKB1_1) & !E2Fa)) | (E2Fa & !(CDKB1_1 & CYCA2_3))) | (CDKB1_1 & ((!E2Fc & !CYCA2_3) & !E2Fa))) | !(((E2Fc | CYCA2_3) | CDKB1_1) | E2Fa))
+$E2Fb: (E2Fa & !RBR)
+$E2Fc: ((MYB3R1_4 & !((SCF & CYCD3_1) & !KRP1)) | (E2Fa & !(((SCF & CYCD3_1) & !KRP1) | RBR)))
+$E2Fe: ((((((((((((((((((CYCD3_1 & ((((!E2Fc & !MYB77) & !E2Fb) & !RBR) & !KRP1)) | ((CYCD3_1 & (E2Fb & RBR)) & ((!E2Fc & !MYB77) & !KRP1))) | ((CYCD3_1 & ((E2Fb & RBR) & KRP1)) & (!E2Fc & !MYB77))) | ((E2Fb & (E2Fc & KRP1)) & ((!MYB77 & !CYCD3_1) & !RBR))) | ((E2Fb & KRP1) & (((!E2Fc & !MYB77) & !CYCD3_1) & !RBR))) | ((E2Fb & RBR) & (((!E2Fc & !MYB77) & !CYCD3_1) & !KRP1))) | (RBR & ((((!E2Fc & !MYB77) & !E2Fb) & !CYCD3_1) & !KRP1))) | (E2Fb & ((((!E2Fc & !MYB77) & !CYCD3_1) & !RBR) & !KRP1))) | MYB77) | ((CYCD3_1 & (RBR & KRP1)) & ((!E2Fc & !MYB77) & !E2Fb))) | (E2Fb & (!RBR | (!KRP1 & CYCD3_1)))) | ((E2Fb & (RBR & KRP1)) & ((!E2Fc & !MYB77) & !CYCD3_1))) | ((CYCD3_1 & KRP1) & (((!E2Fc & !MYB77) & !E2Fb) & !RBR))) | ((CYCD3_1 & (E2Fb & KRP1)) & ((!E2Fc & !MYB77) & !RBR))) | ((RBR & KRP1) & (((!E2Fc & !MYB77) & !E2Fb) & !CYCD3_1))) | ((CYCD3_1 & RBR) & (((!E2Fc & !MYB77) & !E2Fb) & !KRP1))) | (KRP1 & ((((!E2Fc & !MYB77) & !E2Fb) & !CYCD3_1) & !RBR))) | !(((((E2Fc | MYB77) | E2Fb) | CYCD3_1) | RBR) | KRP1))
+$KRP1: ((MYB77 & !(CDKB1_1 & (CYCA2_3 & SCF))) | (MYB3R1_4 & !(CDKB1_1 & (CYCA2_3 & SCF))))
+$MYB3R1_4: (MYB77 | ((MYB3R1_4 & CYCB1_1) & !KRP1))
+$MYB77: (E2Fb & ((CYCD3_1 & !KRP1) | !RBR))
+$RBR: ((MYB3R1_4 & (KRP1 | !CYCD3_1)) | ((E2Fa & (KRP1 | !CYCD3_1)) & !(RBR & (!CYCD3_1 | KRP1))))
+$SCF: ((MYB3R1_4 & !APC_C) | ((E2Fb & (!RBR | (CYCD3_1 & !KRP1))) & !APC_C))

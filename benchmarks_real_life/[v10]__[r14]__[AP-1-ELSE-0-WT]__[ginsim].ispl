@@ -1,0 +1,44 @@
+Agent M
+	Vars:
+		v0: boolean;
+		v1: boolean;
+		v2: boolean;
+		v3: boolean;
+		v4: boolean;
+		v5: boolean;
+		v6: boolean;
+		v7: boolean;
+		v8: boolean;
+		v9: boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		v0=true  if v1&~v1=true;
+		v0=false if v1&~v1=false;
+		v1=true  if v1&~v1=true;
+		v1=false if v1&~v1=false;
+		v2=true  if (~v0&v6)=true;
+		v2=false if (~v0&v6)=false;
+		v3=true  if (~v1&v7)=true;
+		v3=false if (~v1&v7)=false;
+		v4=true  if v0=true;
+		v4=false if v0=false;
+		v5=true  if v1=true;
+		v5=false if v1=false;
+		v6=true  if ((~v4&v9)|(v4&v3))=true;
+		v6=false if ((~v4&v9)|(v4&v3))=false;
+		v7=true  if ((((~v2&v8)&~v5)|((v2&~v8)&v5))|(v2&v8))=true;
+		v7=false if ((((~v2&v8)&~v5)|((v2&~v8)&v5))|(v2&v8))=false;
+		v8=true  if v0=true;
+		v8=false if v0=false;
+		v9=true  if v1=true;
+		v9=false if v1=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.v0=true or M.v0=false;
+end InitStates

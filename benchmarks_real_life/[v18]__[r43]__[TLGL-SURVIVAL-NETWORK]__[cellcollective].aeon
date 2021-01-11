@@ -1,0 +1,61 @@
+Apoptosis_ -| S1P
+Ceramide_ -| S1P
+S1P -> GPCR_
+Apoptosis_ -| GPCR_
+Apoptosis_ -> Apoptosis_
+Caspase -> Apoptosis_
+Apoptosis_ -| SMAD_
+GPCR_ -> SMAD_
+Apoptosis_ -| TCR
+CTLA4_ -| TCR
+Apoptosis_ -| CTLA4_
+TCR -> CTLA4_
+Apoptosis_ -| MCL1
+DISC_ -| MCL1
+Apoptosis_ -| DISC_
+Fas -> DISC_
+FLIP_ -| DISC_
+Ceramide_ -> DISC_
+Apoptosis_ -| IAP_
+BID_ -| IAP_
+MCL1 -| BID_
+Apoptosis_ -| BID_
+IAP_ -| Caspase
+Apoptosis_ -| Caspase
+BID_ -> Caspase
+DISC_ -> Caspase
+Apoptosis_ -| Fas
+sFas -| Fas
+Apoptosis_ -| FLIP_
+DISC_ -| FLIP_
+S1P -| Ceramide_
+Apoptosis_ -| Ceramide_
+Fas -> Ceramide_
+Apoptosis_ -| P2
+IFNG_ -> P2
+P2 -> P2
+Apoptosis_ -| IFNG_
+SMAD_ -| IFNG_
+P2 -| IFNG_
+S1P -> sFas
+Apoptosis_ -| sFas
+Apoptosis_ -| CREB
+IFNG_ -> CREB
+$Apoptosis_: (Apoptosis_ | Caspase)
+$BID_: !(Apoptosis_ | MCL1)
+$CREB: (IFNG_ & !Apoptosis_)
+$CTLA4_: (TCR & !Apoptosis_)
+$Caspase: ((DISC_ & !Apoptosis_) | (BID_ & !(Apoptosis_ | IAP_)))
+$Ceramide_: (Fas & !(S1P | Apoptosis_))
+$DISC_: ((Ceramide_ & !Apoptosis_) | (Fas & !(Apoptosis_ | FLIP_)))
+$FLIP_: !(Apoptosis_ | DISC_)
+$Fas: !(sFas | Apoptosis_)
+$GPCR_: (S1P & !Apoptosis_)
+$IAP_: !(BID_ | Apoptosis_)
+$IFNG_: !((Apoptosis_ | P2) | SMAD_)
+$MCL1: !(Apoptosis_ | DISC_)
+$P2: ((IFNG_ & !Apoptosis_) | (P2 & !Apoptosis_))
+$S1P: !(Apoptosis_ | Ceramide_)
+$SMAD_: (GPCR_ & !Apoptosis_)
+$TCR: !(Apoptosis_ | CTLA4_)
+$sFas: (S1P & !Apoptosis_)

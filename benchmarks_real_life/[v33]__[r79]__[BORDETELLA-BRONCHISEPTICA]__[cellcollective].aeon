@@ -1,0 +1,112 @@
+C -> AP
+AgAb -> AP
+Bb -> AP
+Th1I -> AP
+IgG -> AP
+MPI -> AP
+AP -> PIC
+EC -> PIC
+DP -> PIC
+IL10I -| PIC
+Bb -> EC
+NE -> DP
+TTSSI -> DP
+TrI -> IL10I
+TTSSI -> IL10I
+MPI -> IL10I
+Th2I -> IL10I
+PH -| Bb
+Bb -> Bb
+Bb -> Oag
+AP -> PH
+Bb -> PH
+DCI -> DCII
+DCII -> Th2II
+IL12II -| Th2II
+T0 -> Th2II
+DCII -> IL12II
+T0 -> IL12II
+IL4II -| IL12II
+DCII -> T0
+Bb -> DCI
+IFNgI -> DCI
+PIC -> DCI
+IL4I -| IFNgI
+Th1I -> IFNgI
+DCI -> IFNgI
+IL10I -| IFNgI
+MPI -> IFNgI
+DCII -> TrII
+T0 -> TrII
+IgA -> IgA
+Bb -> IgA
+BC -> IgA
+BC -> BC
+T0 -> BC
+IgA -| TTSSI
+Bb -> TTSSI
+IgG -| TTSSI
+TTSSI -> TTSSII
+IgA -> AgAb
+Bb -> AgAb
+IgG -> AgAb
+BC -> IgG
+IgG -> IgG
+IFNgII -| IL4II
+DCII -> IL4II
+Th2II -> IL4II
+IL12II -| IL4II
+T0 -> IL4II
+IL4II -> IL4I
+IFNgI -> IFNgII
+DCII -> Th1II
+IL12II -> Th1II
+T0 -> Th1II
+Th1II -> Th1I
+Bb -> MPI
+IFNgI -> MPI
+PIC -> MPI
+IL10I -> IL10II
+DCII -> IL12I
+T0 -> IL12I
+IL4II -| IL12I
+TrII -> TrI
+Th2II -> Th2I
+PIC -> NE
+AgAb -> C
+Oag -| C
+Bb -> C
+IgG -> C
+$AP: ((IgG & (((Th1I & MPI) & Bb) & C)) | (AgAb & (Bb & (Th1I & MPI))))
+$AgAb: ((IgG & Bb) | (IgA & Bb))
+$BC: (BC | T0)
+$Bb: (Bb & !PH)
+$C: ((Bb & !Oag) | (IgG & AgAb))
+$DCI: ((PIC & Bb) | (IFNgI & Bb))
+$DCII: DCI
+$DP: (NE & TTSSI)
+$EC: Bb
+$IFNgI: (((DCI & !IL4I) | (MPI & !IL4I)) | (Th1I & !(IL4I | IL10I)))
+$IFNgII: IFNgI
+$IL10I: ((TrI | MPI) | (Th2I & TTSSI))
+$IL10II: IL10I
+$IL12I: ((DCII & T0) & !IL4II)
+$IL12II: ((DCII & T0) & !IL4II)
+$IL4I: IL4II
+$IL4II: ((Th2II & !(IFNgII | IL12II)) | ((DCII & T0) & !(IFNgII | IL12II)))
+$IgA: ((IgA & Bb) | (BC & Bb))
+$IgG: (IgG | BC)
+$MPI: ((IFNgI & Bb) | (PIC & Bb))
+$NE: PIC
+$Oag: Bb
+$PH: (AP & Bb)
+$PIC: (((AP & !IL10I) | (DP & !IL10I)) | (EC & !IL10I))
+$T0: DCII
+$TTSSI: (Bb & !(IgA | IgG))
+$TTSSII: TTSSI
+$Th1I: Th1II
+$Th1II: (DCII & (IL12II & T0))
+$Th2I: Th2II
+$Th2II: ((DCII & T0) & !IL12II)
+$TrI: TrII
+$TrII: (DCII & T0)

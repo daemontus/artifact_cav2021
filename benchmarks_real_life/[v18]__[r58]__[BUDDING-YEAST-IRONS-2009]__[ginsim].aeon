@@ -1,0 +1,76 @@
+SBF_MBF -> Yhp1
+Yhp1 -| Cln3
+Cln3 -> SBF_MBF
+SBF_MBF -> SBF_MBF
+Cln2 -> SBF_MBF
+Clb2 -| SBF_MBF
+SBF_MBF -> Cln2
+Clb2 -> Clb2
+SFF -> Clb2
+Cdc20 -| Clb2
+CKI -| Clb2
+Cdh1 -| Clb2
+Bud_growth -> Clb2
+SBF_MBF -> Clb5
+Cdc20 -| Clb5
+Clb2 -> Cdc20
+SFF -> Cdc20
+Mitosis -> Cdc20
+Clb2 -> SFF
+SFF -> SFF
+Cdc20 -| SFF
+CKI -| SFF
+Cdh1 -| SFF
+Bud_growth -> SFF
+Cln2 -| CKI
+Clb5 -| CKI
+Clb2 -| CKI
+Cdc14 -> CKI
+Swi5 -> CKI
+CKI -> CKI
+Cln2 -| Cdh1
+Clb5 -| Cdh1
+Clb2 -| Cdh1
+Cdc14 -> Cdh1
+Cln2 -> Bud_growth
+Clb5 -> Bud_growth
+Bud_growth -> Bud_growth
+Cell_Division -| Bud_growth
+Clb2 -> Mitosis
+Synthesis -> Mitosis
+Mitosis -> Mitosis
+Cell_Division -| Mitosis
+Cdc20 -> FEAR
+Clb2 -> MEN
+FEAR -> MEN
+FEAR -> Cdc14
+MEN -> Cdc14
+Clb2 -| Swi5
+SFF -> Swi5
+Cdc14 -> Swi5
+Clb5 -> Synthesis
+Clb2 -> Synthesis
+Synthesis -> Synthesis
+Cell_Division -| Synthesis
+FEAR -> Cell_Division
+Cdc14 -> Cell_Division
+Mitosis -> Cell_Division
+Cell_Division -| Cell_Division
+$Bud_growth: (((((!Cln2 & !Clb5) & Bud_growth) & !Cell_Division) | ((!Cln2 & Clb5) & !Cell_Division)) | (Cln2 & !Cell_Division))
+$CKI: ((((((((!Cln2 & !Clb5) & !Clb2) & !Swi5) & CKI) | (((!Cln2 & !Clb5) & !Clb2) & Swi5)) | ((((!Cln2 & !Clb5) & Clb2) & Cdc14) & Swi5)) | (((!Cln2 & Clb5) & Cdc14) & Swi5)) | ((Cln2 & Cdc14) & Swi5))
+$Cdc14: (FEAR & MEN)
+$Cdc20: ((Clb2 & SFF) & Mitosis)
+$Cdh1: (((((!Cln2 & !Clb5) & !Clb2) | (((!Cln2 & !Clb5) & Clb2) & Cdc14)) | ((!Cln2 & Clb5) & Cdc14)) | (Cln2 & Cdc14))
+$Cell_Division: (((FEAR & Cdc14) & Mitosis) & !Cell_Division)
+$Clb2: ((((((((!Clb2 & !Cdc20) & !CKI) & Bud_growth) | ((((!Clb2 & Cdc20) & !CKI) & !Cdh1) & Bud_growth)) | ((((Clb2 & !SFF) & !Cdc20) & !CKI) & Bud_growth)) | (((((Clb2 & !SFF) & Cdc20) & !CKI) & !Cdh1) & Bud_growth)) | (((Clb2 & SFF) & !Cdc20) & !CKI)) | ((((Clb2 & SFF) & Cdc20) & !CKI) & !Cdh1))
+$Clb5: (SBF_MBF & !Cdc20)
+$Cln2: SBF_MBF
+$Cln3: !Yhp1
+$FEAR: Cdc20
+$MEN: (Clb2 & FEAR)
+$Mitosis: ((((!Clb2 & Mitosis) & !Cell_Division) | (((Clb2 & !Synthesis) & Mitosis) & !Cell_Division)) | ((Clb2 & Synthesis) & !Cell_Division))
+$SBF_MBF: (((((!Cln3 & !SBF_MBF) & Cln2) & !Clb2) | ((!Cln3 & SBF_MBF) & !Clb2)) | (Cln3 & !Clb2))
+$SFF: (((((((!Clb2 & !Cdc20) & !CKI) & Bud_growth) | ((((!Clb2 & Cdc20) & !CKI) & !Cdh1) & Bud_growth)) | ((((Clb2 & !SFF) & !Cdc20) & !CKI) & Bud_growth)) | (((((Clb2 & !SFF) & Cdc20) & !CKI) & !Cdh1) & Bud_growth)) | (Clb2 & SFF))
+$Swi5: ((!Clb2 & SFF) | ((Clb2 & SFF) & Cdc14))
+$Synthesis: (((((!Clb5 & !Clb2) & Synthesis) & !Cell_Division) | ((!Clb5 & Clb2) & !Cell_Division)) | (Clb5 & !Cell_Division))
+$Yhp1: SBF_MBF

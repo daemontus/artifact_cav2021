@@ -1,0 +1,81 @@
+HRR2 -> CHKREC
+NHEJ -> CHKREC
+CHKREC -| CHKREC
+DSB_ -| CHKREC
+FAHRR -> CHKREC
+ICL -| CHKREC
+TLS -> CHKREC
+ADD -| CHKREC
+CHKREC -| ATM
+ATR -> ATM
+DSB_ -> ATM
+FAcore -| ATM
+CHKREC -| ATR
+ATM -> ATR
+ICL -> ATR
+HRR2 -| DSB_
+NHEJ -| DSB_
+NUC1 -> DSB_
+FAHRR -| DSB_
+NUC2 -> DSB_
+CHKREC -| FAcore
+ATM -> FAcore
+ATR -> FAcore
+ICL -> FAcore
+CHKREC -| HRR2
+NHEJ -? HRR2
+NUC2 -> HRR2
+DSB_ -> HRR2
+FAHRR -| HRR2
+ICL -> HRR2
+TLS -> HRR2
+HRR2 -| NHEJ
+CHKREC -| NHEJ
+FAHRR -| NHEJ
+NUC2 -> NHEJ
+DSB_ -> NHEJ
+NHEJ -| FAHRR
+CHKREC -| FAHRR
+FANCD2I -> FAHRR
+DSB_ -> FAHRR
+DSB_ -| ICL
+ICL -> ICL
+CHKREC -| TLS
+ADD -> TLS
+FAcore ->? TLS
+NUC1 -> ADD
+NUC2 -> ADD
+TLS -| ADD
+CHKREC -| p53
+NHEJ -> p53
+ATM -> p53
+ATR -> p53
+p53 -> NUC2
+FANCD2I -| NUC2
+NUC1 -> NUC2
+ATM -> NUC2
+ATR -> NUC2
+ICL -> NUC2
+FAcore -| NUC2
+CHKREC -| FANCD2I
+ATM -> FANCD2I
+ATR -> FANCD2I
+DSB_ ->? FANCD2I
+FAcore -> FANCD2I
+FANCD2I -> NUC1
+ICL -> NUC1
+$ADD: (((NUC1 & !TLS) | ((NUC1 & NUC2) & !TLS)) | (NUC2 & !TLS))
+$ATM: ((ATR & !(CHKREC | FAcore)) | (DSB_ & !(CHKREC | FAcore)))
+$ATR: ((ICL & !CHKREC) | (ATM & !CHKREC))
+$CHKREC: (((((TLS & !DSB_) | (FAHRR & !DSB_)) | (NHEJ & !DSB_)) | (HRR2 & !DSB_)) | !(((((((HRR2 | NHEJ) | CHKREC) | DSB_) | FAHRR) | ICL) | TLS) | ADD))
+$DSB_: ((NUC2 & !((HRR2 | NHEJ) | FAHRR)) | (NUC1 & !((HRR2 | NHEJ) | FAHRR)))
+$FAHRR: ((FANCD2I & DSB_) & !(NHEJ & CHKREC))
+$FANCD2I: ((FAcore & ((ATM | ATR) | (DSB_ & (ATM | ATR)))) & !CHKREC)
+$FAcore: ((ICL & (ATM | ATR)) & !CHKREC)
+$HRR2: (((TLS & (NUC2 & DSB_)) & !((FAHRR | CHKREC) | NHEJ)) | ((NUC2 & ((NHEJ & DSB_) & ICL)) & !(FAHRR | CHKREC)))
+$ICL: (ICL & !DSB_)
+$NHEJ: ((NUC2 & DSB_) & !((FAHRR | HRR2) | CHKREC))
+$NUC1: (FANCD2I & ICL)
+$NUC2: (((NUC1 & (p53 & ICL)) & !(FAcore & FANCD2I)) | ((ICL & (ATM | ATR)) & !(FAcore & FANCD2I)))
+$TLS: ((ADD & !CHKREC) | ((FAcore & ADD) & !CHKREC))
+$p53: (((ATM & !CHKREC) | (ATR & !CHKREC)) | (NHEJ & !CHKREC))

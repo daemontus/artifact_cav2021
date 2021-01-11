@@ -1,0 +1,24 @@
+Ap -| Dl
+N -> Dl
+Fng -? N
+Dl2 -> N
+Ser2 -> N
+Ap -> Fng
+Ap2 -| Dl2
+N2 -> Dl2
+Ap2 -> Ser2
+Ap -> Ser
+Dl -> N2
+Ser -> N2
+Fng2 -? N2
+Ap2 -> Fng2
+$Ap: false
+$Ap2: false
+$Dl: (!Ap & N)
+$Dl2: (!Ap2 & N2)
+$Fng: Ap
+$Fng2: Ap2
+$N: ((!Fng & Ser2) | (Fng & Dl2))
+$N2: ((((!Dl & Ser) & !Fng2) | ((Dl & !Ser) & Fng2)) | (Dl & Ser))
+$Ser: Ap
+$Ser2: Ap2
