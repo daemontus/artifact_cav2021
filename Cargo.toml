@@ -1,0 +1,16 @@
+[package]
+name = "cav2021-artifact"
+version = "1.0.0-SNAPSHOT"
+authors = ["Samuel Pastva <daemontus@gmail.com>"]
+edition = "2018"
+
+[profile.release]
+# This is important for profiling - otherwise we would get unreadable traces.
+#debug = true
+# This gives a marginally better runtime, but a much much longer compile time. Disabled by default.
+#lto = true
+
+[dependencies]
+biodivine-lib-std = { git = "https://github.com/sybila/biodivine-lib-std.git" }
+biodivine-lib-param-bn = { git = "https://github.com/sybila/biodivine-lib-param-bn.git", tag = "v0.1.0-beta.2" }
+rand = "0.8.1"
