@@ -1,0 +1,37 @@
+Start -?? SK
+Ste9 -?? Cdc2_Cdc13
+Rum1 -?? Cdc2_Cdc13
+Slp1 -?? Cdc2_Cdc13
+SK -?? Ste9
+Cdc2_Cdc13 -?? Ste9
+Ste9 -?? Ste9
+Cdc2_Cdc13_A -?? Ste9
+PP -?? Ste9
+SK -?? Rum1
+Cdc2_Cdc13 -?? Rum1
+Rum1 -?? Rum1
+Cdc2_Cdc13_A -?? Rum1
+PP -?? Rum1
+Cdc2_Cdc13_A -?? Slp1
+Ste9 -?? Cdc2_Cdc13_A
+Rum1 -?? Cdc2_Cdc13_A
+Slp1 -?? Cdc2_Cdc13_A
+Wee1_Mik1 -?? Cdc2_Cdc13_A
+Cdc25 -?? Cdc2_Cdc13_A
+Cdc2_Cdc13 -?? Wee1_Mik1
+Wee1_Mik1 -?? Wee1_Mik1
+PP -?? Wee1_Mik1
+Cdc2_Cdc13 -?? Cdc25
+Cdc25 -?? Cdc25
+PP -?? Cdc25
+Slp1 -?? PP
+$Cdc25: ((Cdc25 & (Cdc2_Cdc13 | !PP)) | (!Cdc25 & (Cdc2_Cdc13 & !PP)))
+$Cdc2_Cdc13: (!Rum1 & (!Slp1 & !Ste9))
+$Cdc2_Cdc13_A: (Cdc25 & (!Rum1 & (!Slp1 & (!Ste9 & !Wee1_Mik1))))
+$PP: Slp1
+$Rum1: ((Cdc2_Cdc13 & (!Cdc2_Cdc13_A & (PP & (Rum1 & !SK)))) | (!Cdc2_Cdc13 & ((Cdc2_Cdc13_A & (PP & (Rum1 & !SK))) | (!Cdc2_Cdc13_A & ((PP & (Rum1 | !SK)) | (!PP & (Rum1 & !SK)))))))
+$SK: Start
+$Slp1: Cdc2_Cdc13_A
+$Start: true
+$Ste9: ((Cdc2_Cdc13 & (!Cdc2_Cdc13_A & (PP & (!SK & Ste9)))) | (!Cdc2_Cdc13 & ((Cdc2_Cdc13_A & (PP & (!SK & Ste9))) | (!Cdc2_Cdc13_A & ((PP & (!SK | Ste9)) | (!PP & (!SK & Ste9)))))))
+$Wee1_Mik1: ((Cdc2_Cdc13 & (PP & Wee1_Mik1)) | (!Cdc2_Cdc13 & (PP | Wee1_Mik1)))
