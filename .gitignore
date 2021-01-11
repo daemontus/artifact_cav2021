@@ -17,5 +17,7 @@ Cargo.lock
 *.iws
 
 # Benchmark runs
-bench1*
-bench_run*
+aeon_*
+aeon_random_*
+cabean_*
+basic_*
