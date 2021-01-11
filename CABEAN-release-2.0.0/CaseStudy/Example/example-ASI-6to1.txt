@@ -1,0 +1,57 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: ./cabean -compositional 2 -control ASI -sin 6 -tin 1 example.ispl
+======================== find attractor #1 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-  1
+
+======================== find attractor #3 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-0-0-1-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-1-1-0-0-  1
+
+======================== find attractor #6 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-  1
+
+number of attractors = 6
+time for attractor detection=0.002 seconds
+
+========= ATTRACTOR-BASED SEQUENTIAL INSTANTANEOUS SOURCE-TARGET CONTROL (DECOMP) =========
+
+source - 6 target - 1
+
+PATH 1 - #perturbations: 3
+Sequence of the attractors: 6 -> 1
+	STEP 1
+		Control set 1: x1=0 x2=0 x5=0 
+
+PATH 2 - #perturbations: 3
+Sequence of the attractors: 6 -> 2 -> 1
+	STEP 1
+		Control set 1: x1=0 x2=0 
+	STEP 2
+		Control set 1: x5=0 
+
+PATH 3 - #perturbations: 3
+Sequence of the attractors: 6 -> 5 -> 1
+	STEP 1
+		Control set 1: x5=0 
+	STEP 2
+		Control set 1: x1=0 x2=0 
+execution time of control=0.004 seconds

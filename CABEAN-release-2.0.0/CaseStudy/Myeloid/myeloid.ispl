@@ -1,0 +1,47 @@
+Agent M
+	Vars:
+		GATA2: boolean;
+		GATA1: boolean;
+		FOG1: boolean;
+		EKLF: boolean;
+		Fli1: boolean;
+		SCL: boolean;
+		CEBPA: boolean;
+		PU1: boolean;
+		cJun: boolean;
+		EgrNab: boolean;
+		Gfi1: boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		GATA2=true if GATA2&(~(GATA1&FOG1))&(~PU1)=true;
+		GATA2=false if GATA2&(~(GATA1&FOG1))&(~PU1)=false;
+		GATA1=true if (GATA1|GATA2|Fli1)&(~PU1)=true;
+		GATA1=false if (GATA1|GATA2|Fli1)&(~PU1)=false;
+		FOG1=true if GATA1=true;
+		FOG1=false if GATA1=false;
+		EKLF=true if GATA1&(~Fli1)=true;
+		EKLF=false if GATA1&(~Fli1)=false;
+		Fli1=true if GATA1&(~EKLF)=true;
+		Fli1=false if GATA1&(~EKLF)=false;
+		SCL=true if GATA1&(~PU1)=true;
+		SCL=false if GATA1&(~PU1)=false;
+		CEBPA=true if CEBPA&(~(GATA1&FOG1&SCL))=true;
+		CEBPA=false if CEBPA&(~(GATA1&FOG1&SCL))=false;
+		PU1=true if (CEBPA|PU1)&(~(GATA1|GATA2))=true;
+		PU1=false if (CEBPA|PU1)&(~(GATA1|GATA2))=false;
+		cJun=true if PU1&(~Gfi1)=true;
+		cJun=false if PU1&(~Gfi1)=false;
+		EgrNab=true if (PU1&cJun)&(~Gfi1)=true;
+		EgrNab=false if (PU1&cJun)&(~Gfi1)=false;
+		Gfi1=true if CEBPA&(~EgrNab)=true;
+		Gfi1=false if CEBPA&(~EgrNab)=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.GATA2=true or M.GATA2=false;
+end InitStates

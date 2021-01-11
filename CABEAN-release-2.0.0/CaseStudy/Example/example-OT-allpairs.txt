@@ -1,0 +1,391 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: ./cabean -compositional 2 -control OT -allpairs example.ispl
+======================== find attractor #1 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+0-0-1-1-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-  1
+
+======================== find attractor #3 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-0-0-1-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-1-1-0-0-  1
+
+======================== find attractor #6 : 1 states ========================
+: 7 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-  1
+
+number of attractors = 6
+time for attractor detection=0.001 seconds
+
+====== ONE-STEP TEMPORARY SOURCE-TARGET CONTROL (DECOMP) ======
+
+-------------------------------------------
+source - 1 target - 2
+
+PATH 1 - #perturbations: 1
+	Control set: x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 1 target - 3
+
+PATH 1 - #perturbations: 2
+	Control set: x2=1 x4=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x2=1 x3=0 
+
+PATH 3 - #perturbations: 2
+	Control set: x1=1 x4=0 
+
+PATH 4 - #perturbations: 2
+	Control set: x1=1 x3=0 
+execution time for control = 0.002 seconds
+
+-------------------------------------------
+source - 1 target - 4
+
+PATH 1 - #perturbations: 3
+	Control set: x2=1 x4=0 x5=1 
+
+PATH 2 - #perturbations: 3
+	Control set: x2=1 x3=0 x5=1 
+
+PATH 3 - #perturbations: 3
+	Control set: x1=1 x4=0 x5=1 
+
+PATH 4 - #perturbations: 3
+	Control set: x1=1 x3=0 x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 1 target - 5
+
+PATH 1 - #perturbations: 1
+	Control set: x2=1 
+
+PATH 2 - #perturbations: 1
+	Control set: x1=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 1 target - 6
+
+PATH 1 - #perturbations: 2
+	Control set: x2=1 x5=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=1 x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 2 target - 1
+
+PATH 1 - #perturbations: 1
+	Control set: x6=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x5=0 
+
+PATH 3 - #perturbations: 1
+	Control set: x4=0 
+
+PATH 4 - #perturbations: 1
+	Control set: x3=0 
+execution time for control = 0.002 seconds
+
+-------------------------------------------
+source - 2 target - 3
+
+PATH 1 - #perturbations: 3
+	Control set: x2=1 x4=0 x5=0 
+
+PATH 2 - #perturbations: 3
+	Control set: x2=1 x3=0 x5=0 
+
+PATH 3 - #perturbations: 3
+	Control set: x1=1 x4=0 x5=0 
+
+PATH 4 - #perturbations: 3
+	Control set: x1=1 x3=0 x5=0 
+execution time for control = 0.003 seconds
+
+-------------------------------------------
+source - 2 target - 4
+
+PATH 1 - #perturbations: 2
+	Control set: x2=1 x4=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x2=1 x3=0 
+
+PATH 3 - #perturbations: 2
+	Control set: x1=1 x4=0 
+
+PATH 4 - #perturbations: 2
+	Control set: x1=1 x3=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 2 target - 5
+
+PATH 1 - #perturbations: 2
+	Control set: x2=1 x5=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=1 x5=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 2 target - 6
+
+PATH 1 - #perturbations: 1
+	Control set: x2=1 
+
+PATH 2 - #perturbations: 1
+	Control set: x1=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 3 target - 1
+
+PATH 1 - #perturbations: 1
+	Control set: x2=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x1=0 
+execution time for control = 0.002 seconds
+
+-------------------------------------------
+source - 3 target - 2
+
+PATH 1 - #perturbations: 2
+	Control set: x2=0 x5=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=0 x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 3 target - 4
+
+PATH 1 - #perturbations: 1
+	Control set: x5=1 
+execution time for control = 0 seconds
+
+-------------------------------------------
+source - 3 target - 5
+
+PATH 1 - #perturbations: 1
+	Control set: x4=1 
+
+PATH 2 - #perturbations: 1
+	Control set: x3=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 3 target - 6
+
+PATH 1 - #perturbations: 2
+	Control set: x4=1 x5=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x3=1 x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 4 target - 1
+
+PATH 1 - #perturbations: 2
+	Control set: x2=0 x5=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=0 x5=0 
+execution time for control = 0.004 seconds
+
+-------------------------------------------
+source - 4 target - 2
+
+PATH 1 - #perturbations: 2
+	Control set: x2=0 x6=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=0 x6=1 
+execution time for control = 0.003 seconds
+
+-------------------------------------------
+source - 4 target - 3
+
+PATH 1 - #perturbations: 1
+	Control set: x5=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 4 target - 5
+
+PATH 1 - #perturbations: 2
+	Control set: x4=1 x5=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x3=1 x5=0 
+execution time for control = 0 seconds
+
+-------------------------------------------
+source - 4 target - 6
+
+PATH 1 - #perturbations: 1
+	Control set: x4=1 
+
+PATH 2 - #perturbations: 1
+	Control set: x3=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 5 target - 1
+
+PATH 1 - #perturbations: 1
+	Control set: x2=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x1=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 5 target - 2
+
+PATH 1 - #perturbations: 2
+	Control set: x2=0 x5=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x1=0 x5=1 
+execution time for control = 0.002 seconds
+
+-------------------------------------------
+source - 5 target - 3
+
+PATH 1 - #perturbations: 1
+	Control set: x4=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x3=0 
+execution time for control = 0 seconds
+
+-------------------------------------------
+source - 5 target - 4
+
+PATH 1 - #perturbations: 2
+	Control set: x4=0 x5=1 
+
+PATH 2 - #perturbations: 2
+	Control set: x3=0 x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 5 target - 6
+
+PATH 1 - #perturbations: 1
+	Control set: x5=1 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 6 target - 1
+
+PATH 1 - #perturbations: 2
+	Control set: x2=0 x6=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x2=0 x5=0 
+
+PATH 3 - #perturbations: 2
+	Control set: x2=0 x4=0 
+
+PATH 4 - #perturbations: 2
+	Control set: x2=0 x3=0 
+
+PATH 5 - #perturbations: 2
+	Control set: x1=0 x6=0 
+
+PATH 6 - #perturbations: 2
+	Control set: x1=0 x5=0 
+
+PATH 7 - #perturbations: 2
+	Control set: x1=0 x4=0 
+
+PATH 8 - #perturbations: 2
+	Control set: x1=0 x3=0 
+execution time for control = 0.002 seconds
+
+-------------------------------------------
+source - 6 target - 2
+
+PATH 1 - #perturbations: 1
+	Control set: x2=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x1=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 6 target - 3
+
+PATH 1 - #perturbations: 2
+	Control set: x4=0 x5=0 
+
+PATH 2 - #perturbations: 2
+	Control set: x3=0 x5=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 6 target - 4
+
+PATH 1 - #perturbations: 1
+	Control set: x4=0 
+
+PATH 2 - #perturbations: 1
+	Control set: x3=0 
+execution time for control = 0.001 seconds
+
+-------------------------------------------
+source - 6 target - 5
+
+PATH 1 - #perturbations: 1
+	Control set: x5=0 
+execution time for control = 0.001 seconds
+
+*****************************************************************************
+
+print all the time costs:
+
+0	0.001	0.002	0.001	0.001	0.001	
+0.002	0	0.003	0.001	0.001	0.001	
+0.002	0.001	0	0	0.001	0.001	
+0.004	0.003	0.001	0	0	0.001	
+0.001	0.002	0	0.001	0	0.001	
+0.002	0.001	0.001	0.001	0.001	0	
+
+print the number of driver nodes:
+
+0	1	2	3	1	2	
+1	0	3	2	2	1	
+1	2	0	1	1	2	
+2	2	1	0	2	1	
+1	2	1	2	0	1	
+2	1	2	1	1	0	
+
+
+total time costs=0.039 seconds
