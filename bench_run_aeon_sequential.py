@@ -35,10 +35,10 @@ for benchmark in benchmarks:
 	i = i + 1
 	with open(out_file, 'r') as f:
 		lines = f.read().splitlines()
-		time_line = lines[-1]
-		print lines[-2]
-		print lines[-3]
+		time_line = lines[-1]		
 		if re_elapsed.match(time_line):
+			print lines[-2]
+			print lines[-3]
 			print("Success: " + time_line)
 			time = re_elapsed.match(time_line).group(1)
 			elapsed_times[bench_name] = time
