@@ -4,6 +4,55 @@ use biodivine_lib_std::param_graph::Params;
 use rand::rngs::StdRng;
 use rand::{SeedableRng, Rng};
 
+pub fn sequential_reduction(
+    graph: &SymbolicAsyncGraph,
+    mut universe: GraphColoredVertices
+) -> (GraphColoredVertices, Vec<VariableId>) {
+    let mut active_variables: Vec<VariableId> = graph.network().variables().collect();
+    for var in graph.network().variables() {
+        println!("Reducing {:?}. Remaining: {}", var, universe.approx_cardinality());
+        let var_can_post = graph.var_can_post(var, &universe);
+        let reach_from_post = reach_fwd(
+            graph, &active_variables, &var_can_post, &universe
+        );
+
+        // Remove basin of the reachable area.
+        if reach_from_post != universe {
+            let reach_basin = reach_bwd(
+                graph, &active_variables, &reach_from_post, &universe
+            ).minus(&reach_from_post);
+            if !reach_basin.is_empty() {
+                println!("Eliminated reach basin {}.", reach_basin.approx_cardinality());
+                universe = universe.minus(&reach_basin);
+            }
+        }
+
+        let post_extended_component = reach_bwd(
+            graph, &active_variables, &var_can_post, &reach_from_post
+        );
+        let bottom_region = reach_from_post.minus(&post_extended_component);
+
+        // Remove basin of the bottom area.
+        if !bottom_region.is_empty() {
+            let bottom_basin = reach_bwd(
+                graph, &active_variables, &bottom_region, &universe
+            ).minus(&bottom_region);
+            if !bottom_basin.is_empty() {
+                println!("Eliminated bottom basin {}.", bottom_basin.approx_cardinality());
+                universe = universe.minus(&bottom_basin);
+            }
+        }
+
+        if graph.var_can_post(var, &universe).is_empty() {
+            active_variables = active_variables.into_iter()
+                .filter(|v| *v != var)
+                .collect();
+            println!("Variable eliminated. {} remaining.", active_variables.len());
+        }
+    }
+    (universe, active_variables)
+}
+
 pub fn find_attractors(
     graph: &SymbolicAsyncGraph,
     variables: &[VariableId],
