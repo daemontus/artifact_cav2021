@@ -16,6 +16,6 @@ fn main() {
     let attractors = find_attractors(&graph, &variables, universe);
 
     for (i, attr) in attractors.into_iter().enumerate() {
-        log_message(&format!("Attractor #{}: {}", i+1, attr.approx_cardinality()));
+        log_message(&format!("Attractor #{}: {} (using {} nodes)", i+1, attr.approx_cardinality(), attr.as_bdd().size()));
     }
 }
