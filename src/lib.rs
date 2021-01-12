@@ -1,5 +1,6 @@
 use rand::rngs::StdRng;
 use rand::Rng;
+use std::io::Write;
 
 pub mod in_degree_relative_distribution;
 pub mod max_in_degree_distribution;
@@ -7,6 +8,21 @@ pub mod max_out_degree_distribution;
 pub mod out_degree_relative_distribution;
 pub mod connectivity_distribution;
 pub mod algorithms;
+pub mod process;
+
+const PADDING: &'static str = "\t\t\t\t\t\t\t\t\t\t";
+
+pub fn log_message(message: &str) {
+    println!("\r{};{}", message, PADDING);
+}
+
+pub fn log_progress<F>(message: F)
+    where F: FnOnce() -> String {
+    if cfg!(feature = "log_progress") {
+        print!("\r{};{}", message(), PADDING);
+        std::io::stdout().flush().unwrap();
+    }
+}
 
 pub struct SampledDistribution {
     cumulative_distribution: Vec<(f64, f64)>,

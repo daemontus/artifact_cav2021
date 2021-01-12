@@ -21,3 +21,5 @@ aeon_*
 aeon_random_*
 cabean_*
 basic_*
+sequential_*
+round_robin_*

@@ -3,6 +3,50 @@ use biodivine_lib_param_bn::VariableId;
 use biodivine_lib_std::param_graph::Params;
 use rand::rngs::StdRng;
 use rand::{SeedableRng, Rng};
+use crate::process::{RoundRobinScheduler, Scheduler, ReachAfterPostProcess, PriorityScheduler};
+use crate::{log_progress, log_message};
+
+pub fn priority_reduction(
+    graph: &SymbolicAsyncGraph,
+    universe: &GraphColoredVertices
+) -> (GraphColoredVertices, Vec<VariableId>) {
+    let mut scheduler = PriorityScheduler::new(graph, &universe);
+    for variable in graph.network().variables() {
+        scheduler.spawn(ReachAfterPostProcess::new(variable, graph, scheduler.universe()));
+    }
+
+    let mut iter: usize = 0;
+    loop {
+        let i = scheduler.step(graph);
+        if i == 0 { break; }
+        iter += i;
+        log_progress(|| format!("Iteration: {}", iter));
+    }
+    log_message(&format!("Total iterations: {}", iter));
+
+    scheduler.finalize()
+}
+
+pub fn round_robin_reduction(
+    graph: &SymbolicAsyncGraph,
+    universe: &GraphColoredVertices
+) -> (GraphColoredVertices, Vec<VariableId>) {
+    let mut scheduler = RoundRobinScheduler::new(graph, &universe);
+    for variable in graph.network().variables() {
+        scheduler.spawn(ReachAfterPostProcess::new(variable, graph, scheduler.universe()));
+    }
+
+    let mut iter: usize = 0;
+    loop {
+        let i = scheduler.step(graph);
+        if i == 0 { break; }
+        iter += i;
+        log_progress(|| format!("Iteration: {}", iter));
+    }
+    log_message(&format!("Total iterations: {}", iter));
+
+    scheduler.finalize()
+}
 
 pub fn sequential_reduction(
     graph: &SymbolicAsyncGraph,
@@ -10,7 +54,7 @@ pub fn sequential_reduction(
 ) -> (GraphColoredVertices, Vec<VariableId>) {
     let mut active_variables: Vec<VariableId> = graph.network().variables().collect();
     for var in graph.network().variables() {
-        println!("Reducing {:?}. Remaining: {}", var, universe.approx_cardinality());
+        log_message(&format!("Reducing {:?}. Remaining: {}", var, universe.approx_cardinality()));
         let var_can_post = graph.var_can_post(var, &universe);
         let reach_from_post = reach_fwd(
             graph, &active_variables, &var_can_post, &universe
@@ -22,7 +66,7 @@ pub fn sequential_reduction(
                 graph, &active_variables, &reach_from_post, &universe
             ).minus(&reach_from_post);
             if !reach_basin.is_empty() {
-                println!("Eliminated reach basin {}.", reach_basin.approx_cardinality());
+                log_message(&format!("Eliminated reach basin {}.", reach_basin.approx_cardinality()));
                 universe = universe.minus(&reach_basin);
             }
         }
@@ -38,7 +82,7 @@ pub fn sequential_reduction(
                 graph, &active_variables, &bottom_region, &universe
             ).minus(&bottom_region);
             if !bottom_basin.is_empty() {
-                println!("Eliminated bottom basin {}.", bottom_basin.approx_cardinality());
+                log_message(&format!("Eliminated bottom basin {}.", bottom_basin.approx_cardinality()));
                 universe = universe.minus(&bottom_basin);
             }
         }
@@ -47,7 +91,7 @@ pub fn sequential_reduction(
             active_variables = active_variables.into_iter()
                 .filter(|v| *v != var)
                 .collect();
-            println!("Variable eliminated. {} remaining.", active_variables.len());
+            log_message(&format!("Variable eliminated. {} remaining.", active_variables.len()));
         }
     }
     (universe, active_variables)
@@ -60,24 +104,21 @@ pub fn find_attractors(
 ) -> Vec<GraphColoredVertices> {
     let mut random = StdRng::seed_from_u64(1234567890);
     let mut result = Vec::new();
-    println!("Started attractor search in universe of size {}.", universe.approx_cardinality());
+    log_message(&format!("Started attractor search in universe of size {}.", universe.approx_cardinality()));
     while !universe.is_empty() {
         //let pivot = universe.pick_vertex();
         let pivot = random_pivot(graph, &universe, &mut random);
-        //println!("Picked pivot;");
         let pivot_basin = reach_bwd(graph, variables, &pivot, &universe);
-        //println!("Pivot basin: {};", pivot_basin.approx_cardinality());
         let pivot_component = reach_fwd(graph, variables, &pivot, &pivot_basin);
-        //println!("Pivot component: {};", pivot_component.approx_cardinality());
         let component_post = graph.post(&pivot_component).minus(&pivot_component);
         let is_terminal = pivot_component.colors().minus(&component_post.colors());
         if !is_terminal.is_empty() {
             let attr = pivot_component.intersect_colors(&is_terminal);
-            //println!("Found attractor. State count {}", attr.vertices().approx_cardinality());
+            log_message(&format!("Found attractor. State count {}", attr.vertices().approx_cardinality()));
             result.push(attr);
         }
         universe = universe.minus(&pivot_basin);
-        //print!("\rRemaining universe: {};", universe.approx_cardinality());
+        log_progress(|| format!("Remaining universe: {};", universe.approx_cardinality()));
     }
     return result;
 }
@@ -101,7 +142,7 @@ pub fn random_pivot(graph: &SymbolicAsyncGraph, set: &GraphColoredVertices, rand
 }
 
 /// Performs a saturating forwards reachability search.
-fn reach_fwd(
+pub fn reach_fwd(
     graph: &SymbolicAsyncGraph,
     variables: &[VariableId],
     initial: &GraphColoredVertices,
@@ -135,7 +176,7 @@ fn reach_fwd(
 }
 
 /// Performs a saturating backwards reachability search.
-fn reach_bwd(
+pub fn reach_bwd(
     graph: &SymbolicAsyncGraph,
     variables: &[VariableId],
     initial: &GraphColoredVertices,
