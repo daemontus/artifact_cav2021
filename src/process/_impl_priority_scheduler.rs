@@ -1,7 +1,7 @@
-use crate::process::{PriorityScheduler, Scheduler, Process};
-use biodivine_lib_param_bn::symbolic_async_graph::{SymbolicAsyncGraph, GraphColoredVertices};
-use biodivine_lib_param_bn::VariableId;
 use crate::log_message;
+use crate::process::{PriorityScheduler, Process, Scheduler};
+use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
+use biodivine_lib_param_bn::VariableId;
 
 impl PriorityScheduler {
     pub fn new(graph: &SymbolicAsyncGraph, universe: &GraphColoredVertices) -> PriorityScheduler {
@@ -15,7 +15,6 @@ impl PriorityScheduler {
 }
 
 impl Scheduler for PriorityScheduler {
-
     fn step(&mut self, graph: &SymbolicAsyncGraph) -> usize {
         // First, apply discarded states to processes
         if let Some(discarded) = &self.discarded {
@@ -66,17 +65,24 @@ impl Scheduler for PriorityScheduler {
     }
 
     fn discard_variable(&mut self, variable: VariableId) {
-        self.active_variables = self.active_variables
+        self.active_variables = self
+            .active_variables
             .iter()
             .filter(|v| **v != variable)
             .cloned()
             .collect();
-        log_message(&format!("Remaining variables: {}", self.active_variables.len()));
+        log_message(&format!(
+            "Remaining variables: {}",
+            self.active_variables.len()
+        ));
     }
 
     fn discard_states(&mut self, set: &GraphColoredVertices) {
         self.universe = self.universe.minus(set);
-        log_message(&format!("Remaining universe: {}", self.universe.approx_cardinality()));
+        log_message(&format!(
+            "Remaining universe: {}",
+            self.universe.approx_cardinality()
+        ));
         if let Some(discarded) = self.discarded.as_mut() {
             *discarded = discarded.union(set);
         } else {
@@ -95,5 +101,4 @@ impl Scheduler for PriorityScheduler {
     fn variables(&self) -> &[VariableId] {
         &self.active_variables
     }
-
 }

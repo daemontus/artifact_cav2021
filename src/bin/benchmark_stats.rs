@@ -13,7 +13,11 @@ fn normalize_discrete_distribution(distribution: &Vec<usize>, factor: f64) -> Ve
 /// The cumulative distribution will always have 129 sample points between the `[min, max]`
 /// values of the input distribution. The first value is the value from this interval, the second
 /// value is the probability of original value being smaller or equal to this number.
-fn interval_cumulative_distribution_density(distribution: &[f64], min: f64, max: f64) -> Vec<(f64, f64)> {
+fn interval_cumulative_distribution_density(
+    distribution: &[f64],
+    min: f64,
+    max: f64,
+) -> Vec<(f64, f64)> {
     let mut distribution = distribution.to_vec();
     distribution.sort_by(|a, b| a.partial_cmp(b).unwrap());
     //let min = distribution[0];
@@ -40,8 +44,16 @@ fn interval_cumulative_distribution_density(distribution: &[f64], min: f64, max:
 }
 
 fn cumulative_distribution_density(distribution: &[f64]) -> Vec<(f64, f64)> {
-    let min = distribution.iter().min_by(|a, b| a.partial_cmp(b).unwrap()).unwrap().clone();
-    let max = distribution.iter().max_by(|a, b| a.partial_cmp(b).unwrap()).unwrap().clone();
+    let min = distribution
+        .iter()
+        .min_by(|a, b| a.partial_cmp(b).unwrap())
+        .unwrap()
+        .clone();
+    let max = distribution
+        .iter()
+        .max_by(|a, b| a.partial_cmp(b).unwrap())
+        .unwrap()
+        .clone();
     interval_cumulative_distribution_density(distribution, min, max)
 }
 
@@ -113,8 +125,16 @@ fn main() {
         let num_regs = model.as_graph().regulations().count() as f64;
         let average_connectivity = num_regs / num_vars;
         connectivity_distribution_sample.push(average_connectivity);
-        total_positive += model.as_graph().regulations().filter(|it| it.get_monotonicity() == Some(Monotonicity::Activation)).count();
-        total_negative += model.as_graph().regulations().filter(|it| it.get_monotonicity() == Some(Monotonicity::Inhibition)).count();
+        total_positive += model
+            .as_graph()
+            .regulations()
+            .filter(|it| it.get_monotonicity() == Some(Monotonicity::Activation))
+            .count();
+        total_negative += model
+            .as_graph()
+            .regulations()
+            .filter(|it| it.get_monotonicity() == Some(Monotonicity::Inhibition))
+            .count();
         println!("Average connectivity: {}", average_connectivity);
         let mut in_degree_distribution = model
             .variables()
@@ -124,8 +144,10 @@ fn main() {
         in_degree_distribution.sort();
         in_degree_distribution.reverse();
         max_in_degree_normalized_sample.push((in_degree_distribution[0] as f64) / num_vars);
-        let in_degree_normalized = normalize_discrete_distribution(&in_degree_distribution, num_vars - 1.0);
-        let in_degree_cumulative_density = interval_cumulative_distribution_density(&in_degree_normalized, 0.0, 1.0);
+        let in_degree_normalized =
+            normalize_discrete_distribution(&in_degree_distribution, num_vars - 1.0);
+        let in_degree_cumulative_density =
+            interval_cumulative_distribution_density(&in_degree_normalized, 0.0, 1.0);
         in_degree_cumulative_average =
             merge(&in_degree_cumulative_average, &in_degree_cumulative_density);
         println!("In-degree distribution:\n{:?}", in_degree_distribution);
@@ -136,8 +158,10 @@ fn main() {
         out_degree_distribution.sort();
         out_degree_distribution.reverse();
         max_out_degree_normalized_sample.push(out_degree_distribution[0] as f64 / num_vars);
-        let out_degree_normalized = normalize_discrete_distribution(&out_degree_distribution, num_vars - 1.0);
-        let out_degree_cumulative_density = interval_cumulative_distribution_density(&out_degree_normalized, 0.0, 1.0);
+        let out_degree_normalized =
+            normalize_discrete_distribution(&out_degree_distribution, num_vars - 1.0);
+        let out_degree_cumulative_density =
+            interval_cumulative_distribution_density(&out_degree_normalized, 0.0, 1.0);
         out_degree_cumulative_average = merge(
             &out_degree_cumulative_average,
             &out_degree_cumulative_density,
@@ -155,6 +179,9 @@ fn main() {
         bench_count += 1;
     }
 
+    let average_connectivity = connectivity_distribution_sample.iter().sum::<f64>()
+        / (connectivity_distribution_sample.len() as f64);
+    println!("Average connectivity: {}", average_connectivity);
     let connectivity_density = cumulative_distribution_density(&connectivity_distribution_sample);
     println!("{:?}", connectivity_density);
     println!("connectivity, P[connectivity < X]");
@@ -196,6 +223,8 @@ fn main() {
         println!("{}, {}", sample, value);
     }
 
-    println!("Average monotonicity: {}", (total_positive as f64) / ((total_positive + total_negative) as f64));
-
+    println!(
+        "Average monotonicity: {}",
+        (total_positive as f64) / ((total_positive + total_negative) as f64)
+    );
 }

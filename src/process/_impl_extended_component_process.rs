@@ -1,15 +1,15 @@
-use crate::process::{ExtendedComponentProcess, BwdProcess, Process, Scheduler};
-use biodivine_lib_param_bn::VariableId;
-use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use crate::algorithms::reach_bwd;
 use crate::log_message;
+use crate::process::{BwdProcess, ExtendedComponentProcess, Process, Scheduler};
+use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
+use biodivine_lib_param_bn::VariableId;
 
 impl ExtendedComponentProcess {
     pub fn new(
         variable: VariableId,
         fwd_set: &GraphColoredVertices,
         universe: &GraphColoredVertices,
-        graph: &SymbolicAsyncGraph
+        graph: &SymbolicAsyncGraph,
     ) -> ExtendedComponentProcess {
         let var_can_post = graph.var_can_post(variable, universe);
         ExtendedComponentProcess {
@@ -30,8 +30,12 @@ impl<S: Scheduler> Process<S> for ExtendedComponentProcess {
             if !bottom_region.is_empty() {
                 log_message("Compute BOTTOM set basin.");
                 let basin = reach_bwd(
-                    graph, scheduler.variables(), &bottom_region, scheduler.universe()
-                ).minus(&bottom_region);
+                    graph,
+                    scheduler.variables(),
+                    &bottom_region,
+                    scheduler.universe(),
+                )
+                .minus(&bottom_region);
                 if !basin.is_empty() {
                     scheduler.discard_states(&basin);
                 }

@@ -1,5 +1,5 @@
-use crate::process::{Process, Scheduler, BwdProcess};
-use biodivine_lib_param_bn::symbolic_async_graph::{SymbolicAsyncGraph, GraphColoredVertices};
+use crate::process::{BwdProcess, Process, Scheduler};
+use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 
 impl BwdProcess {
     pub fn new(initial: &GraphColoredVertices, universe: &GraphColoredVertices) -> BwdProcess {
@@ -15,12 +15,14 @@ impl BwdProcess {
 }
 
 impl<S: Scheduler> Process<S> for BwdProcess {
-
     fn step(&mut self, scheduler: &mut S, graph: &SymbolicAsyncGraph) -> bool {
         let variables = scheduler.variables();
-        if variables.is_empty() { return true; }   // Just in case...
+        if variables.is_empty() {
+            return true;
+        } // Just in case...
         let mut i_var = variables.len() - 1;
-        loop {  // Only return after we have successfully changed something.
+        loop {
+            // Only return after we have successfully changed something.
             let var = variables[i_var];
 
             let pre = graph
@@ -29,12 +31,15 @@ impl<S: Scheduler> Process<S> for BwdProcess {
                 .minus(&self.bwd);
 
             if pre.is_empty() {
-                if i_var == 0 {  // We are done!
+                if i_var == 0 {
+                    // We are done!
                     return true;
-                } else {                        // Go to next variable.
+                } else {
+                    // Go to next variable.
                     i_var -= 1;
                 }
-            } else {                            // Apply post and reset.
+            } else {
+                // Apply post and reset.
                 self.bwd = self.bwd.union(&pre);
                 return false;
             }
@@ -49,5 +54,4 @@ impl<S: Scheduler> Process<S> for BwdProcess {
         self.bwd = self.bwd.minus(set);
         self.universe = self.universe.minus(set);
     }
-
 }

@@ -12,6 +12,10 @@ command = "cargo"
 dependencies = ["prepare-aeon-models"]
 args = ["run", "--release", "--bin", "aeon_to_bnet", "benchmarks_real_life", "benchmarks_real_life"]
 
+[tasks.stats]
+command = "cargo"
+args = ["run", "--release", "--bin", "benchmark_stats", "${@}"] # magic marker to pass arguments
+
 [tasks.algorithm-basic]
 command = "cargo"
 args = ["run", "--release", "--bin", "algorithm_basic"]

@@ -1,12 +1,12 @@
-use biodivine_lib_param_bn::symbolic_async_graph::{SymbolicAsyncGraph, GraphColoredVertices};
+use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 
-mod _impl_fwd_process;
 mod _impl_bwd_process;
-mod _impl_priority_scheduler;
-mod _impl_round_robin_scheduler;
-mod _impl_reach_after_post_process;
 mod _impl_extended_component_process;
+mod _impl_fwd_process;
+mod _impl_priority_scheduler;
+mod _impl_reach_after_post_process;
+mod _impl_round_robin_scheduler;
 
 pub trait Process<S: Scheduler> {
     fn step(&mut self, scheduler: &mut S, graph: &SymbolicAsyncGraph) -> bool;
