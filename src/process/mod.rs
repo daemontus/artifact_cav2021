@@ -55,12 +55,12 @@ pub struct ExtendedComponentProcess {
     bwd: BwdProcess,
 }
 
-struct FwdProcess {
+pub struct FwdProcess {
     fwd: GraphColoredVertices,
     universe: GraphColoredVertices,
 }
 
-struct BwdProcess {
+pub struct BwdProcess {
     bwd: GraphColoredVertices,
     universe: GraphColoredVertices,
 }
