@@ -31,7 +31,7 @@ for benchmark in benchmarks:
 	print("Starting "+bench_name+" "+str(i)+"/"+str(len(benchmarks)))
 	in_file = "benchmarks_random/" + benchmark
 	out_file = "./" + out_dir + "/" + str(i) + "_" + bench_name + ".txt"
-	os.system("gtimeout 1h time ../biodivine-aeon-server/target/release/experiment < " + in_file + " > " + out_file + " 2>&1")
+	os.system("gtimeout 1h time ./target/release/algorithm_priority < " + in_file + " > " + out_file + " 2>&1")
 	i = i + 1
 	with open(out_file, 'r') as f:
 		lines = f.read().splitlines()
