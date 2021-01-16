@@ -80,8 +80,9 @@ impl Scheduler for PriorityScheduler {
     fn discard_states(&mut self, set: &GraphColoredVertices) {
         self.universe = self.universe.minus(set);
         log_message(&format!(
-            "Remaining universe: {}",
-            self.universe.approx_cardinality()
+            "Remaining universe: {}({})",
+            self.universe.approx_cardinality(),
+            self.universe.as_bdd().size(),
         ));
         if let Some(discarded) = self.discarded.as_mut() {
             *discarded = discarded.union(set);

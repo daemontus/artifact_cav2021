@@ -22,5 +22,15 @@ fn main() {
             attr.approx_cardinality(),
             attr.as_bdd().size()
         ));
+        let mut c: usize = 0;
+        let mut states = attr.as_bdd().sat_valuations();
+        while c < 10_000 {
+            if states.next().is_some() {
+                c += 1;
+            } else {
+                break;
+            }
+        }
+        log_message(&format!("Counted state space: {}{}", c, if c == 10_000 { "+" } else { "" }));
     }
 }
