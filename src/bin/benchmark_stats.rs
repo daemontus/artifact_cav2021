@@ -167,6 +167,8 @@ fn main() {
             &out_degree_cumulative_density,
         );
         println!("Out-degree distribution:\n{:?}", out_degree_distribution);
+        /*
+        THIS IS VERY SLOW ON HUGE MODELS
         let mut scc_distribution = model
             .as_graph()
             .components()
@@ -175,7 +177,7 @@ fn main() {
             .collect::<Vec<_>>();
         scc_distribution.sort();
         scc_distribution.reverse();
-        println!("SCC distribution:\n{:?}", scc_distribution);
+        println!("SCC distribution:\n{:?}", scc_distribution);*/
         bench_count += 1;
     }
 

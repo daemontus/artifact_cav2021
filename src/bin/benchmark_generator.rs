@@ -16,7 +16,7 @@ const P_REG_POSITIVE: f64 = 0.8066337893732103;
 fn main() {
     let args: Vec<String> = std::env::args().into_iter().collect();
     if args.len() < 3 {
-        eprintln!("Please give input/output path as first and second argument.");
+        eprintln!("Please give number of variables and output path as first and second argument.");
     }
     let num_vars = args[1].parse::<usize>().unwrap();
     let out_dir = PathBuf::from(args[2].clone());
@@ -124,10 +124,10 @@ fn main() {
             .filter(|v| !bn.regulators(*v).is_empty() || !bn.targets(*v).is_empty())
             .count();
         // At this point, the network must be at the very least weakly connected:
-        /*if !is_weak_connected(&bn, actual_var_count) {
+        if !is_weak_connected(&bn, actual_var_count) {
             println!("Not weakly connected. Skipping...");
             continue;
-        }*/
+        }
 
         let aeon_file = out_dir.join(&format!(
             "{}_{}_{}.aeon",

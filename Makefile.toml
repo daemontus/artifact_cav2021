@@ -16,6 +16,10 @@ args = ["run", "--release", "--bin", "aeon_to_bnet", "benchmarks_real_life", "be
 command = "cargo"
 args = ["run", "--release", "--bin", "benchmark_stats", "${@}"] # magic marker to pass arguments
 
+[tasks.generate-benchmarks]
+command = "cargo"
+args = ["run", "--release", "--bin", "benchmark_generator", "${@}"]
+
 [tasks.algorithm-basic]
 command = "cargo"
 args = ["run", "--release", "--bin", "algorithm_basic"]
