@@ -30,7 +30,7 @@ fn main() {
     let relative_in_degree_distribution = in_degree_relative_distribution();
     let relative_out_degree_distribution = out_degree_relative_distribution();
 
-    let mut random = StdRng::seed_from_u64(1234567890);
+    let mut random = StdRng::seed_from_u64(123456789);
 
     let mut i_model = 1;
     while i_model <= 100 {

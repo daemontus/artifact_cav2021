@@ -180,45 +180,6 @@ pub fn find_attractors_lockstep(
             result.push(fwd.reach_set().clone());
         }
         universe = universe.minus(&bwd_set);
-        /*let mut bwd = BwdProcess::new(&pivot, &universe);
-        let mut fwd = FwdProcess::new(&pivot, &universe);
-        loop {
-            let done = if bwd.reach_set().as_bdd().size() < fwd.reach_set().as_bdd().size() {
-                bwd.step(&mut scheduler, graph);
-            } else {
-                fwd.step(&mut scheduler, graph)
-            };
-            let fwd_set = fwd.reach_set();
-            let bwd_set = bwd.reach_set();
-            log_progress(|| format!(
-                "Lock-step: {}/{} and intersection: {}",
-                fwd_set.as_bdd().size(),
-                bwd_set.as_bdd().size(),
-                fwd_set.intersect(&bwd_set).approx_cardinality(),
-            ));
-            if pivot != fwd_set.intersect(bwd_set) {
-                pivot = fwd_set.intersect(bwd_set);
-                log_message(&format!(
-                    "Extending pivot to {}({})",
-                    pivot.approx_cardinality(),
-                    pivot.as_bdd().size(),
-                ));
-                bwd = BwdProcess::new(&pivot, &universe);
-                fwd = FwdProcess::new(&pivot, &universe);
-            } else if done {
-                break;
-            }
-        }
-        // At the end, pivot is the component.
-        if pivot == graph.post(&pivot) {
-            log_message(&format!(
-                "Found attractor. State count {}",
-                pivot.vertices().approx_cardinality()
-            ));
-            result.push(pivot);
-        }
-        while !bwd.step(&mut scheduler, graph) {}
-        universe = universe.minus(bwd.reach_set());*/
     }
     return result;
 }

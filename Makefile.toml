@@ -16,6 +16,7 @@ args = ["run", "--release", "--bin", "aeon_to_bnet", "benchmarks_real_life", "be
 command = "cargo"
 args = ["run", "--release", "--bin", "benchmark_stats", "${@}"] # magic marker to pass arguments
 
+# Recommended settings: "1050 benchmarks_random"
 [tasks.generate-benchmarks]
 command = "cargo"
 args = ["run", "--release", "--bin", "benchmark_generator", "${@}"]

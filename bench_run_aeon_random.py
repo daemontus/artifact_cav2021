@@ -12,7 +12,7 @@ def is_bench(benchmark):
 
 def bench_cmp(benchmark):
 	m = re_var_count.match(benchmark)
-	return int(m.group(1))
+	return -int(m.group(1))
 
 benchmarks = filter(is_bench, os.listdir("./benchmarks_random"))
 benchmarks = sorted(benchmarks, key=bench_cmp)
