@@ -23,3 +23,9 @@ cabean_*
 basic_*
 sequential_*
 round_robin_*
+*_run_*
+
+# Tex files
+*.gz
+*.log
+*.aux

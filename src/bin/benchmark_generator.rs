@@ -15,8 +15,8 @@ const P_REG_POSITIVE: f64 = 0.8066337893732103;
 
 fn main() {
     let args: Vec<String> = std::env::args().into_iter().collect();
-    if args.len() < 3 {
-        eprintln!("Please give number of variables and output path as first and second argument.");
+    if args.len() < 4 {
+        eprintln!("Please give number of variable range and output path as arguments.");
     }
     let num_vars_min = args[1].parse::<usize>().unwrap();
     let num_vars_max = args[2].parse::<usize>().unwrap();

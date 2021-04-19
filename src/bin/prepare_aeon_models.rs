@@ -2,10 +2,10 @@ use biodivine_lib_param_bn::BooleanNetwork;
 use std::convert::TryFrom;
 use std::path::PathBuf;
 
-/// This binary will just run over all benchmarks in `./sbml_models` and dump their `.aeon`
+/// This binary will just run over all benchmarks in `./benchmarks_sbml` and dump their `.aeon`
 /// versions to a designated output folder. This is useful when you want to start a new benchmark set.
 fn main() {
-    let benchmarks = std::fs::read_dir("./sbml_models").unwrap();
+    let benchmarks = std::fs::read_dir("./benchmarks_sbml").unwrap();
     let args: Vec<String> = std::env::args().into_iter().collect();
     if args.len() < 2 {
         eprintln!("Please give output path as argument.");
