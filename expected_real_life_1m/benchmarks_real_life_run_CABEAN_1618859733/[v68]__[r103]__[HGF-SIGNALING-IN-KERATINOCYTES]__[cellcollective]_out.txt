@@ -1,0 +1,17 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v68]__[r103]__[HGF-SIGNALING-IN-KERATINOCYTES]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v68]__[r103]__[HGF-SIGNALING-IN-KERATINOCYTES]__[cellcollective].bnet -> benchmarks_real_life/[v68]__[r103]__[HGF-SIGNALING-IN-KERATINOCYTES]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 69 nodes 1 leaves 1 minterms
+1-0-1-0-1-0-0-0-1-1-1-0-0-1-1-0-0-0-0-0-1-0-1-0-0-1-0-0-1-0-0-0-0-0-1-0-0-0-0-1-0-0-0-1-0-0-1-1-0-0-0-0-0-1-1-1-0-0-1-0-0-0-0-0-0-0-0-0-  1
+
+number of attractors = 1
+time for attractor detection=0.93 seconds
+real 2.24
+user 2.18
+sys 0.05

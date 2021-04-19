@@ -1,0 +1,76 @@
+Remaining processes: 15;										
+Remaining processes: 15;										
+Remaining processes: 15;										
+Remaining processes: 15;										
+Remaining processes: 15;										
+Compute BOTTOM set basin.;										
+Remaining universe: 8192(4);										
+Remaining variables: 14;										
+Remaining processes: 14;										
+Remaining processes: 14;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4096(5);										
+Remaining variables: 13;										
+Remaining processes: 13;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2048(6);										
+Remaining variables: 12;										
+Remaining processes: 12;										
+Remaining processes: 12;										
+Compute BOTTOM set basin.;										
+Remaining variables: 11;										
+Remaining processes: 11;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1024(7);										
+Remaining variables: 10;										
+Remaining processes: 10;										
+Remaining processes: 10;										
+Compute BOTTOM set basin.;										
+Remaining universe: 512(8);										
+Remaining variables: 9;										
+Remaining processes: 9;										
+Remaining processes: 9;										
+Compute BOTTOM set basin.;										
+Remaining universe: 256(9);										
+Remaining variables: 8;										
+Remaining processes: 8;										
+Remaining processes: 8;										
+Remaining processes: 8;										
+Remaining processes: 8;										
+Compute BOTTOM set basin.;										
+Remaining universe: 128(10);										
+Remaining variables: 7;										
+Remaining processes: 7;										
+Compute BOTTOM set basin.;										
+Remaining universe: 64(11);										
+Remaining variables: 6;										
+Remaining processes: 6;										
+Compute BOTTOM set basin.;										
+Remaining universe: 16(13);										
+Remaining variables: 5;										
+Remaining processes: 5;										
+Remaining processes: 5;										
+Compute BOTTOM set basin.;										
+Remaining variables: 4;										
+Remaining processes: 4;										
+Remaining processes: 4;										
+Compute BOTTOM set basin.;										
+Remaining processes: 3;										
+Remaining processes: 3;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4(15);										
+Remaining variables: 3;										
+Remaining processes: 2;										
+Compute BOTTOM set basin.;										
+Remaining variables: 2;										
+Remaining processes: 1;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2(16);										
+Remaining variables: 1;										
+Total iterations: 100;										
+Start universe 2(16);										
+Found attractor. State count 2;										
+Attractor #1: 2 (using 16 nodes);										
+real 0.01
+user 0.01
+sys 0.00

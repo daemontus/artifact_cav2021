@@ -1,0 +1,27 @@
+Start universe 2048(2);										
+Start universe 2016(8);										
+Start universe 2000(9);										
+Start universe 1992(12);										
+Start universe 1564(31);										
+Start universe 1370(30);										
+Start universe 1290(28);										
+Start universe 1218(31);										
+Start universe 64(26);										
+Start universe 63(32);										
+Start universe 62(30);										
+Start universe 55(44);										
+Start universe 48(25);										
+Start universe 47(32);										
+Start universe 46(30);										
+Start universe 39(44);										
+Start universe 32(26);										
+Start universe 31(29);										
+Start universe 30(27);										
+Start universe 23(32);										
+Start universe 16(9);										
+Start universe 8(10);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+real 0.01
+user 0.00
+sys 0.00

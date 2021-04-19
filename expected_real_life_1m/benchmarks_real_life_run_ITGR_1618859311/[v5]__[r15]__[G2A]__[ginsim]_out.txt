@@ -1,0 +1,25 @@
+Remaining processes: 5;										
+Remaining processes: 5;										
+Remaining processes: 5;										
+Remaining processes: 5;										
+Compute BOTTOM set basin.;										
+Remaining universe: 3(9);										
+Remaining variables: 4;										
+Remaining processes: 4;										
+Compute BOTTOM set basin.;										
+Remaining variables: 3;										
+Remaining processes: 3;										
+Compute BOTTOM set basin.;										
+Remaining variables: 2;										
+Remaining processes: 2;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1(7);										
+Remaining variables: 1;										
+Remaining processes: 1;										
+Total iterations: 30;										
+Start universe 1(7);										
+Found attractor. State count 1;										
+Attractor #1: 1 (using 7 nodes);										
+real 0.00
+user 0.00
+sys 0.00

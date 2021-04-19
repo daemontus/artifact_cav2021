@@ -1,0 +1,82 @@
+Start universe 67108864(2);										
+Found attractor. State count 1;										
+Start universe 45088768(12);										
+Start universe 44302336(18);										
+Start universe 43515904(14);										
+Start universe 43122688(22);										
+Start universe 42729472(16);										
+Start universe 42401792(19);										
+Found attractor. State count 1;										
+Start universe 42074112(13);										
+Start universe 34996224(20);										
+Found attractor. State count 1;										
+Start universe 6422528(20);										
+Start universe 6356992(28);										
+Start universe 6291456(27);										
+Start universe 6094848(32);										
+Start universe 5898240(21);										
+Start universe 5832704(29);										
+Start universe 5767168(28);										
+Start universe 5636096(30);										
+Start universe 5505024(23);										
+Start universe 5373952(28);										
+Start universe 5242880(27);										
+Start universe 4587520(34);										
+Start universe 3932160(27);										
+Start universe 3801088(32);										
+Start universe 3670016(31);										
+Start universe 3276800(32);										
+Start universe 2883584(25);										
+Start universe 2818048(31);										
+Start universe 2752512(30);										
+Start universe 2424832(35);										
+Start universe 2097152(26);										
+Start universe 2031616(32);										
+Start universe 1966080(31);										
+Start universe 1769472(32);										
+Start universe 1572864(23);										
+Start universe 1507328(29);										
+Start universe 1441792(28);										
+Start universe 1245184(31);										
+Start universe 1048576(27);										
+Start universe 983040(29);										
+Start universe 917504(28);										
+Start universe 786432(30);										
+Found attractor. State count 1;										
+Start universe 655360(16);										
+Start universe 589824(24);										
+Start universe 524288(17);										
+Start universe 458752(22);										
+Start universe 393216(14);										
+Start universe 376832(24);										
+Start universe 360448(22);										
+Start universe 344064(24);										
+Start universe 327680(17);										
+Start universe 311296(24);										
+Start universe 294912(22);										
+Start universe 278528(24);										
+Start universe 262144(17);										
+Start universe 245760(24);										
+Start universe 229376(22);										
+Start universe 212992(24);										
+Start universe 196608(15);										
+Start universe 180224(18);										
+Start universe 163840(16);										
+Start universe 147456(18);										
+Start universe 131072(11);										
+Start universe 114688(15);										
+Start universe 98304(13);										
+Start universe 81920(15);										
+Start universe 65536(12);										
+Start universe 49152(15);										
+Start universe 32768(13);										
+Start universe 16384(14);										
+Found attractor. State count 38;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+Attractor #4: 1;										
+Attractor #5: 38;										
+real 0.19
+user 0.19
+sys 0.00

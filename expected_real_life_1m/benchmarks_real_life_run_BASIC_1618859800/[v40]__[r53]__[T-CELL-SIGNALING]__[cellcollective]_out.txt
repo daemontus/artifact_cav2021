@@ -1,0 +1,52 @@
+Start universe 1099511627776(2);										
+Start universe 966791266304(66);										
+Start universe 843633917952(71);										
+Start universe 834070904832(62);										
+Start universe 830694490112(70);										
+Start universe 828156936192(50);										
+Start universe 827318075392(18);										
+Start universe 825975898112(20);										
+Start universe 824969265152(23);										
+Start universe 824633720832(4);										
+Start universe 691913359360(66);										
+Start universe 568756011008(71);										
+Start universe 559192997888(62);										
+Start universe 555816583168(70);										
+Start universe 553279029248(50);										
+Start universe 552440168448(18);										
+Start universe 551097991168(20);										
+Start universe 550091358208(23);										
+Start universe 549755813888(3);										
+Start universe 416091734016(34);										
+Start universe 290078064640(37);										
+Start universe 286252859392(62);										
+Start universe 283551727616(68);										
+Start universe 281521684480(35);										
+Start universe 281186140160(23);										
+Start universe 280112398336(24);										
+Start universe 279307091968(17);										
+Start universe 279172874240(10);										
+Start universe 278216572928(34);										
+Start universe 277260271616(31);										
+Start universe 276303970304(37);										
+Start universe 275347668992(26);										
+Start universe 275263782912(35);										
+Start universe 275179896832(29);										
+Start universe 275096010752(34);										
+Start universe 275012124672(15);										
+Start universe 274978570240(21);										
+Start universe 274945015808(16);										
+Start universe 274911461376(17);										
+Start universe 274877906944(4);										
+Start universe 137438953472(5);										
+Start universe 2147483648(11);										
+Start universe 1191182336(34);										
+Start universe 234881024(29);										
+Start universe 150994944(35);										
+Start universe 67108864(16);										
+Start universe 33554432(17);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+real 1.18
+user 1.18
+sys 0.00

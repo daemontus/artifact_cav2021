@@ -1,0 +1,10 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_random/41_380_1312.bnet
+Convert the model format: benchmarks_random/41_380_1312.bnet -> benchmarks_random/41_380_1312.ispl
+
+Caught signal SIGTERM

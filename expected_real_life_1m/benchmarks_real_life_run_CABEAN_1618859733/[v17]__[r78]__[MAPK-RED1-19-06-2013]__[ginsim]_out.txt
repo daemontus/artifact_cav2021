@@ -1,0 +1,20 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v17]__[r78]__[MAPK-RED1-19-06-2013]__[ginsim].bnet
+Convert the model format: benchmarks_real_life/[v17]__[r78]__[MAPK-RED1-19-06-2013]__[ginsim].bnet -> benchmarks_real_life/[v17]__[r78]__[MAPK-RED1-19-06-2013]__[ginsim].ispl
+======================== find attractor #1 : 1344 states ========================
+: 20 nodes 1 leaves 1344 minterms
+----0-1-----0-----0-0-0-0---1-----  1
+----1-1-----0---0-0-0-0-----1-----  1
+----1-1-----0---0-0-1-0-1-0-1-0---  1
+----1-1-----0---1-0-0-0-0---1-----  1
+
+number of attractors = 1
+time for attractor detection=0.011 seconds
+real 0.02
+user 0.02
+sys 0.00

@@ -1,0 +1,17 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v62]__[r108]__[PC12-CELL-DIFFERENTIATION]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v62]__[r108]__[PC12-CELL-DIFFERENTIATION]__[cellcollective].bnet -> benchmarks_real_life/[v62]__[r108]__[PC12-CELL-DIFFERENTIATION]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 63 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-  1
+
+number of attractors = 1
+time for attractor detection=0.258 seconds
+real 1.45
+user 1.42
+sys 0.03

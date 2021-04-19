@@ -1,0 +1,20 @@
+Reducing VariableId(0). Remaining: 16384;										
+Reducing VariableId(1). Remaining: 16384;										
+Reducing VariableId(2). Remaining: 16384;										
+Reducing VariableId(3). Remaining: 16384;										
+Reducing VariableId(4). Remaining: 16384;										
+Reducing VariableId(5). Remaining: 16384;										
+Reducing VariableId(6). Remaining: 16384;										
+Reducing VariableId(7). Remaining: 16384;										
+Reducing VariableId(8). Remaining: 16384;										
+Reducing VariableId(9). Remaining: 16384;										
+Reducing VariableId(10). Remaining: 16384;										
+Reducing VariableId(11). Remaining: 16384;										
+Reducing VariableId(12). Remaining: 16384;										
+Reducing VariableId(13). Remaining: 16384;										
+Start universe 16384(2);										
+Found attractor. State count 16360;										
+Attractor #1: 16360;										
+real 0.05
+user 0.05
+sys 0.00

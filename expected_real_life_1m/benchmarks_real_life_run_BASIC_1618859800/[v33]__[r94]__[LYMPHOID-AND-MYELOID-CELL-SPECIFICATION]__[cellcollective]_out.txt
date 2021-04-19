@@ -1,0 +1,3995 @@
+Start universe 8589934592(2);										
+Start universe 6711377920(52);										
+Start universe 6644914688(139);										
+Start universe 6644898560(164);										
+Start universe 6629873408(228);										
+Start universe 6629736704(228);										
+Start universe 6596505088(261);										
+Start universe 6596497024(244);										
+Start universe 6588984448(264);										
+Start universe 6588916096(238);										
+Start universe 6555684480(247);										
+Start universe 6555676416(230);										
+Start universe 6548163840(244);										
+Start universe 6548095488(218);										
+Start universe 6547191808(312);										
+Start universe 6546739968(349);										
+Start universe 6546288128(358);										
+Start universe 6546062208(355);										
+Start universe 6545610368(347);										
+Start universe 6545384448(339);										
+Start universe 6530064384(415);										
+Start universe 6529931008(383);										
+Start universe 6522270976(435);										
+Start universe 6522204288(394);										
+Start universe 6514544256(360);										
+Start universe 6514477568(319);										
+Start universe 6513566208(346);										
+Start universe 6513110528(353);										
+Start universe 6512654848(366);										
+Start universe 6512427008(361);										
+Start universe 6511971328(323);										
+Start universe 6511743488(298);										
+Start universe 6505471616(400);										
+Start universe 6502335680(412);										
+Start universe 6499199744(352);										
+Start universe 6492889728(373);										
+Start universe 6489734720(382);										
+Start universe 6486579712(176);										
+Start universe 6486576384(191);										
+Start universe 6486574720(229);										
+Start universe 6486573056(232);										
+Start universe 6486572224(231);										
+Start universe 6486570560(229);										
+Start universe 6486569728(225);										
+Start universe 6486566400(228);										
+Start universe 6486564736(231);										
+Start universe 6486563072(234);										
+Start universe 6486562240(233);										
+Start universe 6486560576(227);										
+Start universe 6486559744(220);										
+Start universe 6486543872(237);										
+Start universe 6486535936(240);										
+Start universe 6486528000(228);										
+Start universe 6486512128(233);										
+Start universe 6486504192(236);										
+Start universe 6486496256(150);										
+Start universe 6486458368(171);										
+Start universe 6486439424(218);										
+Start universe 6486428672(241);										
+Start universe 6486423296(240);										
+Start universe 6486404352(250);										
+Start universe 6486394880(248);										
+Start universe 6486389504(248);										
+Start universe 6486386816(246);										
+Start universe 6486367872(242);										
+Start universe 6486358400(228);										
+Start universe 6486353024(227);										
+Start universe 6486350336(222);										
+Start universe 6486347008(259);										
+Start universe 6486345344(260);										
+Start universe 6486343680(264);										
+Start universe 6486342848(263);										
+Start universe 6486341184(258);										
+Start universe 6486340352(254);										
+Start universe 6486329600(258);										
+Start universe 6486324224(258);										
+Start universe 6486318848(261);										
+Start universe 6486316160(260);										
+Start universe 6486310784(248);										
+Start universe 6486308096(234);										
+Start universe 6486304768(242);										
+Start universe 6486303104(243);										
+Start universe 6486301440(247);										
+Start universe 6486300608(246);										
+Start universe 6486298944(235);										
+Start universe 6486298112(223);										
+Start universe 6486294784(236);										
+Start universe 6486293120(237);										
+Start universe 6486291456(241);										
+Start universe 6486290624(240);										
+Start universe 6486288960(232);										
+Start universe 6486288128(228);										
+Start universe 6486284800(230);										
+Start universe 6486283136(231);										
+Start universe 6486281472(235);										
+Start universe 6486280640(234);										
+Start universe 6486278976(210);										
+Start universe 6486278144(178);										
+Start universe 6485892608(260);										
+Start universe 6485699840(312);										
+Start universe 6485507072(321);										
+Start universe 6485410688(318);										
+Start universe 6485217920(312);										
+Start universe 6485121536(303);										
+Start universe 6484734464(322);										
+Start universe 6484540928(331);										
+Start universe 6484347392(343);										
+Start universe 6484250624(339);										
+Start universe 6484057088(317);										
+Start universe 6483960320(294);										
+Start universe 6481459072(382);										
+Start universe 6480208448(391);										
+Start universe 6478957824(359);										
+Start universe 6476445568(384);										
+Start universe 6475189440(394);										
+Start universe 6473933312(269);										
+Start universe 6473931008(280);										
+Start universe 6473929856(295);										
+Start universe 6473928704(298);										
+Start universe 6473928128(297);										
+Start universe 6473926976(295);										
+Start universe 6473926400(291);										
+Start universe 6473924096(294);										
+Start universe 6473922944(297);										
+Start universe 6473921792(300);										
+Start universe 6473921216(299);										
+Start universe 6473920064(293);										
+Start universe 6473919488(286);										
+Start universe 6473908736(306);										
+Start universe 6473903360(309);										
+Start universe 6473897984(297);										
+Start universe 6473887232(304);										
+Start universe 6473881856(307);										
+Start universe 6473876480(239);										
+Start universe 6473874176(271);										
+Start universe 6473873024(274);										
+Start universe 6473871872(278);										
+Start universe 6473871296(277);										
+Start universe 6473870144(271);										
+Start universe 6473869568(267);										
+Start universe 6473867264(274);										
+Start universe 6473866112(276);										
+Start universe 6473864960(280);										
+Start universe 6473864384(279);										
+Start universe 6473863232(266);										
+Start universe 6473862656(254);										
+Start universe 6473860352(265);										
+Start universe 6473859200(268);										
+Start universe 6473858048(272);										
+Start universe 6473857472(271);										
+Start universe 6473856320(263);										
+Start universe 6473855744(259);										
+Start universe 6473853440(262);										
+Start universe 6473852288(264);										
+Start universe 6473851136(268);										
+Start universe 6473850560(267);										
+Start universe 6473849408(244);										
+Start universe 6473848832(213);										
+Start universe 6473752832(282);										
+Start universe 6473704832(330);										
+Start universe 6473656832(339);										
+Start universe 6473632832(336);										
+Start universe 6473584832(330);										
+Start universe 6473560832(320);										
+Start universe 6473464832(331);										
+Start universe 6473416832(342);										
+Start universe 6473368832(351);										
+Start universe 6473344832(348);										
+Start universe 6473296832(328);										
+Start universe 6473272832(307);										
+Start universe 6472650272(400);										
+Start universe 6472338992(408);										
+Start universe 6472027712(374);										
+Start universe 6471405152(398);										
+Start universe 6471093872(406);										
+Start universe 6470782592(290);										
+Start universe 6469704064(489);										
+Start universe 6469295744(692);										
+Start universe 6468756480(716);										
+Start universe 6468552320(708);										
+Start universe 6468013056(690);										
+Start universe 6467808896(640);										
+Start universe 6466741376(726);										
+Start universe 6466336256(760);										
+Start universe 6465802496(779);										
+Start universe 6465599936(774);										
+Start universe 6465066176(656);										
+Start universe 6464863616(550);										
+Start universe 6460913056(839);										
+Start universe 6458937776(859);										
+Start universe 6456962496(710);										
+Start universe 6453002720(768);										
+Start universe 6451022832(781);										
+Start universe 6449042944(296);										
+Start universe 6449042368(325);										
+Start universe 6449042080(338);										
+Start universe 6449041792(341);										
+Start universe 6449041648(340);										
+Start universe 6449041360(337);										
+Start universe 6449041216(332);										
+Start universe 6449040640(336);										
+Start universe 6449040352(340);										
+Start universe 6449040064(343);										
+Start universe 6449039920(342);										
+Start universe 6449039632(335);										
+Start universe 6449039488(327);										
+Start universe 6449036800(375);										
+Start universe 6449035456(378);										
+Start universe 6449034112(362);										
+Start universe 6449031424(373);										
+Start universe 6449030080(376);										
+Start universe 6449028736(336);										
+Start universe 6449025344(353);										
+Start universe 6449023648(378);										
+Start universe 6449021952(381);										
+Start universe 6449021104(380);										
+Start universe 6449019408(376);										
+Start universe 6449018560(369);										
+Start universe 6449015168(375);										
+Start universe 6449013472(381);										
+Start universe 6449011776(384);										
+Start universe 6449010928(383);										
+Start universe 6449009232(372);										
+Start universe 6449008384(359);										
+Start universe 6448992576(395);										
+Start universe 6448984672(398);										
+Start universe 6448976768(378);										
+Start universe 6448960960(392);										
+Start universe 6448953056(395);										
+Start universe 6448945152(254);										
+Start universe 6448944576(298);										
+Start universe 6448944288(301);										
+Start universe 6448944000(305);										
+Start universe 6448943856(304);										
+Start universe 6448943568(297);										
+Start universe 6448943424(292);										
+Start universe 6448942848(301);										
+Start universe 6448942560(303);										
+Start universe 6448942272(307);										
+Start universe 6448942128(306);										
+Start universe 6448941840(292);										
+Start universe 6448941696(282);										
+Start universe 6448933312(365);										
+Start universe 6448929120(382);										
+Start universe 6448924928(392);										
+Start universe 6448922832(389);										
+Start universe 6448918640(367);										
+Start universe 6448916544(349);										
+Start universe 6448911488(369);										
+Start universe 6448908960(372);										
+Start universe 6448906432(376);										
+Start universe 6448905168(375);										
+Start universe 6448902640(316);										
+Start universe 6448901376(255);										
+Start universe 6448900800(299);										
+Start universe 6448900512(302);										
+Start universe 6448900224(306);										
+Start universe 6448900080(305);										
+Start universe 6448899792(296);										
+Start universe 6448899648(291);										
+Start universe 6448899072(300);										
+Start universe 6448898784(302);										
+Start universe 6448898496(306);										
+Start universe 6448898352(305);										
+Start universe 6448898064(289);										
+Start universe 6448897920(279);										
+Start universe 6448894528(306);										
+Start universe 6448892832(311);										
+Start universe 6448891136(315);										
+Start universe 6448890288(314);										
+Start universe 6448888592(299);										
+Start universe 6448887744(292);										
+Start universe 6448884352(296);										
+Start universe 6448882656(299);										
+Start universe 6448880960(303);										
+Start universe 6448880112(302);										
+Start universe 6448878416(223);										
+Start universe 6448877568(171);										
+Start universe 6448869568(236);										
+Start universe 6448865568(273);										
+Start universe 6448861568(282);										
+Start universe 6448859568(279);										
+Start universe 6448855568(273);										
+Start universe 6448853568(260);										
+Start universe 6448845568(270);										
+Start universe 6448841568(280);										
+Start universe 6448837568(289);										
+Start universe 6448835568(286);										
+Start universe 6448831568(270);										
+Start universe 6448829568(253);										
+Start universe 6448777688(326);										
+Start universe 6448751748(334);										
+Start universe 6448725808(301);										
+Start universe 6448673928(322);										
+Start universe 6448647988(330);										
+Start universe 6448622048(238);										
+Start universe 6448614048(273);										
+Start universe 6448610048(310);										
+Start universe 6448606048(319);										
+Start universe 6448604048(316);										
+Start universe 6448600048(310);										
+Start universe 6448598048(297);										
+Start universe 6448590048(307);										
+Start universe 6448586048(317);										
+Start universe 6448582048(326);										
+Start universe 6448580048(323);										
+Start universe 6448576048(307);										
+Start universe 6448574048(290);										
+Start universe 6448522168(333);										
+Start universe 6448496228(341);										
+Start universe 6448470288(305);										
+Start universe 6448418408(326);										
+Start universe 6448392468(334);										
+Start universe 6448366528(231);										
+Start universe 6448342528(276);										
+Start universe 6448330528(327);										
+Start universe 6448318528(336);										
+Start universe 6448312528(333);										
+Start universe 6448300528(327);										
+Start universe 6448294528(314);										
+Start universe 6448270528(324);										
+Start universe 6448258528(334);										
+Start universe 6448246528(343);										
+Start universe 6448240528(340);										
+Start universe 6448228528(324);										
+Start universe 6448222528(307);										
+Start universe 6448066888(365);										
+Start universe 6447989068(373);										
+Start universe 6447911248(337);										
+Start universe 6447755608(358);										
+Start universe 6447677788(366);										
+Start universe 6447599968(250);										
+Start universe 6447575968(291);										
+Start universe 6447563968(342);										
+Start universe 6447551968(351);										
+Start universe 6447545968(348);										
+Start universe 6447533968(342);										
+Start universe 6447527968(329);										
+Start universe 6447503968(339);										
+Start universe 6447491968(349);										
+Start universe 6447479968(358);										
+Start universe 6447473968(355);										
+Start universe 6447461968(339);										
+Start universe 6447455968(322);										
+Start universe 6447300328(365);										
+Start universe 6447222508(373);										
+Start universe 6447144688(337);										
+Start universe 6446989048(358);										
+Start universe 6446911228(366);										
+Start universe 6446833408(191);										
+Start universe 6446833344(220);										
+Start universe 6446833312(229);										
+Start universe 6446833280(232);										
+Start universe 6446833264(231);										
+Start universe 6446833232(227);										
+Start universe 6446833216(223);										
+Start universe 6446833152(226);										
+Start universe 6446833120(229);										
+Start universe 6446833088(232);										
+Start universe 6446833072(231);										
+Start universe 6446833040(226);										
+Start universe 6446833024(221);										
+Start universe 6446832728(256);										
+Start universe 6446832580(259);										
+Start universe 6446832432(246);										
+Start universe 6446832136(256);										
+Start universe 6446831988(259);										
+Start universe 6446831840(233);										
+Start universe 6446831776(238);										
+Start universe 6446831744(247);										
+Start universe 6446831712(250);										
+Start universe 6446831696(249);										
+Start universe 6446831664(245);										
+Start universe 6446831648(241);										
+Start universe 6446831584(244);										
+Start universe 6446831552(247);										
+Start universe 6446831520(250);										
+Start universe 6446831504(249);										
+Start universe 6446831472(244);										
+Start universe 6446831456(239);										
+Start universe 6446831160(256);										
+Start universe 6446831012(259);										
+Start universe 6446830864(246);										
+Start universe 6446830568(256);										
+Start universe 6446830420(259);										
+Start universe 6446830272(229);										
+Start universe 6446830080(235);										
+Start universe 6446829984(246);										
+Start universe 6446829888(249);										
+Start universe 6446829840(248);										
+Start universe 6446829744(244);										
+Start universe 6446829696(240);										
+Start universe 6446829504(243);										
+Start universe 6446829408(246);										
+Start universe 6446829312(249);										
+Start universe 6446829264(248);										
+Start universe 6446829168(243);										
+Start universe 6446829120(238);										
+Start universe 6446828232(258);										
+Start universe 6446827788(261);										
+Start universe 6446827344(248);										
+Start universe 6446826456(258);										
+Start universe 6446826012(261);										
+Start universe 6446825568(233);										
+Start universe 6446825376(238);										
+Start universe 6446825280(249);										
+Start universe 6446825184(252);										
+Start universe 6446825136(251);										
+Start universe 6446825040(247);										
+Start universe 6446824992(243);										
+Start universe 6446824800(246);										
+Start universe 6446824704(249);										
+Start universe 6446824608(252);										
+Start universe 6446824560(251);										
+Start universe 6446824464(246);										
+Start universe 6446824416(241);										
+Start universe 6446823528(257);										
+Start universe 6446823084(260);										
+Start universe 6446822640(247);										
+Start universe 6446821752(257);										
+Start universe 6446821308(260);										
+Start universe 6446820864(185);										
+Start universe 6446812864(251);										
+Start universe 6446808864(289);										
+Start universe 6446804864(298);										
+Start universe 6446802864(295);										
+Start universe 6446798864(289);										
+Start universe 6446796864(276);										
+Start universe 6446788864(286);										
+Start universe 6446784864(296);										
+Start universe 6446780864(305);										
+Start universe 6446778864(302);										
+Start universe 6446774864(286);										
+Start universe 6446772864(269);										
+Start universe 6446720984(342);										
+Start universe 6446695044(350);										
+Start universe 6446669104(314);										
+Start universe 6446617224(335);										
+Start universe 6446591284(343);										
+Start universe 6446565344(246);										
+Start universe 6446557344(282);										
+Start universe 6446553344(320);										
+Start universe 6446549344(329);										
+Start universe 6446547344(326);										
+Start universe 6446543344(320);										
+Start universe 6446541344(307);										
+Start universe 6446533344(317);										
+Start universe 6446529344(327);										
+Start universe 6446525344(336);										
+Start universe 6446523344(333);										
+Start universe 6446519344(317);										
+Start universe 6446517344(300);										
+Start universe 6446465464(343);										
+Start universe 6446439524(351);										
+Start universe 6446413584(315);										
+Start universe 6446361704(336);										
+Start universe 6446335764(344);										
+Start universe 6446309824(239);										
+Start universe 6446244480(367);										
+Start universe 6446221664(484);										
+Start universe 6446188992(517);										
+Start universe 6446177584(498);										
+Start universe 6446144912(487);										
+Start universe 6446133504(443);										
+Start universe 6446070080(502);										
+Start universe 6446045408(516);										
+Start universe 6446013696(547);										
+Start universe 6446001360(530);										
+Start universe 6445969648(462);										
+Start universe 6445957312(387);										
+Start universe 6445714952(540);										
+Start universe 6445593772(557);										
+Start universe 6445472592(466);										
+Start universe 6445185112(506);										
+Start universe 6445041372(520);										
+Start universe 6444897632(209);										
+Start universe 6444873504(276);										
+Start universe 6444861440(348);										
+Start universe 6444849376(363);										
+Start universe 6444843344(358);										
+Start universe 6444831280(348);										
+Start universe 6444825248(324);										
+Start universe 6444800480(357);										
+Start universe 6444788096(376);										
+Start universe 6444775712(392);										
+Start universe 6444769520(387);										
+Start universe 6444757136(349);										
+Start universe 6444750944(312);										
+Start universe 6444593704(385);										
+Start universe 6444515084(398);										
+Start universe 6444436464(334);										
+Start universe 6444274296(360);										
+Start universe 6444193212(372);										
+Start universe 6444112128(110);										
+Start universe 6444112112(142);										
+Start universe 6444112104(153);										
+Start universe 6444112096(156);										
+Start universe 6444112092(155);										
+Start universe 6444112084(153);										
+Start universe 6444112080(148);										
+Start universe 6444112064(152);										
+Start universe 6444112056(156);										
+Start universe 6444112048(159);										
+Start universe 6444112044(158);										
+Start universe 6444112036(152);										
+Start universe 6444112032(145);										
+Start universe 6444111952(183);										
+Start universe 6444111912(186);										
+Start universe 6444111872(171);										
+Start universe 6444111792(180);										
+Start universe 6444111752(183);										
+Start universe 6444111712(152);										
+Start universe 6444111696(160);										
+Start universe 6444111688(171);										
+Start universe 6444111680(174);										
+Start universe 6444111676(173);										
+Start universe 6444111668(171);										
+Start universe 6444111664(166);										
+Start universe 6444111648(170);										
+Start universe 6444111640(174);										
+Start universe 6444111632(177);										
+Start universe 6444111628(176);										
+Start universe 6444111620(170);										
+Start universe 6444111616(163);										
+Start universe 6444111536(183);										
+Start universe 6444111496(186);										
+Start universe 6444111456(171);										
+Start universe 6444111376(180);										
+Start universe 6444111336(183);										
+Start universe 6444111296(148);										
+Start universe 6444111248(157);										
+Start universe 6444111224(170);										
+Start universe 6444111200(173);										
+Start universe 6444111188(172);										
+Start universe 6444111164(170);										
+Start universe 6444111152(165);										
+Start universe 6444111104(169);										
+Start universe 6444111080(173);										
+Start universe 6444111056(176);										
+Start universe 6444111044(175);										
+Start universe 6444111020(169);										
+Start universe 6444111008(162);										
+Start universe 6444110768(185);										
+Start universe 6444110648(188);										
+Start universe 6444110528(173);										
+Start universe 6444110288(182);										
+Start universe 6444110168(185);										
+Start universe 6444110048(152);										
+Start universe 6444110000(160);										
+Start universe 6444109976(173);										
+Start universe 6444109952(176);										
+Start universe 6444109940(175);										
+Start universe 6444109916(173);										
+Start universe 6444109904(168);										
+Start universe 6444109856(172);										
+Start universe 6444109832(176);										
+Start universe 6444109808(179);										
+Start universe 6444109796(178);										
+Start universe 6444109772(172);										
+Start universe 6444109760(165);										
+Start universe 6444109520(182);										
+Start universe 6444109400(185);										
+Start universe 6444109280(170);										
+Start universe 6444109040(177);										
+Start universe 6444108920(180);										
+Start universe 6444108800(91);										
+Start universe 6444108784(134);										
+Start universe 6444108776(133);										
+Start universe 6444108768(137);										
+Start universe 6444108764(135);										
+Start universe 6444108756(131);										
+Start universe 6444108752(125);										
+Start universe 6444108736(134);										
+Start universe 6444108728(133);										
+Start universe 6444108720(137);										
+Start universe 6444108716(135);										
+Start universe 6444108708(128);										
+Start universe 6444108704(119);										
+Start universe 6444108688(134);										
+Start universe 6444108680(133);										
+Start universe 6444108672(137);										
+Start universe 6444108668(135);										
+Start universe 6444108660(131);										
+Start universe 6444108656(125);										
+Start universe 6444108640(134);										
+Start universe 6444108632(133);										
+Start universe 6444108624(137);										
+Start universe 6444108620(135);										
+Start universe 6444108612(127);										
+Start universe 6444108608(117);										
+Start universe 6444108560(138);										
+Start universe 6444108536(137);										
+Start universe 6444108512(141);										
+Start universe 6444108500(139);										
+Start universe 6444108476(135);										
+Start universe 6444108464(129);										
+Start universe 6444108416(138);										
+Start universe 6444108392(137);										
+Start universe 6444108368(141);										
+Start universe 6444108356(139);										
+Start universe 6444108332(132);										
+Start universe 6444108320(123);										
+Start universe 6444108272(138);										
+Start universe 6444108248(137);										
+Start universe 6444108224(141);										
+Start universe 6444108212(139);										
+Start universe 6444108188(135);										
+Start universe 6444108176(129);										
+Start universe 6444108128(138);										
+Start universe 6444108104(137);										
+Start universe 6444108080(141);										
+Start universe 6444108068(139);										
+Start universe 6444108044(119);										
+Start universe 6444108032(95);										
+Start universe 6444108016(138);										
+Start universe 6444108008(137);										
+Start universe 6444108000(141);										
+Start universe 6444107996(139);										
+Start universe 6444107988(135);										
+Start universe 6444107984(129);										
+Start universe 6444107968(138);										
+Start universe 6444107960(137);										
+Start universe 6444107952(141);										
+Start universe 6444107948(139);										
+Start universe 6444107940(132);										
+Start universe 6444107936(123);										
+Start universe 6444107920(138);										
+Start universe 6444107912(137);										
+Start universe 6444107904(141);										
+Start universe 6444107900(139);										
+Start universe 6444107892(135);										
+Start universe 6444107888(129);										
+Start universe 6444107872(138);										
+Start universe 6444107864(137);										
+Start universe 6444107856(141);										
+Start universe 6444107852(139);										
+Start universe 6444107844(131);										
+Start universe 6444107840(121);										
+Start universe 6444107792(138);										
+Start universe 6444107768(137);										
+Start universe 6444107744(141);										
+Start universe 6444107732(139);										
+Start universe 6444107708(135);										
+Start universe 6444107696(129);										
+Start universe 6444107648(138);										
+Start universe 6444107624(137);										
+Start universe 6444107600(141);										
+Start universe 6444107588(139);										
+Start universe 6444107564(132);										
+Start universe 6444107552(123);										
+Start universe 6444107504(138);										
+Start universe 6444107480(137);										
+Start universe 6444107456(141);										
+Start universe 6444107444(139);										
+Start universe 6444107420(135);										
+Start universe 6444107408(129);										
+Start universe 6444107360(138);										
+Start universe 6444107336(137);										
+Start universe 6444107312(141);										
+Start universe 6444107300(139);										
+Start universe 6444107276(118);										
+Start universe 6444107264(93);										
+Start universe 6444107248(136);										
+Start universe 6444107240(135);										
+Start universe 6444107232(139);										
+Start universe 6444107228(137);										
+Start universe 6444107220(133);										
+Start universe 6444107216(127);										
+Start universe 6444107200(136);										
+Start universe 6444107192(135);										
+Start universe 6444107184(139);										
+Start universe 6444107180(137);										
+Start universe 6444107172(130);										
+Start universe 6444107168(121);										
+Start universe 6444107152(136);										
+Start universe 6444107144(135);										
+Start universe 6444107136(139);										
+Start universe 6444107132(137);										
+Start universe 6444107124(133);										
+Start universe 6444107120(127);										
+Start universe 6444107104(136);										
+Start universe 6444107096(135);										
+Start universe 6444107088(139);										
+Start universe 6444107084(137);										
+Start universe 6444107076(129);										
+Start universe 6444107072(119);										
+Start universe 6444107024(138);										
+Start universe 6444107000(137);										
+Start universe 6444106976(141);										
+Start universe 6444106964(139);										
+Start universe 6444106940(135);										
+Start universe 6444106928(129);										
+Start universe 6444106880(138);										
+Start universe 6444106856(137);										
+Start universe 6444106832(141);										
+Start universe 6444106820(139);										
+Start universe 6444106796(132);										
+Start universe 6444106784(123);										
+Start universe 6444106736(138);										
+Start universe 6444106712(137);										
+Start universe 6444106688(141);										
+Start universe 6444106676(139);										
+Start universe 6444106652(135);										
+Start universe 6444106640(129);										
+Start universe 6444106592(138);										
+Start universe 6444106568(137);										
+Start universe 6444106544(141);										
+Start universe 6444106532(139);										
+Start universe 6444106508(119);										
+Start universe 6444106496(95);										
+Start universe 6444106480(138);										
+Start universe 6444106472(137);										
+Start universe 6444106464(141);										
+Start universe 6444106460(139);										
+Start universe 6444106452(135);										
+Start universe 6444106448(129);										
+Start universe 6444106432(138);										
+Start universe 6444106424(137);										
+Start universe 6444106416(141);										
+Start universe 6444106412(139);										
+Start universe 6444106404(132);										
+Start universe 6444106400(123);										
+Start universe 6444106384(138);										
+Start universe 6444106376(137);										
+Start universe 6444106368(141);										
+Start universe 6444106364(139);										
+Start universe 6444106356(135);										
+Start universe 6444106352(129);										
+Start universe 6444106336(138);										
+Start universe 6444106328(137);										
+Start universe 6444106320(141);										
+Start universe 6444106316(139);										
+Start universe 6444106308(131);										
+Start universe 6444106304(121);										
+Start universe 6444106256(138);										
+Start universe 6444106232(137);										
+Start universe 6444106208(141);										
+Start universe 6444106196(139);										
+Start universe 6444106172(135);										
+Start universe 6444106160(129);										
+Start universe 6444106112(138);										
+Start universe 6444106088(137);										
+Start universe 6444106064(141);										
+Start universe 6444106052(139);										
+Start universe 6444106028(132);										
+Start universe 6444106016(123);										
+Start universe 6444105968(134);										
+Start universe 6444105944(133);										
+Start universe 6444105920(137);										
+Start universe 6444105908(135);										
+Start universe 6444105884(131);										
+Start universe 6444105872(125);										
+Start universe 6444105824(128);										
+Start universe 6444105800(127);										
+Start universe 6444105776(131);										
+Start universe 6444105764(129);										
+Start universe 6444105740(103);										
+Start universe 6444105728(70);										
+Start universe 6444093440(120);										
+Start universe 6444092928(125);										
+Start universe 6444092672(125);										
+Start universe 6444092544(140);										
+Start universe 6444092032(143);										
+Start universe 6444091776(139);										
+Start universe 6444091648(138);										
+Start universe 6444091392(146);										
+Start universe 6444091264(143);										
+Start universe 6444091200(144);										
+Start universe 6444090944(147);										
+Start universe 6444090816(142);										
+Start universe 6444090752(140);										
+Start universe 6444090496(144);										
+Start universe 6444090368(141);										
+Start universe 6444090304(142);										
+Start universe 6444090048(142);										
+Start universe 6444089920(136);										
+Start universe 6444089856(119);										
+Start universe 6444077568(135);										
+Start universe 6444077056(140);										
+Start universe 6444076800(137);										
+Start universe 6444076672(141);										
+Start universe 6444076160(144);										
+Start universe 6444075904(140);										
+Start universe 6444075776(139);										
+Start universe 6444075520(147);										
+Start universe 6444075392(144);										
+Start universe 6444075328(145);										
+Start universe 6444075072(148);										
+Start universe 6444074944(143);										
+Start universe 6444074880(141);										
+Start universe 6444074624(145);										
+Start universe 6444074496(142);										
+Start universe 6444074432(143);										
+Start universe 6444074176(143);										
+Start universe 6444074048(134);										
+Start universe 6444073984(117);										
+Start universe 6444065792(123);										
+Start universe 6444064768(128);										
+Start universe 6444063616(130);										
+Start universe 6444062592(133);										
+Start universe 6444061440(128);										
+Start universe 6444060928(134);										
+Start universe 6444060352(134);										
+Start universe 6444059840(137);										
+Start universe 6444059264(130);										
+Start universe 6444058752(134);										
+Start universe 6444058176(132);										
+Start universe 6444057664(132);										
+Start universe 6444057088(119);										
+Start universe 6444048896(124);										
+Start universe 6444047872(129);										
+Start universe 6444046720(128);										
+Start universe 6444045696(131);										
+Start universe 6444044544(126);										
+Start universe 6444044032(132);										
+Start universe 6444043456(132);										
+Start universe 6444042944(135);										
+Start universe 6444042368(128);										
+Start universe 6444041856(132);										
+Start universe 6444041280(130);										
+Start universe 6444040768(130);										
+Start universe 6444040192(101);										
+Start universe 6444027904(120);										
+Start universe 6444027392(125);										
+Start universe 6444027136(125);										
+Start universe 6444027008(140);										
+Start universe 6444026496(143);										
+Start universe 6444026240(139);										
+Start universe 6444026112(138);										
+Start universe 6444025856(146);										
+Start universe 6444025728(143);										
+Start universe 6444025664(144);										
+Start universe 6444025408(147);										
+Start universe 6444025280(142);										
+Start universe 6444025216(140);										
+Start universe 6444024960(144);										
+Start universe 6444024832(141);										
+Start universe 6444024768(142);										
+Start universe 6444024512(142);										
+Start universe 6444024384(136);										
+Start universe 6444024320(119);										
+Start universe 6444012032(135);										
+Start universe 6444011520(140);										
+Start universe 6444011264(137);										
+Start universe 6444011136(141);										
+Start universe 6444010624(144);										
+Start universe 6444010368(140);										
+Start universe 6444010240(139);										
+Start universe 6444009984(147);										
+Start universe 6444009856(144);										
+Start universe 6444009792(145);										
+Start universe 6444009536(148);										
+Start universe 6444009408(143);										
+Start universe 6444009344(141);										
+Start universe 6444009088(145);										
+Start universe 6444008960(142);										
+Start universe 6444008896(143);										
+Start universe 6444008640(143);										
+Start universe 6444008512(134);										
+Start universe 6444008448(117);										
+Start universe 6444000256(123);										
+Start universe 6443999232(128);										
+Start universe 6443998080(130);										
+Start universe 6443997056(133);										
+Start universe 6443995904(128);										
+Start universe 6443995392(134);										
+Start universe 6443994816(134);										
+Start universe 6443994304(137);										
+Start universe 6443993728(130);										
+Start universe 6443993216(134);										
+Start universe 6443992640(132);										
+Start universe 6443992128(132);										
+Start universe 6443991552(119);										
+Start universe 6443983360(124);										
+Start universe 6443982336(129);										
+Start universe 6443981184(128);										
+Start universe 6443980160(131);										
+Start universe 6443979008(126);										
+Start universe 6443978496(132);										
+Start universe 6443977920(132);										
+Start universe 6443977408(135);										
+Start universe 6443976832(128);										
+Start universe 6443976320(132);										
+Start universe 6443975744(130);										
+Start universe 6443975232(130);										
+Start universe 6443974656(98);										
+Start universe 6443962368(120);										
+Start universe 6443961856(125);										
+Start universe 6443961600(125);										
+Start universe 6443961472(140);										
+Start universe 6443960960(143);										
+Start universe 6443960704(139);										
+Start universe 6443960576(138);										
+Start universe 6443960320(146);										
+Start universe 6443960192(143);										
+Start universe 6443960128(144);										
+Start universe 6443959872(147);										
+Start universe 6443959744(142);										
+Start universe 6443959680(140);										
+Start universe 6443959424(144);										
+Start universe 6443959296(141);										
+Start universe 6443959232(142);										
+Start universe 6443958976(142);										
+Start universe 6443958848(136);										
+Start universe 6443958784(119);										
+Start universe 6443946496(135);										
+Start universe 6443945984(140);										
+Start universe 6443945728(137);										
+Start universe 6443945600(141);										
+Start universe 6443945088(144);										
+Start universe 6443944832(140);										
+Start universe 6443944704(139);										
+Start universe 6443944448(147);										
+Start universe 6443944320(144);										
+Start universe 6443944256(145);										
+Start universe 6443944000(148);										
+Start universe 6443943872(143);										
+Start universe 6443943808(141);										
+Start universe 6443943552(145);										
+Start universe 6443943424(142);										
+Start universe 6443943360(143);										
+Start universe 6443943104(143);										
+Start universe 6443942976(134);										
+Start universe 6443942912(117);										
+Start universe 6443934720(123);										
+Start universe 6443933696(128);										
+Start universe 6443932544(130);										
+Start universe 6443931520(133);										
+Start universe 6443930368(128);										
+Start universe 6443929856(134);										
+Start universe 6443929280(134);										
+Start universe 6443928768(137);										
+Start universe 6443928192(130);										
+Start universe 6443927680(134);										
+Start universe 6443927104(132);										
+Start universe 6443926592(132);										
+Start universe 6443926016(119);										
+Start universe 6443917824(124);										
+Start universe 6443916800(129);										
+Start universe 6443915648(128);										
+Start universe 6443914624(131);										
+Start universe 6443913472(126);										
+Start universe 6443912960(132);										
+Start universe 6443912384(132);										
+Start universe 6443911872(135);										
+Start universe 6443911296(128);										
+Start universe 6443910784(132);										
+Start universe 6443910208(130);										
+Start universe 6443909696(130);										
+Start universe 6443909120(101);										
+Start universe 6443896832(120);										
+Start universe 6443896320(125);										
+Start universe 6443896064(125);										
+Start universe 6443895936(140);										
+Start universe 6443895424(143);										
+Start universe 6443895168(139);										
+Start universe 6443895040(138);										
+Start universe 6443894784(146);										
+Start universe 6443894656(143);										
+Start universe 6443894592(144);										
+Start universe 6443894336(147);										
+Start universe 6443894208(142);										
+Start universe 6443894144(140);										
+Start universe 6443893888(144);										
+Start universe 6443893760(141);										
+Start universe 6443893696(142);										
+Start universe 6443893440(142);										
+Start universe 6443893312(136);										
+Start universe 6443893248(119);										
+Start universe 6443880960(135);										
+Start universe 6443880448(140);										
+Start universe 6443880192(137);										
+Start universe 6443880064(141);										
+Start universe 6443879552(144);										
+Start universe 6443879296(140);										
+Start universe 6443879168(139);										
+Start universe 6443878912(147);										
+Start universe 6443878784(144);										
+Start universe 6443878720(145);										
+Start universe 6443878464(148);										
+Start universe 6443878336(143);										
+Start universe 6443878272(141);										
+Start universe 6443878016(145);										
+Start universe 6443877888(142);										
+Start universe 6443877824(143);										
+Start universe 6443877568(143);										
+Start universe 6443877440(134);										
+Start universe 6443877376(117);										
+Start universe 6443869184(123);										
+Start universe 6443868160(128);										
+Start universe 6443867008(130);										
+Start universe 6443865984(133);										
+Start universe 6443864832(128);										
+Start universe 6443864320(134);										
+Start universe 6443863744(134);										
+Start universe 6443863232(137);										
+Start universe 6443862656(130);										
+Start universe 6443862144(134);										
+Start universe 6443861568(132);										
+Start universe 6443861056(132);										
+Start universe 6443860480(119);										
+Start universe 6443852288(124);										
+Start universe 6443851264(129);										
+Start universe 6443850112(128);										
+Start universe 6443849088(131);										
+Start universe 6443847936(126);										
+Start universe 6443847424(132);										
+Start universe 6443846848(132);										
+Start universe 6443846336(135);										
+Start universe 6443845760(128);										
+Start universe 6443845248(132);										
+Start universe 6443844672(130);										
+Start universe 6443844160(130);										
+Start universe 6443843584(80);										
+Start universe 6443670528(128);										
+Start universe 6443662336(147);										
+Start universe 6443624960(163);										
+Start universe 6443620864(155);										
+Start universe 6443534336(173);										
+Start universe 6443530240(161);										
+Start universe 6443511552(168);										
+Start universe 6443509504(159);										
+Start universe 6443422976(167);										
+Start universe 6443418880(155);										
+Start universe 6443400192(160);										
+Start universe 6443398144(151);										
+Start universe 6443396352(180);										
+Start universe 6443395456(181);										
+Start universe 6443394560(184);										
+Start universe 6443394112(183);										
+Start universe 6443393216(181);										
+Start universe 6443392768(177);										
+Start universe 6443355392(190);										
+Start universe 6443351296(180);										
+Start universe 6443332608(193);										
+Start universe 6443330560(182);										
+Start universe 6443311872(182);										
+Start universe 6443309824(171);										
+Start universe 6443308032(176);										
+Start universe 6443307136(177);										
+Start universe 6443306240(180);										
+Start universe 6443305792(179);										
+Start universe 6443304896(174);										
+Start universe 6443304448(168);										
+Start universe 6443281664(212);										
+Start universe 6443270272(217);										
+Start universe 6443258880(196);										
+Start universe 6443245312(205);										
+Start universe 6443238528(208);										
+Start universe 6443231744(138);										
+Start universe 6443229952(145);										
+Start universe 6443229056(166);										
+Start universe 6443228160(169);										
+Start universe 6443227712(168);										
+Start universe 6443226816(166);										
+Start universe 6443226368(162);										
+Start universe 6443224576(165);										
+Start universe 6443223680(168);										
+Start universe 6443222784(171);										
+Start universe 6443222336(170);										
+Start universe 6443221440(165);										
+Start universe 6443220992(159);										
+Start universe 6443212032(176);										
+Start universe 6443207552(179);										
+Start universe 6443203072(167);										
+Start universe 6443194112(174);										
+Start universe 6443189632(177);										
+Start universe 6443185152(127);										
+Start universe 6443153408(132);										
+Start universe 6443137536(159);										
+Start universe 6443129856(168);										
+Start universe 6443126016(167);										
+Start universe 6443110144(174);										
+Start universe 6443102208(173);										
+Start universe 6443098368(173);										
+Start universe 6443096448(171);										
+Start universe 6443080576(169);										
+Start universe 6443072640(163);										
+Start universe 6443068800(162);										
+Start universe 6443066880(157);										
+Start universe 6443065088(176);										
+Start universe 6443064192(175);										
+Start universe 6443063296(179);										
+Start universe 6443062848(177);										
+Start universe 6443061952(174);										
+Start universe 6443061504(169);										
+Start universe 6443053824(174);										
+Start universe 6443049984(173);										
+Start universe 6443046144(177);										
+Start universe 6443044224(175);										
+Start universe 6443040384(171);										
+Start universe 6443038464(162);										
+Start universe 6443036672(169);										
+Start universe 6443035776(168);										
+Start universe 6443034880(172);										
+Start universe 6443034432(170);										
+Start universe 6443033536(164);										
+Start universe 6443033088(155);										
+Start universe 6443031296(166);										
+Start universe 6443030400(165);										
+Start universe 6443029504(169);										
+Start universe 6443029056(167);										
+Start universe 6443028160(164);										
+Start universe 6443027712(159);										
+Start universe 6443025920(166);										
+Start universe 6443025024(165);										
+Start universe 6443024128(169);										
+Start universe 6443023680(167);										
+Start universe 6443022784(155);										
+Start universe 6443022336(140);										
+Start universe 6443021568(166);										
+Start universe 6443021184(175);										
+Start universe 6443020800(178);										
+Start universe 6443020608(177);										
+Start universe 6443020224(175);										
+Start universe 6443020032(171);										
+Start universe 6443019264(174);										
+Start universe 6443018880(177);										
+Start universe 6443018496(180);										
+Start universe 6443018304(179);										
+Start universe 6443017920(174);										
+Start universe 6443017728(168);										
+Start universe 6443013888(202);										
+Start universe 6443011968(205);										
+Start universe 6443010048(193);										
+Start universe 6443006208(200);										
+Start universe 6443004288(203);										
+Start universe 6443002368(177);										
+Start universe 6443001600(185);										
+Start universe 6443001216(194);										
+Start universe 6443000832(197);										
+Start universe 6443000640(196);										
+Start universe 6443000256(194);										
+Start universe 6443000064(190);										
+Start universe 6442999296(193);										
+Start universe 6442998912(196);										
+Start universe 6442998528(199);										
+Start universe 6442998336(198);										
+Start universe 6442997952(193);										
+Start universe 6442997760(187);										
+Start universe 6442993920(207);										
+Start universe 6442992000(210);										
+Start universe 6442990080(198);										
+Start universe 6442986240(205);										
+Start universe 6442984320(208);										
+Start universe 6442982400(161);										
+Start universe 6442981632(180);										
+Start universe 6442981248(179);										
+Start universe 6442980864(183);										
+Start universe 6442980672(181);										
+Start universe 6442980288(178);										
+Start universe 6442980096(173);										
+Start universe 6442979328(180);										
+Start universe 6442978944(179);										
+Start universe 6442978560(183);										
+Start universe 6442978368(181);										
+Start universe 6442977984(175);										
+Start universe 6442977792(166);										
+Start universe 6442977024(177);										
+Start universe 6442976640(176);										
+Start universe 6442976256(180);										
+Start universe 6442976064(178);										
+Start universe 6442975680(175);										
+Start universe 6442975488(170);										
+Start universe 6442974720(177);										
+Start universe 6442974336(176);										
+Start universe 6442973952(180);										
+Start universe 6442973760(178);										
+Start universe 6442973376(165);										
+Start universe 6442973184(149);										
+Start universe 6442972992(187);										
+Start universe 6442972896(202);										
+Start universe 6442972800(205);										
+Start universe 6442972752(204);										
+Start universe 6442972656(202);										
+Start universe 6442972608(198);										
+Start universe 6442972416(203);										
+Start universe 6442972320(208);										
+Start universe 6442972224(211);										
+Start universe 6442972176(210);										
+Start universe 6442972080(202);										
+Start universe 6442972032(193);										
+Start universe 6442971072(247);										
+Start universe 6442970592(250);										
+Start universe 6442970112(234);										
+Start universe 6442969152(245);										
+Start universe 6442968672(248);										
+Start universe 6442968192(209);										
+Start universe 6442962496(253);										
+Start universe 6442960416(288);										
+Start universe 6442957568(297);										
+Start universe 6442956528(294);										
+Start universe 6442953680(288);										
+Start universe 6442952640(273);										
+Start universe 6442950016(283);										
+Start universe 6442948960(288);										
+Start universe 6442947648(292);										
+Start universe 6442947120(291);										
+Start universe 6442945808(275);										
+Start universe 6442945280(254);										
+Start universe 6442936768(319);										
+Start universe 6442932512(324);										
+Start universe 6442928256(295);										
+Start universe 6442921792(308);										
+Start universe 6442918560(311);										
+Start universe 6442915328(196);										
+Start universe 6442915136(234);										
+Start universe 6442915040(249);										
+Start universe 6442914944(252);										
+Start universe 6442914896(251);										
+Start universe 6442914800(249);										
+Start universe 6442914752(243);										
+Start universe 6442914560(248);										
+Start universe 6442914464(253);										
+Start universe 6442914368(256);										
+Start universe 6442914320(255);										
+Start universe 6442914224(247);										
+Start universe 6442914176(237);										
+Start universe 6442913216(291);										
+Start universe 6442912736(294);										
+Start universe 6442912256(276);										
+Start universe 6442911296(287);										
+Start universe 6442910816(290);										
+Start universe 6442910336(245);										
+Start universe 6442909248(258);										
+Start universe 6442908704(277);										
+Start universe 6442908160(280);										
+Start universe 6442907888(279);										
+Start universe 6442907344(277);										
+Start universe 6442907072(271);										
+Start universe 6442905984(276);										
+Start universe 6442905440(281);										
+Start universe 6442904896(284);										
+Start universe 6442904624(283);										
+Start universe 6442904080(275);										
+Start universe 6442903808(265);										
+Start universe 6442898368(293);										
+Start universe 6442895648(296);										
+Start universe 6442892928(278);										
+Start universe 6442887488(288);										
+Start universe 6442884768(291);										
+Start universe 6442882048(163);										
+Start universe 6442881856(216);										
+Start universe 6442881760(215);										
+Start universe 6442881664(219);										
+Start universe 6442881616(217);										
+Start universe 6442881520(214);										
+Start universe 6442881472(207);										
+Start universe 6442881280(218);										
+Start universe 6442881184(217);										
+Start universe 6442881088(221);										
+Start universe 6442881040(219);										
+Start universe 6442880944(210);										
+Start universe 6442880896(197);										
+Start universe 6442878272(250);										
+Start universe 6442876960(251);										
+Start universe 6442875648(261);										
+Start universe 6442874992(257);										
+Start universe 6442873680(243);										
+Start universe 6442873024(227);										
+Start universe 6442871424(242);										
+Start universe 6442870624(241);										
+Start universe 6442869824(245);										
+Start universe 6442869424(243);										
+Start universe 6442868624(200);										
+Start universe 6442868224(155);										
+Start universe 6442868032(208);										
+Start universe 6442867936(207);										
+Start universe 6442867840(211);										
+Start universe 6442867792(209);										
+Start universe 6442867696(204);										
+Start universe 6442867648(197);										
+Start universe 6442867456(208);										
+Start universe 6442867360(207);										
+Start universe 6442867264(211);										
+Start universe 6442867216(209);										
+Start universe 6442867120(198);										
+Start universe 6442867072(185);										
+Start universe 6442865984(202);										
+Start universe 6442865440(201);										
+Start universe 6442864896(205);										
+Start universe 6442864624(203);										
+Start universe 6442864080(198);										
+Start universe 6442863808(191);										
+Start universe 6442862720(200);										
+Start universe 6442862176(199);										
+Start universe 6442861632(203);										
+Start universe 6442861360(201);										
+Start universe 6442860816(157);										
+Start universe 6442860544(106);										
+Start universe 6442860528(154);										
+Start universe 6442860520(165);										
+Start universe 6442860512(168);										
+Start universe 6442860508(167);										
+Start universe 6442860500(165);										
+Start universe 6442860496(160);										
+Start universe 6442860480(164);										
+Start universe 6442860472(168);										
+Start universe 6442860464(171);										
+Start universe 6442860460(170);										
+Start universe 6442860452(164);										
+Start universe 6442860448(157);										
+Start universe 6442860368(199);										
+Start universe 6442860328(202);										
+Start universe 6442860288(187);										
+Start universe 6442860208(196);										
+Start universe 6442860168(199);										
+Start universe 6442860128(170);										
+Start universe 6442860112(178);										
+Start universe 6442860104(189);										
+Start universe 6442860096(192);										
+Start universe 6442860092(191);										
+Start universe 6442860084(189);										
+Start universe 6442860080(184);										
+Start universe 6442860064(188);										
+Start universe 6442860056(192);										
+Start universe 6442860048(195);										
+Start universe 6442860044(194);										
+Start universe 6442860036(188);										
+Start universe 6442860032(181);										
+Start universe 6442859952(201);										
+Start universe 6442859912(204);										
+Start universe 6442859872(189);										
+Start universe 6442859792(198);										
+Start universe 6442859752(201);										
+Start universe 6442859712(166);										
+Start universe 6442859664(178);										
+Start universe 6442859640(191);										
+Start universe 6442859616(194);										
+Start universe 6442859604(193);										
+Start universe 6442859580(191);										
+Start universe 6442859568(186);										
+Start universe 6442859520(190);										
+Start universe 6442859496(194);										
+Start universe 6442859472(197);										
+Start universe 6442859460(196);										
+Start universe 6442859436(190);										
+Start universe 6442859424(183);										
+Start universe 6442859184(212);										
+Start universe 6442859064(215);										
+Start universe 6442858944(200);										
+Start universe 6442858704(209);										
+Start universe 6442858584(212);										
+Start universe 6442858464(179);										
+Start universe 6442858416(187);										
+Start universe 6442858392(200);										
+Start universe 6442858368(203);										
+Start universe 6442858356(202);										
+Start universe 6442858332(200);										
+Start universe 6442858320(195);										
+Start universe 6442858272(199);										
+Start universe 6442858248(203);										
+Start universe 6442858224(206);										
+Start universe 6442858212(205);										
+Start universe 6442858188(199);										
+Start universe 6442858176(192);										
+Start universe 6442857936(212);										
+Start universe 6442857816(215);										
+Start universe 6442857696(200);										
+Start universe 6442857456(209);										
+Start universe 6442857336(212);										
+Start universe 6442857216(117);										
+Start universe 6442857200(165);										
+Start universe 6442857192(176);										
+Start universe 6442857184(179);										
+Start universe 6442857180(178);										
+Start universe 6442857172(176);										
+Start universe 6442857168(171);										
+Start universe 6442857152(175);										
+Start universe 6442857144(179);										
+Start universe 6442857136(182);										
+Start universe 6442857132(181);										
+Start universe 6442857124(175);										
+Start universe 6442857120(168);										
+Start universe 6442857040(210);										
+Start universe 6442857000(213);										
+Start universe 6442856960(198);										
+Start universe 6442856880(207);										
+Start universe 6442856840(210);										
+Start universe 6442856800(179);										
+Start universe 6442856784(187);										
+Start universe 6442856776(198);										
+Start universe 6442856768(201);										
+Start universe 6442856764(200);										
+Start universe 6442856756(198);										
+Start universe 6442856752(193);										
+Start universe 6442856736(197);										
+Start universe 6442856728(201);										
+Start universe 6442856720(204);										
+Start universe 6442856716(203);										
+Start universe 6442856708(197);										
+Start universe 6442856704(190);										
+Start universe 6442856624(210);										
+Start universe 6442856584(213);										
+Start universe 6442856544(198);										
+Start universe 6442856464(207);										
+Start universe 6442856424(210);										
+Start universe 6442856384(175);										
+Start universe 6442856336(184);										
+Start universe 6442856312(197);										
+Start universe 6442856288(200);										
+Start universe 6442856276(199);										
+Start universe 6442856252(197);										
+Start universe 6442856240(192);										
+Start universe 6442856192(196);										
+Start universe 6442856168(200);										
+Start universe 6442856144(203);										
+Start universe 6442856132(202);										
+Start universe 6442856108(196);										
+Start universe 6442856096(189);										
+Start universe 6442855856(212);										
+Start universe 6442855736(215);										
+Start universe 6442855616(200);										
+Start universe 6442855376(209);										
+Start universe 6442855256(212);										
+Start universe 6442855136(179);										
+Start universe 6442855088(187);										
+Start universe 6442855064(200);										
+Start universe 6442855040(203);										
+Start universe 6442855028(202);										
+Start universe 6442855004(200);										
+Start universe 6442854992(195);										
+Start universe 6442854944(199);										
+Start universe 6442854920(203);										
+Start universe 6442854896(206);										
+Start universe 6442854884(205);										
+Start universe 6442854860(199);										
+Start universe 6442854848(192);										
+Start universe 6442854608(212);										
+Start universe 6442854488(215);										
+Start universe 6442854368(200);										
+Start universe 6442854128(209);										
+Start universe 6442854008(212);										
+Start universe 6442853888(113);										
+Start universe 6442853872(161);										
+Start universe 6442853864(172);										
+Start universe 6442853856(175);										
+Start universe 6442853852(174);										
+Start universe 6442853844(172);										
+Start universe 6442853840(167);										
+Start universe 6442853824(171);										
+Start universe 6442853816(175);										
+Start universe 6442853808(178);										
+Start universe 6442853804(177);										
+Start universe 6442853796(171);										
+Start universe 6442853792(164);										
+Start universe 6442853712(206);										
+Start universe 6442853672(209);										
+Start universe 6442853632(194);										
+Start universe 6442853552(203);										
+Start universe 6442853512(206);										
+Start universe 6442853472(175);										
+Start universe 6442853456(183);										
+Start universe 6442853448(194);										
+Start universe 6442853440(197);										
+Start universe 6442853436(196);										
+Start universe 6442853428(194);										
+Start universe 6442853424(189);										
+Start universe 6442853408(193);										
+Start universe 6442853400(197);										
+Start universe 6442853392(200);										
+Start universe 6442853388(199);										
+Start universe 6442853380(193);										
+Start universe 6442853376(186);										
+Start universe 6442853296(206);										
+Start universe 6442853256(209);										
+Start universe 6442853216(194);										
+Start universe 6442853136(203);										
+Start universe 6442853096(206);										
+Start universe 6442853056(171);										
+Start universe 6442853008(181);										
+Start universe 6442852984(194);										
+Start universe 6442852960(197);										
+Start universe 6442852948(196);										
+Start universe 6442852924(194);										
+Start universe 6442852912(189);										
+Start universe 6442852864(193);										
+Start universe 6442852840(197);										
+Start universe 6442852816(200);										
+Start universe 6442852804(199);										
+Start universe 6442852780(193);										
+Start universe 6442852768(186);										
+Start universe 6442852528(212);										
+Start universe 6442852408(215);										
+Start universe 6442852288(200);										
+Start universe 6442852048(209);										
+Start universe 6442851928(212);										
+Start universe 6442851808(179);										
+Start universe 6442851760(187);										
+Start universe 6442851736(200);										
+Start universe 6442851712(203);										
+Start universe 6442851700(202);										
+Start universe 6442851676(200);										
+Start universe 6442851664(195);										
+Start universe 6442851616(199);										
+Start universe 6442851592(203);										
+Start universe 6442851568(206);										
+Start universe 6442851556(205);										
+Start universe 6442851532(199);										
+Start universe 6442851520(192);										
+Start universe 6442851280(212);										
+Start universe 6442851160(215);										
+Start universe 6442851040(200);										
+Start universe 6442850800(209);										
+Start universe 6442850680(212);										
+Start universe 6442850560(117);										
+Start universe 6442850544(165);										
+Start universe 6442850536(176);										
+Start universe 6442850528(179);										
+Start universe 6442850524(178);										
+Start universe 6442850516(176);										
+Start universe 6442850512(171);										
+Start universe 6442850496(175);										
+Start universe 6442850488(179);										
+Start universe 6442850480(182);										
+Start universe 6442850476(181);										
+Start universe 6442850468(175);										
+Start universe 6442850464(168);										
+Start universe 6442850384(210);										
+Start universe 6442850344(213);										
+Start universe 6442850304(198);										
+Start universe 6442850224(207);										
+Start universe 6442850184(210);										
+Start universe 6442850144(179);										
+Start universe 6442850128(187);										
+Start universe 6442850120(198);										
+Start universe 6442850112(201);										
+Start universe 6442850108(200);										
+Start universe 6442850100(198);										
+Start universe 6442850096(193);										
+Start universe 6442850080(197);										
+Start universe 6442850072(201);										
+Start universe 6442850064(204);										
+Start universe 6442850060(203);										
+Start universe 6442850052(197);										
+Start universe 6442850048(190);										
+Start universe 6442849968(210);										
+Start universe 6442849928(213);										
+Start universe 6442849888(198);										
+Start universe 6442849808(207);										
+Start universe 6442849768(210);										
+Start universe 6442849728(175);										
+Start universe 6442849680(184);										
+Start universe 6442849656(197);										
+Start universe 6442849632(200);										
+Start universe 6442849620(199);										
+Start universe 6442849596(197);										
+Start universe 6442849584(192);										
+Start universe 6442849536(196);										
+Start universe 6442849512(200);										
+Start universe 6442849488(203);										
+Start universe 6442849476(202);										
+Start universe 6442849452(196);										
+Start universe 6442849440(189);										
+Start universe 6442849200(212);										
+Start universe 6442849080(215);										
+Start universe 6442848960(200);										
+Start universe 6442848720(209);										
+Start universe 6442848600(212);										
+Start universe 6442848480(179);										
+Start universe 6442848432(187);										
+Start universe 6442848408(200);										
+Start universe 6442848384(203);										
+Start universe 6442848372(202);										
+Start universe 6442848348(200);										
+Start universe 6442848336(195);										
+Start universe 6442848288(199);										
+Start universe 6442848264(203);										
+Start universe 6442848240(206);										
+Start universe 6442848228(205);										
+Start universe 6442848204(199);										
+Start universe 6442848192(192);										
+Start universe 6442847952(209);										
+Start universe 6442847832(212);										
+Start universe 6442847712(197);										
+Start universe 6442847472(203);										
+Start universe 6442847352(206);										
+Start universe 6442847232(86);										
+Start universe 6442847216(145);										
+Start universe 6442847208(144);										
+Start universe 6442847200(148);										
+Start universe 6442847196(146);										
+Start universe 6442847188(142);										
+Start universe 6442847184(136);										
+Start universe 6442847168(145);										
+Start universe 6442847160(144);										
+Start universe 6442847152(148);										
+Start universe 6442847148(146);										
+Start universe 6442847140(139);										
+Start universe 6442847136(130);										
+Start universe 6442847120(145);										
+Start universe 6442847112(144);										
+Start universe 6442847104(148);										
+Start universe 6442847100(146);										
+Start universe 6442847092(142);										
+Start universe 6442847088(136);										
+Start universe 6442847072(145);										
+Start universe 6442847064(144);										
+Start universe 6442847056(148);										
+Start universe 6442847052(146);										
+Start universe 6442847044(138);										
+Start universe 6442847040(128);										
+Start universe 6442846992(149);										
+Start universe 6442846968(148);										
+Start universe 6442846944(152);										
+Start universe 6442846932(150);										
+Start universe 6442846908(146);										
+Start universe 6442846896(140);										
+Start universe 6442846848(149);										
+Start universe 6442846824(148);										
+Start universe 6442846800(152);										
+Start universe 6442846788(150);										
+Start universe 6442846764(143);										
+Start universe 6442846752(134);										
+Start universe 6442846704(149);										
+Start universe 6442846680(148);										
+Start universe 6442846656(152);										
+Start universe 6442846644(150);										
+Start universe 6442846620(146);										
+Start universe 6442846608(140);										
+Start universe 6442846560(149);										
+Start universe 6442846536(148);										
+Start universe 6442846512(152);										
+Start universe 6442846500(150);										
+Start universe 6442846476(123);										
+Start universe 6442846464(90);										
+Start universe 6442846448(149);										
+Start universe 6442846440(148);										
+Start universe 6442846432(152);										
+Start universe 6442846428(150);										
+Start universe 6442846420(146);										
+Start universe 6442846416(140);										
+Start universe 6442846400(149);										
+Start universe 6442846392(148);										
+Start universe 6442846384(152);										
+Start universe 6442846380(150);										
+Start universe 6442846372(143);										
+Start universe 6442846368(134);										
+Start universe 6442846352(149);										
+Start universe 6442846344(148);										
+Start universe 6442846336(152);										
+Start universe 6442846332(150);										
+Start universe 6442846324(146);										
+Start universe 6442846320(140);										
+Start universe 6442846304(149);										
+Start universe 6442846296(148);										
+Start universe 6442846288(152);										
+Start universe 6442846284(150);										
+Start universe 6442846276(142);										
+Start universe 6442846272(132);										
+Start universe 6442846224(149);										
+Start universe 6442846200(148);										
+Start universe 6442846176(152);										
+Start universe 6442846164(150);										
+Start universe 6442846140(146);										
+Start universe 6442846128(140);										
+Start universe 6442846080(149);										
+Start universe 6442846056(148);										
+Start universe 6442846032(152);										
+Start universe 6442846020(150);										
+Start universe 6442845996(143);										
+Start universe 6442845984(134);										
+Start universe 6442845936(149);										
+Start universe 6442845912(148);										
+Start universe 6442845888(152);										
+Start universe 6442845876(150);										
+Start universe 6442845852(146);										
+Start universe 6442845840(140);										
+Start universe 6442845792(149);										
+Start universe 6442845768(148);										
+Start universe 6442845744(152);										
+Start universe 6442845732(150);										
+Start universe 6442845708(122);										
+Start universe 6442845696(88);										
+Start universe 6442845680(147);										
+Start universe 6442845672(146);										
+Start universe 6442845664(150);										
+Start universe 6442845660(148);										
+Start universe 6442845652(144);										
+Start universe 6442845648(138);										
+Start universe 6442845632(147);										
+Start universe 6442845624(146);										
+Start universe 6442845616(150);										
+Start universe 6442845612(148);										
+Start universe 6442845604(141);										
+Start universe 6442845600(132);										
+Start universe 6442845584(147);										
+Start universe 6442845576(146);										
+Start universe 6442845568(150);										
+Start universe 6442845564(148);										
+Start universe 6442845556(144);										
+Start universe 6442845552(138);										
+Start universe 6442845536(147);										
+Start universe 6442845528(146);										
+Start universe 6442845520(150);										
+Start universe 6442845516(148);										
+Start universe 6442845508(140);										
+Start universe 6442845504(130);										
+Start universe 6442845456(149);										
+Start universe 6442845432(148);										
+Start universe 6442845408(152);										
+Start universe 6442845396(150);										
+Start universe 6442845372(146);										
+Start universe 6442845360(140);										
+Start universe 6442845312(149);										
+Start universe 6442845288(148);										
+Start universe 6442845264(152);										
+Start universe 6442845252(150);										
+Start universe 6442845228(143);										
+Start universe 6442845216(134);										
+Start universe 6442845168(149);										
+Start universe 6442845144(148);										
+Start universe 6442845120(152);										
+Start universe 6442845108(150);										
+Start universe 6442845084(146);										
+Start universe 6442845072(140);										
+Start universe 6442845024(149);										
+Start universe 6442845000(148);										
+Start universe 6442844976(152);										
+Start universe 6442844964(150);										
+Start universe 6442844940(123);										
+Start universe 6442844928(90);										
+Start universe 6442844912(149);										
+Start universe 6442844904(148);										
+Start universe 6442844896(152);										
+Start universe 6442844892(150);										
+Start universe 6442844884(146);										
+Start universe 6442844880(140);										
+Start universe 6442844864(149);										
+Start universe 6442844856(148);										
+Start universe 6442844848(152);										
+Start universe 6442844844(150);										
+Start universe 6442844836(143);										
+Start universe 6442844832(134);										
+Start universe 6442844816(149);										
+Start universe 6442844808(148);										
+Start universe 6442844800(152);										
+Start universe 6442844796(150);										
+Start universe 6442844788(146);										
+Start universe 6442844784(140);										
+Start universe 6442844768(149);										
+Start universe 6442844760(148);										
+Start universe 6442844752(152);										
+Start universe 6442844748(150);										
+Start universe 6442844740(142);										
+Start universe 6442844736(132);										
+Start universe 6442844688(149);										
+Start universe 6442844664(148);										
+Start universe 6442844640(152);										
+Start universe 6442844628(150);										
+Start universe 6442844604(146);										
+Start universe 6442844592(140);										
+Start universe 6442844544(149);										
+Start universe 6442844520(148);										
+Start universe 6442844496(152);										
+Start universe 6442844484(150);										
+Start universe 6442844460(143);										
+Start universe 6442844448(134);										
+Start universe 6442844400(145);										
+Start universe 6442844376(144);										
+Start universe 6442844352(148);										
+Start universe 6442844340(146);										
+Start universe 6442844316(142);										
+Start universe 6442844304(136);										
+Start universe 6442844256(139);										
+Start universe 6442844232(138);										
+Start universe 6442844208(142);										
+Start universe 6442844196(140);										
+Start universe 6442844172(90);										
+Start universe 6442844160(41);										
+Found attractor. State count 1;										
+Start universe 4295819264(40);										
+Start universe 4295817472(68);										
+Start universe 4295816576(69);										
+Start universe 4295815680(65);										
+Start universe 4295813888(68);										
+Start universe 4295812992(69);										
+Start universe 4295812096(62);										
+Start universe 4295810304(69);										
+Start universe 4295809408(70);										
+Start universe 4295808512(66);										
+Start universe 4295806720(69);										
+Start universe 4295805824(70);										
+Start universe 4295804928(57);										
+Start universe 4295804160(72);										
+Start universe 4295803776(73);										
+Start universe 4295803392(69);										
+Start universe 4295802624(72);										
+Start universe 4295802240(73);										
+Start universe 4295801856(65);										
+Start universe 4295801088(72);										
+Start universe 4295800704(73);										
+Start universe 4295800320(69);										
+Start universe 4295799552(72);										
+Start universe 4295799168(73);										
+Start universe 4295798784(55);										
+Start universe 4295798592(78);										
+Start universe 4295798496(79);										
+Start universe 4295798400(75);										
+Start universe 4295798208(80);										
+Start universe 4295798112(81);										
+Start universe 4295798016(71);										
+Start universe 4295796928(93);										
+Start universe 4295796384(94);										
+Start universe 4295795840(88);										
+Start universe 4295794752(93);										
+Start universe 4295794208(94);										
+Start universe 4295793664(69);										
+Start universe 4295793472(92);										
+Start universe 4295793376(93);										
+Start universe 4295793280(87);										
+Start universe 4295793088(92);										
+Start universe 4295792992(93);										
+Start universe 4295792896(81);										
+Start universe 4295791808(92);										
+Start universe 4295791264(93);										
+Start universe 4295790720(87);										
+Start universe 4295789632(92);										
+Start universe 4295789088(93);										
+Start universe 4295788544(51);										
+Start universe 4295788528(75);										
+Start universe 4295788520(76);										
+Start universe 4295788512(71);										
+Start universe 4295788496(75);										
+Start universe 4295788488(76);										
+Start universe 4295788480(68);										
+Start universe 4295788464(75);										
+Start universe 4295788456(76);										
+Start universe 4295788448(71);										
+Start universe 4295788432(75);										
+Start universe 4295788424(76);										
+Start universe 4295788416(67);										
+Start universe 4295788368(77);										
+Start universe 4295788344(78);										
+Start universe 4295788320(73);										
+Start universe 4295788272(77);										
+Start universe 4295788248(78);										
+Start universe 4295788224(70);										
+Start universe 4295788176(77);										
+Start universe 4295788152(78);										
+Start universe 4295788128(73);										
+Start universe 4295788080(77);										
+Start universe 4295788056(78);										
+Start universe 4295788032(53);										
+Start universe 4295788016(77);										
+Start universe 4295788008(78);										
+Start universe 4295788000(73);										
+Start universe 4295787984(77);										
+Start universe 4295787976(78);										
+Start universe 4295787968(70);										
+Start universe 4295787952(77);										
+Start universe 4295787944(78);										
+Start universe 4295787936(73);										
+Start universe 4295787920(77);										
+Start universe 4295787912(78);										
+Start universe 4295787904(69);										
+Start universe 4295787856(77);										
+Start universe 4295787832(78);										
+Start universe 4295787808(73);										
+Start universe 4295787760(77);										
+Start universe 4295787736(78);										
+Start universe 4295787712(70);										
+Start universe 4295787664(77);										
+Start universe 4295787640(78);										
+Start universe 4295787616(73);										
+Start universe 4295787568(77);										
+Start universe 4295787544(78);										
+Start universe 4295787520(52);										
+Start universe 4295787504(76);										
+Start universe 4295787496(77);										
+Start universe 4295787488(72);										
+Start universe 4295787472(76);										
+Start universe 4295787464(77);										
+Start universe 4295787456(69);										
+Start universe 4295787440(76);										
+Start universe 4295787432(77);										
+Start universe 4295787424(72);										
+Start universe 4295787408(76);										
+Start universe 4295787400(77);										
+Start universe 4295787392(68);										
+Start universe 4295787344(77);										
+Start universe 4295787320(78);										
+Start universe 4295787296(73);										
+Start universe 4295787248(77);										
+Start universe 4295787224(78);										
+Start universe 4295787200(70);										
+Start universe 4295787152(77);										
+Start universe 4295787128(78);										
+Start universe 4295787104(73);										
+Start universe 4295787056(77);										
+Start universe 4295787032(78);										
+Start universe 4295787008(53);										
+Start universe 4295786992(77);										
+Start universe 4295786984(78);										
+Start universe 4295786976(73);										
+Start universe 4295786960(77);										
+Start universe 4295786952(78);										
+Start universe 4295786944(70);										
+Start universe 4295786928(77);										
+Start universe 4295786920(78);										
+Start universe 4295786912(73);										
+Start universe 4295786896(77);										
+Start universe 4295786888(78);										
+Start universe 4295786880(69);										
+Start universe 4295786832(77);										
+Start universe 4295786808(78);										
+Start universe 4295786784(73);										
+Start universe 4295786736(77);										
+Start universe 4295786712(78);										
+Start universe 4295786688(70);										
+Start universe 4295786640(75);										
+Start universe 4295786616(76);										
+Start universe 4295786592(71);										
+Start universe 4295786544(73);										
+Start universe 4295786520(74);										
+Start universe 4295786496(41);										
+Start universe 4295772160(76);										
+Start universe 4295771904(82);										
+Start universe 4295771776(84);										
+Start universe 4295771712(100);										
+Start universe 4295771456(104);										
+Start universe 4295771328(99);										
+Start universe 4295771264(98);										
+Start universe 4295771136(107);										
+Start universe 4295771072(103);										
+Start universe 4295771040(104);										
+Start universe 4295770912(108);										
+Start universe 4295770848(102);										
+Start universe 4295770816(100);										
+Start universe 4295770688(105);										
+Start universe 4295770624(101);										
+Start universe 4295770592(102);										
+Start universe 4295770464(103);										
+Start universe 4295770400(95);										
+Start universe 4295770368(78);										
+Start universe 4295756032(95);										
+Start universe 4295755776(101);										
+Start universe 4295755648(97);										
+Start universe 4295755584(101);										
+Start universe 4295755328(105);										
+Start universe 4295755200(100);										
+Start universe 4295755136(99);										
+Start universe 4295755008(108);										
+Start universe 4295754944(104);										
+Start universe 4295754912(105);										
+Start universe 4295754784(109);										
+Start universe 4295754720(103);										
+Start universe 4295754688(101);										
+Start universe 4295754560(106);										
+Start universe 4295754496(102);										
+Start universe 4295754464(103);										
+Start universe 4295754336(104);										
+Start universe 4295754272(93);										
+Start universe 4295754240(76);										
+Start universe 4295746048(83);										
+Start universe 4295745024(89);										
+Start universe 4295743936(90);										
+Start universe 4295742912(94);										
+Start universe 4295741824(88);										
+Start universe 4295741312(95);										
+Start universe 4295740768(94);										
+Start universe 4295740256(98);										
+Start universe 4295739712(90);										
+Start universe 4295739200(95);										
+Start universe 4295738656(92);										
+Start universe 4295738144(93);										
+Start universe 4295737600(78);										
+Start universe 4295729408(84);										
+Start universe 4295728384(90);										
+Start universe 4295727296(88);										
+Start universe 4295726272(92);										
+Start universe 4295725184(86);										
+Start universe 4295724672(93);										
+Start universe 4295724128(92);										
+Start universe 4295723616(96);										
+Start universe 4295723072(88);										
+Start universe 4295722560(93);										
+Start universe 4295722016(90);										
+Start universe 4295721504(91);										
+Start universe 4295720960(55);										
+Start universe 4295706624(76);										
+Start universe 4295706368(82);										
+Start universe 4295706240(84);										
+Start universe 4295706176(100);										
+Start universe 4295705920(104);										
+Start universe 4295705792(99);										
+Start universe 4295705728(98);										
+Start universe 4295705600(107);										
+Start universe 4295705536(103);										
+Start universe 4295705504(104);										
+Start universe 4295705376(108);										
+Start universe 4295705312(102);										
+Start universe 4295705280(100);										
+Start universe 4295705152(105);										
+Start universe 4295705088(101);										
+Start universe 4295705056(102);										
+Start universe 4295704928(103);										
+Start universe 4295704864(95);										
+Start universe 4295704832(78);										
+Start universe 4295690496(95);										
+Start universe 4295690240(101);										
+Start universe 4295690112(97);										
+Start universe 4295690048(101);										
+Start universe 4295689792(105);										
+Start universe 4295689664(100);										
+Start universe 4295689600(99);										
+Start universe 4295689472(108);										
+Start universe 4295689408(104);										
+Start universe 4295689376(105);										
+Start universe 4295689248(109);										
+Start universe 4295689184(103);										
+Start universe 4295689152(101);										
+Start universe 4295689024(106);										
+Start universe 4295688960(102);										
+Start universe 4295688928(103);										
+Start universe 4295688800(104);										
+Start universe 4295688736(93);										
+Start universe 4295688704(76);										
+Start universe 4295680512(83);										
+Start universe 4295679488(89);										
+Start universe 4295678400(90);										
+Start universe 4295677376(94);										
+Start universe 4295676288(88);										
+Start universe 4295675776(95);										
+Start universe 4295675232(94);										
+Start universe 4295674720(98);										
+Start universe 4295674176(90);										
+Start universe 4295673664(95);										
+Start universe 4295673120(92);										
+Start universe 4295672608(93);										
+Start universe 4295672064(78);										
+Start universe 4295663872(84);										
+Start universe 4295662848(90);										
+Start universe 4295661760(88);										
+Start universe 4295660736(92);										
+Start universe 4295659648(86);										
+Start universe 4295659136(93);										
+Start universe 4295658592(92);										
+Start universe 4295658080(96);										
+Start universe 4295657536(88);										
+Start universe 4295657024(93);										
+Start universe 4295656480(90);										
+Start universe 4295655968(91);										
+Start universe 4295655424(52);										
+Start universe 4295641088(76);										
+Start universe 4295640832(82);										
+Start universe 4295640704(84);										
+Start universe 4295640640(100);										
+Start universe 4295640384(104);										
+Start universe 4295640256(99);										
+Start universe 4295640192(98);										
+Start universe 4295640064(107);										
+Start universe 4295640000(103);										
+Start universe 4295639968(104);										
+Start universe 4295639840(108);										
+Start universe 4295639776(102);										
+Start universe 4295639744(100);										
+Start universe 4295639616(105);										
+Start universe 4295639552(101);										
+Start universe 4295639520(102);										
+Start universe 4295639392(103);										
+Start universe 4295639328(95);										
+Start universe 4295639296(78);										
+Start universe 4295624960(95);										
+Start universe 4295624704(101);										
+Start universe 4295624576(97);										
+Start universe 4295624512(101);										
+Start universe 4295624256(105);										
+Start universe 4295624128(100);										
+Start universe 4295624064(99);										
+Start universe 4295623936(108);										
+Start universe 4295623872(104);										
+Start universe 4295623840(105);										
+Start universe 4295623712(109);										
+Start universe 4295623648(103);										
+Start universe 4295623616(101);										
+Start universe 4295623488(106);										
+Start universe 4295623424(102);										
+Start universe 4295623392(103);										
+Start universe 4295623264(104);										
+Start universe 4295623200(93);										
+Start universe 4295623168(76);										
+Start universe 4295614976(83);										
+Start universe 4295613952(89);										
+Start universe 4295612864(90);										
+Start universe 4295611840(94);										
+Start universe 4295610752(88);										
+Start universe 4295610240(95);										
+Start universe 4295609696(94);										
+Start universe 4295609184(98);										
+Start universe 4295608640(90);										
+Start universe 4295608128(95);										
+Start universe 4295607584(92);										
+Start universe 4295607072(93);										
+Start universe 4295606528(78);										
+Start universe 4295598336(84);										
+Start universe 4295597312(90);										
+Start universe 4295596224(88);										
+Start universe 4295595200(92);										
+Start universe 4295594112(86);										
+Start universe 4295593600(93);										
+Start universe 4295593056(92);										
+Start universe 4295592544(96);										
+Start universe 4295592000(88);										
+Start universe 4295591488(93);										
+Start universe 4295590944(90);										
+Start universe 4295590432(91);										
+Start universe 4295589888(55);										
+Start universe 4295575552(76);										
+Start universe 4295575296(82);										
+Start universe 4295575168(84);										
+Start universe 4295575104(100);										
+Start universe 4295574848(104);										
+Start universe 4295574720(99);										
+Start universe 4295574656(98);										
+Start universe 4295574528(107);										
+Start universe 4295574464(103);										
+Start universe 4295574432(104);										
+Start universe 4295574304(108);										
+Start universe 4295574240(102);										
+Start universe 4295574208(100);										
+Start universe 4295574080(105);										
+Start universe 4295574016(101);										
+Start universe 4295573984(102);										
+Start universe 4295573856(103);										
+Start universe 4295573792(95);										
+Start universe 4295573760(78);										
+Start universe 4295559424(95);										
+Start universe 4295559168(101);										
+Start universe 4295559040(97);										
+Start universe 4295558976(101);										
+Start universe 4295558720(105);										
+Start universe 4295558592(100);										
+Start universe 4295558528(99);										
+Start universe 4295558400(108);										
+Start universe 4295558336(104);										
+Start universe 4295558304(105);										
+Start universe 4295558176(109);										
+Start universe 4295558112(103);										
+Start universe 4295558080(101);										
+Start universe 4295557952(106);										
+Start universe 4295557888(102);										
+Start universe 4295557856(103);										
+Start universe 4295557728(104);										
+Start universe 4295557664(93);										
+Start universe 4295557632(76);										
+Start universe 4295549440(83);										
+Start universe 4295548416(89);										
+Start universe 4295547328(90);										
+Start universe 4295546304(94);										
+Start universe 4295545216(88);										
+Start universe 4295544704(95);										
+Start universe 4295544160(94);										
+Start universe 4295543648(98);										
+Start universe 4295543104(90);										
+Start universe 4295542592(95);										
+Start universe 4295542048(92);										
+Start universe 4295541536(93);										
+Start universe 4295540992(78);										
+Start universe 4295532800(84);										
+Start universe 4295531776(90);										
+Start universe 4295530688(88);										
+Start universe 4295529664(92);										
+Start universe 4295528576(86);										
+Start universe 4295528064(93);										
+Start universe 4295527520(92);										
+Start universe 4295527008(96);										
+Start universe 4295526464(88);										
+Start universe 4295525952(93);										
+Start universe 4295525408(90);										
+Start universe 4295524896(91);										
+Start universe 4295524352(41);										
+Start universe 4295523456(74);										
+Start universe 4295523008(75);										
+Start universe 4295522560(71);										
+Start universe 4295521664(74);										
+Start universe 4295521216(75);										
+Start universe 4295520768(68);										
+Start universe 4295519872(75);										
+Start universe 4295519424(76);										
+Start universe 4295518976(72);										
+Start universe 4295518080(75);										
+Start universe 4295517632(76);										
+Start universe 4295517184(63);										
+Start universe 4295516800(80);										
+Start universe 4295516608(81);										
+Start universe 4295516416(77);										
+Start universe 4295516032(80);										
+Start universe 4295515840(81);										
+Start universe 4295515648(73);										
+Start universe 4295515264(80);										
+Start universe 4295515072(81);										
+Start universe 4295514880(77);										
+Start universe 4295514496(80);										
+Start universe 4295514304(81);										
+Start universe 4295514112(63);										
+Start universe 4295514016(89);										
+Start universe 4295513968(90);										
+Start universe 4295513920(86);										
+Start universe 4295513824(91);										
+Start universe 4295513776(92);										
+Start universe 4295513728(82);										
+Start universe 4295513184(106);										
+Start universe 4295512912(107);										
+Start universe 4295512640(101);										
+Start universe 4295512096(106);										
+Start universe 4295511824(107);										
+Start universe 4295511552(79);										
+Start universe 4295511456(105);										
+Start universe 4295511408(106);										
+Start universe 4295511360(100);										
+Start universe 4295511264(105);										
+Start universe 4295511216(106);										
+Start universe 4295511168(94);										
+Start universe 4295510624(105);										
+Start universe 4295510352(106);										
+Start universe 4295510080(100);										
+Start universe 4295509536(105);										
+Start universe 4295509264(106);										
+Start universe 4295508992(57);										
+Start universe 4295508984(88);										
+Start universe 4295508980(89);										
+Start universe 4295508976(84);										
+Start universe 4295508968(88);										
+Start universe 4295508964(89);										
+Start universe 4295508960(81);										
+Start universe 4295508952(88);										
+Start universe 4295508948(89);										
+Start universe 4295508944(84);										
+Start universe 4295508936(88);										
+Start universe 4295508932(89);										
+Start universe 4295508928(80);										
+Start universe 4295508904(90);										
+Start universe 4295508892(91);										
+Start universe 4295508880(86);										
+Start universe 4295508856(90);										
+Start universe 4295508844(91);										
+Start universe 4295508832(83);										
+Start universe 4295508808(90);										
+Start universe 4295508796(91);										
+Start universe 4295508784(86);										
+Start universe 4295508760(90);										
+Start universe 4295508748(91);										
+Start universe 4295508736(59);										
+Start universe 4295508728(90);										
+Start universe 4295508724(91);										
+Start universe 4295508720(86);										
+Start universe 4295508712(90);										
+Start universe 4295508708(91);										
+Start universe 4295508704(83);										
+Start universe 4295508696(90);										
+Start universe 4295508692(91);										
+Start universe 4295508688(86);										
+Start universe 4295508680(90);										
+Start universe 4295508676(91);										
+Start universe 4295508672(82);										
+Start universe 4295508648(90);										
+Start universe 4295508636(91);										
+Start universe 4295508624(86);										
+Start universe 4295508600(90);										
+Start universe 4295508588(91);										
+Start universe 4295508576(83);										
+Start universe 4295508552(90);										
+Start universe 4295508540(91);										
+Start universe 4295508528(86);										
+Start universe 4295508504(90);										
+Start universe 4295508492(91);										
+Start universe 4295508480(58);										
+Start universe 4295508472(89);										
+Start universe 4295508468(90);										
+Start universe 4295508464(85);										
+Start universe 4295508456(89);										
+Start universe 4295508452(90);										
+Start universe 4295508448(82);										
+Start universe 4295508440(89);										
+Start universe 4295508436(90);										
+Start universe 4295508432(85);										
+Start universe 4295508424(89);										
+Start universe 4295508420(90);										
+Start universe 4295508416(81);										
+Start universe 4295508392(90);										
+Start universe 4295508380(91);										
+Start universe 4295508368(86);										
+Start universe 4295508344(90);										
+Start universe 4295508332(91);										
+Start universe 4295508320(83);										
+Start universe 4295508296(90);										
+Start universe 4295508284(91);										
+Start universe 4295508272(86);										
+Start universe 4295508248(90);										
+Start universe 4295508236(91);										
+Start universe 4295508224(59);										
+Start universe 4295508216(90);										
+Start universe 4295508212(91);										
+Start universe 4295508208(86);										
+Start universe 4295508200(90);										
+Start universe 4295508196(91);										
+Start universe 4295508192(83);										
+Start universe 4295508184(90);										
+Start universe 4295508180(91);										
+Start universe 4295508176(86);										
+Start universe 4295508168(90);										
+Start universe 4295508164(91);										
+Start universe 4295508160(82);										
+Start universe 4295508136(90);										
+Start universe 4295508124(91);										
+Start universe 4295508112(86);										
+Start universe 4295508088(90);										
+Start universe 4295508076(91);										
+Start universe 4295508064(83);										
+Start universe 4295508040(88);										
+Start universe 4295508028(89);										
+Start universe 4295508016(84);										
+Start universe 4295507992(86);										
+Start universe 4295507980(87);										
+Start universe 4295507968(43);										
+Start universe 4295507072(72);										
+Start universe 4295506624(73);										
+Start universe 4295506176(69);										
+Start universe 4295505280(72);										
+Start universe 4295504832(73);										
+Start universe 4295504384(66);										
+Start universe 4295503488(73);										
+Start universe 4295503040(74);										
+Start universe 4295502592(70);										
+Start universe 4295501696(73);										
+Start universe 4295501248(74);										
+Start universe 4295500800(61);										
+Start universe 4295500416(78);										
+Start universe 4295500224(79);										
+Start universe 4295500032(75);										
+Start universe 4295499648(78);										
+Start universe 4295499456(79);										
+Start universe 4295499264(71);										
+Start universe 4295498880(78);										
+Start universe 4295498688(79);										
+Start universe 4295498496(75);										
+Start universe 4295498112(78);										
+Start universe 4295497920(79);										
+Start universe 4295497728(61);										
+Start universe 4295497632(87);										
+Start universe 4295497584(88);										
+Start universe 4295497536(84);										
+Start universe 4295497440(89);										
+Start universe 4295497392(90);										
+Start universe 4295497344(80);										
+Start universe 4295496800(99);										
+Start universe 4295496528(100);										
+Start universe 4295496256(94);										
+Start universe 4295495712(99);										
+Start universe 4295495440(100);										
+Start universe 4295495168(72);										
+Start universe 4295495072(98);										
+Start universe 4295495024(99);										
+Start universe 4295494976(93);										
+Start universe 4295494880(98);										
+Start universe 4295494832(99);										
+Start universe 4295494784(87);										
+Start universe 4295494240(96);										
+Start universe 4295493968(97);										
+Start universe 4295493696(91);										
+Start universe 4295493152(95);										
+Start universe 4295492880(96);										
+Start universe 4295492608(47);										
+Start universe 4295492600(78);										
+Start universe 4295492596(79);										
+Start universe 4295492592(74);										
+Start universe 4295492584(78);										
+Start universe 4295492580(79);										
+Start universe 4295492576(71);										
+Start universe 4295492568(78);										
+Start universe 4295492564(79);										
+Start universe 4295492560(74);										
+Start universe 4295492552(78);										
+Start universe 4295492548(79);										
+Start universe 4295492544(70);										
+Start universe 4295492520(80);										
+Start universe 4295492508(81);										
+Start universe 4295492496(76);										
+Start universe 4295492472(80);										
+Start universe 4295492460(81);										
+Start universe 4295492448(73);										
+Start universe 4295492424(80);										
+Start universe 4295492412(81);										
+Start universe 4295492400(76);										
+Start universe 4295492376(80);										
+Start universe 4295492364(81);										
+Start universe 4295492352(49);										
+Start universe 4295492344(80);										
+Start universe 4295492340(81);										
+Start universe 4295492336(76);										
+Start universe 4295492328(80);										
+Start universe 4295492324(81);										
+Start universe 4295492320(73);										
+Start universe 4295492312(80);										
+Start universe 4295492308(81);										
+Start universe 4295492304(76);										
+Start universe 4295492296(80);										
+Start universe 4295492292(81);										
+Start universe 4295492288(72);										
+Start universe 4295492264(80);										
+Start universe 4295492252(81);										
+Start universe 4295492240(76);										
+Start universe 4295492216(80);										
+Start universe 4295492204(81);										
+Start universe 4295492192(73);										
+Start universe 4295492168(80);										
+Start universe 4295492156(81);										
+Start universe 4295492144(76);										
+Start universe 4295492120(80);										
+Start universe 4295492108(81);										
+Start universe 4295492096(48);										
+Start universe 4295492088(79);										
+Start universe 4295492084(80);										
+Start universe 4295492080(75);										
+Start universe 4295492072(79);										
+Start universe 4295492068(80);										
+Start universe 4295492064(72);										
+Start universe 4295492056(79);										
+Start universe 4295492052(80);										
+Start universe 4295492048(75);										
+Start universe 4295492040(79);										
+Start universe 4295492036(80);										
+Start universe 4295492032(71);										
+Start universe 4295492008(80);										
+Start universe 4295491996(81);										
+Start universe 4295491984(76);										
+Start universe 4295491960(80);										
+Start universe 4295491948(81);										
+Start universe 4295491936(73);										
+Start universe 4295491912(80);										
+Start universe 4295491900(81);										
+Start universe 4295491888(76);										
+Start universe 4295491864(80);										
+Start universe 4295491852(81);										
+Start universe 4295491840(49);										
+Start universe 4295491832(80);										
+Start universe 4295491828(81);										
+Start universe 4295491824(76);										
+Start universe 4295491816(80);										
+Start universe 4295491812(81);										
+Start universe 4295491808(73);										
+Start universe 4295491800(80);										
+Start universe 4295491796(81);										
+Start universe 4295491792(76);										
+Start universe 4295491784(80);										
+Start universe 4295491780(81);										
+Start universe 4295491776(72);										
+Start universe 4295491752(80);										
+Start universe 4295491740(81);										
+Start universe 4295491728(76);										
+Start universe 4295491704(80);										
+Start universe 4295491692(81);										
+Start universe 4295491680(73);										
+Start universe 4295491656(78);										
+Start universe 4295491644(79);										
+Start universe 4295491632(74);										
+Start universe 4295491608(75);										
+Start universe 4295491596(76);										
+Found attractor. State count 1;										
+Start universe 4295491584(17);										
+Start universe 2152177664(63);										
+Start universe 2147950592(57);										
+Start universe 2147949696(84);										
+Start universe 2147949248(85);										
+Start universe 2147948800(81);										
+Start universe 2147947904(84);										
+Start universe 2147947456(85);										
+Start universe 2147947008(78);										
+Start universe 2147946112(85);										
+Start universe 2147945664(86);										
+Start universe 2147945216(82);										
+Start universe 2147944320(85);										
+Start universe 2147943872(86);										
+Start universe 2147943424(73);										
+Start universe 2147943040(88);										
+Start universe 2147942848(89);										
+Start universe 2147942656(85);										
+Start universe 2147942272(88);										
+Start universe 2147942080(89);										
+Start universe 2147941888(81);										
+Start universe 2147941504(88);										
+Start universe 2147941312(89);										
+Start universe 2147941120(85);										
+Start universe 2147940736(88);										
+Start universe 2147940544(89);										
+Start universe 2147940352(71);										
+Start universe 2147940256(94);										
+Start universe 2147940208(95);										
+Start universe 2147940160(91);										
+Start universe 2147940064(96);										
+Start universe 2147940016(97);										
+Start universe 2147939968(87);										
+Start universe 2147939424(109);										
+Start universe 2147939152(110);										
+Start universe 2147938880(104);										
+Start universe 2147938336(109);										
+Start universe 2147938064(110);										
+Start universe 2147937792(85);										
+Start universe 2147937696(108);										
+Start universe 2147937648(109);										
+Start universe 2147937600(103);										
+Start universe 2147937504(108);										
+Start universe 2147937456(109);										
+Start universe 2147937408(97);										
+Start universe 2147936864(108);										
+Start universe 2147936592(109);										
+Start universe 2147936320(103);										
+Start universe 2147935776(108);										
+Start universe 2147935504(109);										
+Start universe 2147935232(69);										
+Start universe 2147935224(91);										
+Start universe 2147935220(92);										
+Start universe 2147935216(87);										
+Start universe 2147935208(91);										
+Start universe 2147935204(92);										
+Start universe 2147935200(84);										
+Start universe 2147935192(91);										
+Start universe 2147935188(92);										
+Start universe 2147935184(87);										
+Start universe 2147935176(91);										
+Start universe 2147935172(92);										
+Start universe 2147935168(83);										
+Start universe 2147935144(93);										
+Start universe 2147935132(94);										
+Start universe 2147935120(89);										
+Start universe 2147935096(93);										
+Start universe 2147935084(94);										
+Start universe 2147935072(86);										
+Start universe 2147935048(93);										
+Start universe 2147935036(94);										
+Start universe 2147935024(89);										
+Start universe 2147935000(93);										
+Start universe 2147934988(94);										
+Start universe 2147934976(71);										
+Start universe 2147934968(93);										
+Start universe 2147934964(94);										
+Start universe 2147934960(89);										
+Start universe 2147934952(93);										
+Start universe 2147934948(94);										
+Start universe 2147934944(86);										
+Start universe 2147934936(93);										
+Start universe 2147934932(94);										
+Start universe 2147934928(89);										
+Start universe 2147934920(93);										
+Start universe 2147934916(94);										
+Start universe 2147934912(85);										
+Start universe 2147934888(93);										
+Start universe 2147934876(94);										
+Start universe 2147934864(89);										
+Start universe 2147934840(93);										
+Start universe 2147934828(94);										
+Start universe 2147934816(86);										
+Start universe 2147934792(93);										
+Start universe 2147934780(94);										
+Start universe 2147934768(89);										
+Start universe 2147934744(93);										
+Start universe 2147934732(94);										
+Start universe 2147934720(70);										
+Start universe 2147934712(92);										
+Start universe 2147934708(93);										
+Start universe 2147934704(88);										
+Start universe 2147934696(92);										
+Start universe 2147934692(93);										
+Start universe 2147934688(85);										
+Start universe 2147934680(92);										
+Start universe 2147934676(93);										
+Start universe 2147934672(88);										
+Start universe 2147934664(92);										
+Start universe 2147934660(93);										
+Start universe 2147934656(84);										
+Start universe 2147934632(93);										
+Start universe 2147934620(94);										
+Start universe 2147934608(89);										
+Start universe 2147934584(93);										
+Start universe 2147934572(94);										
+Start universe 2147934560(86);										
+Start universe 2147934536(93);										
+Start universe 2147934524(94);										
+Start universe 2147934512(89);										
+Start universe 2147934488(93);										
+Start universe 2147934476(94);										
+Start universe 2147934464(71);										
+Start universe 2147934456(93);										
+Start universe 2147934452(94);										
+Start universe 2147934448(89);										
+Start universe 2147934440(93);										
+Start universe 2147934436(94);										
+Start universe 2147934432(86);										
+Start universe 2147934424(93);										
+Start universe 2147934420(94);										
+Start universe 2147934416(89);										
+Start universe 2147934408(93);										
+Start universe 2147934404(94);										
+Start universe 2147934400(85);										
+Start universe 2147934376(93);										
+Start universe 2147934364(94);										
+Start universe 2147934352(89);										
+Start universe 2147934328(93);										
+Start universe 2147934316(94);										
+Start universe 2147934304(86);										
+Start universe 2147934280(91);										
+Start universe 2147934268(92);										
+Start universe 2147934256(87);										
+Start universe 2147934232(89);										
+Start universe 2147934220(90);										
+Start universe 2147934208(58);										
+Start universe 2147931648(69);										
+Start universe 2147931328(74);										
+Start universe 2147931008(71);										
+Start universe 2147930688(74);										
+Start universe 2147930368(70);										
+Start universe 2147930208(76);										
+Start universe 2147930048(73);										
+Start universe 2147929888(76);										
+Start universe 2147929728(71);										
+Start universe 2147929568(75);										
+Start universe 2147929408(72);										
+Start universe 2147929248(72);										
+Start universe 2147929088(64);										
+Start universe 2147926528(69);										
+Start universe 2147926208(74);										
+Start universe 2147925888(71);										
+Start universe 2147925568(74);										
+Start universe 2147925248(70);										
+Start universe 2147925088(76);										
+Start universe 2147924928(73);										
+Start universe 2147924768(76);										
+Start universe 2147924608(71);										
+Start universe 2147924448(75);										
+Start universe 2147924288(72);										
+Start universe 2147924128(72);										
+Start universe 2147923968(62);										
+Start universe 2147921408(69);										
+Start universe 2147921088(74);										
+Start universe 2147920768(71);										
+Start universe 2147920448(74);										
+Start universe 2147920128(70);										
+Start universe 2147919968(76);										
+Start universe 2147919808(73);										
+Start universe 2147919648(76);										
+Start universe 2147919488(71);										
+Start universe 2147919328(75);										
+Start universe 2147919168(72);										
+Start universe 2147919008(72);										
+Start universe 2147918848(64);										
+Start universe 2147916288(69);										
+Start universe 2147915968(74);										
+Start universe 2147915648(71);										
+Start universe 2147915328(74);										
+Start universe 2147915008(70);										
+Start universe 2147914848(76);										
+Start universe 2147914688(73);										
+Start universe 2147914528(76);										
+Start universe 2147914368(71);										
+Start universe 2147914208(75);										
+Start universe 2147914048(72);										
+Start universe 2147913888(72);										
+Start universe 2147913728(59);										
+Start universe 2147911168(67);										
+Start universe 2147910848(72);										
+Start universe 2147910528(69);										
+Start universe 2147910208(72);										
+Start universe 2147909888(68);										
+Start universe 2147909728(74);										
+Start universe 2147909568(71);										
+Start universe 2147909408(74);										
+Start universe 2147909248(69);										
+Start universe 2147909088(73);										
+Start universe 2147908928(70);										
+Start universe 2147908768(70);										
+Start universe 2147908608(62);										
+Start universe 2147906048(67);										
+Start universe 2147905728(72);										
+Start universe 2147905408(69);										
+Start universe 2147905088(72);										
+Start universe 2147904768(68);										
+Start universe 2147904608(74);										
+Start universe 2147904448(71);										
+Start universe 2147904288(74);										
+Start universe 2147904128(69);										
+Start universe 2147903968(73);										
+Start universe 2147903808(70);										
+Start universe 2147903648(70);										
+Start universe 2147903488(60);										
+Start universe 2147900928(66);										
+Start universe 2147900608(71);										
+Start universe 2147900288(68);										
+Start universe 2147899968(71);										
+Start universe 2147899648(67);										
+Start universe 2147899488(73);										
+Start universe 2147899328(70);										
+Start universe 2147899168(73);										
+Start universe 2147899008(68);										
+Start universe 2147898848(72);										
+Start universe 2147898688(69);										
+Start universe 2147898528(69);										
+Start universe 2147898368(61);										
+Start universe 2147895808(61);										
+Start universe 2147895488(66);										
+Start universe 2147895168(63);										
+Start universe 2147894848(66);										
+Start universe 2147894528(62);										
+Start universe 2147894368(68);										
+Start universe 2147894208(65);										
+Start universe 2147894048(68);										
+Start universe 2147893888(63);										
+Start universe 2147893728(67);										
+Start universe 2147893568(64);										
+Start universe 2147893408(64);										
+Start universe 2147893248(38);										
+Start universe 2147892352(61);										
+Start universe 2147891904(62);										
+Start universe 2147891456(58);										
+Start universe 2147890560(61);										
+Start universe 2147890112(62);										
+Start universe 2147889664(55);										
+Start universe 2147888768(62);										
+Start universe 2147888320(63);										
+Start universe 2147887872(59);										
+Start universe 2147886976(62);										
+Start universe 2147886528(63);										
+Start universe 2147886080(50);										
+Start universe 2147885696(67);										
+Start universe 2147885504(68);										
+Start universe 2147885312(64);										
+Start universe 2147884928(67);										
+Start universe 2147884736(68);										
+Start universe 2147884544(60);										
+Start universe 2147884160(67);										
+Start universe 2147883968(68);										
+Start universe 2147883776(64);										
+Start universe 2147883392(67);										
+Start universe 2147883200(68);										
+Start universe 2147883008(50);										
+Start universe 2147882912(73);										
+Start universe 2147882864(74);										
+Start universe 2147882816(70);										
+Start universe 2147882720(75);										
+Start universe 2147882672(76);										
+Start universe 2147882624(66);										
+Start universe 2147882080(85);										
+Start universe 2147881808(86);										
+Start universe 2147881536(80);										
+Start universe 2147880992(85);										
+Start universe 2147880720(86);										
+Start universe 2147880448(61);										
+Start universe 2147880352(84);										
+Start universe 2147880304(85);										
+Start universe 2147880256(79);										
+Start universe 2147880160(84);										
+Start universe 2147880112(85);										
+Start universe 2147880064(73);										
+Start universe 2147879520(82);										
+Start universe 2147879248(83);										
+Start universe 2147878976(77);										
+Start universe 2147878432(81);										
+Start universe 2147878160(82);										
+Start universe 2147877888(42);										
+Start universe 2147877880(64);										
+Start universe 2147877876(65);										
+Start universe 2147877872(60);										
+Start universe 2147877864(64);										
+Start universe 2147877860(65);										
+Start universe 2147877856(57);										
+Start universe 2147877848(64);										
+Start universe 2147877844(65);										
+Start universe 2147877840(60);										
+Start universe 2147877832(64);										
+Start universe 2147877828(65);										
+Start universe 2147877824(56);										
+Start universe 2147877800(66);										
+Start universe 2147877788(67);										
+Start universe 2147877776(62);										
+Start universe 2147877752(66);										
+Start universe 2147877740(67);										
+Start universe 2147877728(59);										
+Start universe 2147877704(66);										
+Start universe 2147877692(67);										
+Start universe 2147877680(62);										
+Start universe 2147877656(66);										
+Start universe 2147877644(67);										
+Start universe 2147877632(44);										
+Start universe 2147877624(66);										
+Start universe 2147877620(67);										
+Start universe 2147877616(62);										
+Start universe 2147877608(66);										
+Start universe 2147877604(67);										
+Start universe 2147877600(59);										
+Start universe 2147877592(66);										
+Start universe 2147877588(67);										
+Start universe 2147877584(62);										
+Start universe 2147877576(66);										
+Start universe 2147877572(67);										
+Start universe 2147877568(58);										
+Start universe 2147877544(66);										
+Start universe 2147877532(67);										
+Start universe 2147877520(62);										
+Start universe 2147877496(66);										
+Start universe 2147877484(67);										
+Start universe 2147877472(59);										
+Start universe 2147877448(66);										
+Start universe 2147877436(67);										
+Start universe 2147877424(62);										
+Start universe 2147877400(66);										
+Start universe 2147877388(67);										
+Start universe 2147877376(43);										
+Start universe 2147877368(65);										
+Start universe 2147877364(66);										
+Start universe 2147877360(61);										
+Start universe 2147877352(65);										
+Start universe 2147877348(66);										
+Start universe 2147877344(58);										
+Start universe 2147877336(65);										
+Start universe 2147877332(66);										
+Start universe 2147877328(61);										
+Start universe 2147877320(65);										
+Start universe 2147877316(66);										
+Start universe 2147877312(57);										
+Start universe 2147877288(66);										
+Start universe 2147877276(67);										
+Start universe 2147877264(62);										
+Start universe 2147877240(66);										
+Start universe 2147877228(67);										
+Start universe 2147877216(59);										
+Start universe 2147877192(66);										
+Start universe 2147877180(67);										
+Start universe 2147877168(62);										
+Start universe 2147877144(66);										
+Start universe 2147877132(67);										
+Start universe 2147877120(44);										
+Start universe 2147877112(66);										
+Start universe 2147877108(67);										
+Start universe 2147877104(62);										
+Start universe 2147877096(66);										
+Start universe 2147877092(67);										
+Start universe 2147877088(59);										
+Start universe 2147877080(66);										
+Start universe 2147877076(67);										
+Start universe 2147877072(62);										
+Start universe 2147877064(66);										
+Start universe 2147877060(67);										
+Start universe 2147877056(58);										
+Start universe 2147877032(66);										
+Start universe 2147877020(67);										
+Start universe 2147877008(62);										
+Start universe 2147876984(66);										
+Start universe 2147876972(67);										
+Start universe 2147876960(59);										
+Start universe 2147876936(64);										
+Start universe 2147876924(65);										
+Start universe 2147876912(60);										
+Start universe 2147876888(61);										
+Start universe 2147876876(62);										
+Start universe 2147876864(20);										
+Start universe 4476928(53);										
+Found attractor. State count 1;										
+Start universe 282624(36);										
+Start universe 281344(48);										
+Start universe 281184(54);										
+Start universe 281024(50);										
+Start universe 280864(54);										
+Start universe 280704(49);										
+Start universe 280624(56);										
+Start universe 280544(52);										
+Start universe 280464(56);										
+Start universe 280384(50);										
+Start universe 280304(55);										
+Start universe 280224(51);										
+Start universe 280144(52);										
+Start universe 280064(42);										
+Start universe 278784(48);										
+Start universe 278624(54);										
+Start universe 278464(50);										
+Start universe 278304(54);										
+Start universe 278144(49);										
+Start universe 278064(56);										
+Start universe 277984(52);										
+Start universe 277904(56);										
+Start universe 277824(50);										
+Start universe 277744(55);										
+Start universe 277664(51);										
+Start universe 277584(52);										
+Start universe 277504(40);										
+Start universe 276224(48);										
+Start universe 276064(54);										
+Start universe 275904(50);										
+Start universe 275744(54);										
+Start universe 275584(49);										
+Start universe 275504(56);										
+Start universe 275424(52);										
+Start universe 275344(56);										
+Start universe 275264(50);										
+Start universe 275184(55);										
+Start universe 275104(51);										
+Start universe 275024(52);										
+Start universe 274944(42);										
+Start universe 273664(48);										
+Start universe 273504(54);										
+Start universe 273344(50);										
+Start universe 273184(54);										
+Start universe 273024(49);										
+Start universe 272944(56);										
+Start universe 272864(52);										
+Start universe 272784(56);										
+Start universe 272704(50);										
+Start universe 272624(55);										
+Start universe 272544(51);										
+Start universe 272464(52);										
+Start universe 272384(37);										
+Start universe 271104(46);										
+Start universe 270944(52);										
+Start universe 270784(48);										
+Start universe 270624(52);										
+Start universe 270464(47);										
+Start universe 270384(54);										
+Start universe 270304(50);										
+Start universe 270224(54);										
+Start universe 270144(48);										
+Start universe 270064(53);										
+Start universe 269984(49);										
+Start universe 269904(50);										
+Start universe 269824(40);										
+Start universe 268544(46);										
+Start universe 268384(52);										
+Start universe 268224(48);										
+Start universe 268064(52);										
+Start universe 267904(47);										
+Start universe 267824(54);										
+Start universe 267744(50);										
+Start universe 267664(54);										
+Start universe 267584(48);										
+Start universe 267504(53);										
+Start universe 267424(49);										
+Start universe 267344(50);										
+Start universe 267264(38);										
+Start universe 265984(45);										
+Start universe 265824(51);										
+Start universe 265664(47);										
+Start universe 265504(51);										
+Start universe 265344(46);										
+Start universe 265264(53);										
+Start universe 265184(49);										
+Start universe 265104(53);										
+Start universe 265024(47);										
+Start universe 264944(52);										
+Start universe 264864(48);										
+Start universe 264784(49);										
+Start universe 264704(39);										
+Start universe 263424(40);										
+Start universe 263264(46);										
+Start universe 263104(42);										
+Start universe 262944(46);										
+Start universe 262784(41);										
+Start universe 262704(48);										
+Start universe 262624(44);										
+Start universe 262544(48);										
+Start universe 262464(42);										
+Start universe 262384(47);										
+Start universe 262304(43);										
+Start universe 262224(44);										
+Found attractor. State count 1;										
+Start universe 262144(17);										
+Start universe 259072(50);										
+Start universe 258944(56);										
+Start universe 258880(58);										
+Start universe 258848(76);										
+Start universe 258720(80);										
+Start universe 258656(75);										
+Start universe 258624(74);										
+Start universe 258560(83);										
+Start universe 258528(79);										
+Start universe 258512(80);										
+Start universe 258448(84);										
+Start universe 258416(78);										
+Start universe 258400(76);										
+Start universe 258336(81);										
+Start universe 258304(77);										
+Start universe 258288(78);										
+Start universe 258224(79);										
+Start universe 258192(71);										
+Start universe 258176(54);										
+Start universe 255104(71);										
+Start universe 254976(77);										
+Start universe 254912(73);										
+Start universe 254880(77);										
+Start universe 254752(81);										
+Start universe 254688(76);										
+Start universe 254656(75);										
+Start universe 254592(84);										
+Start universe 254560(80);										
+Start universe 254544(81);										
+Start universe 254480(85);										
+Start universe 254448(79);										
+Start universe 254432(77);										
+Start universe 254368(82);										
+Start universe 254336(78);										
+Start universe 254320(79);										
+Start universe 254256(80);										
+Start universe 254224(69);										
+Start universe 254208(52);										
+Start universe 252160(59);										
+Start universe 251904(65);										
+Start universe 251616(66);										
+Start universe 251360(70);										
+Start universe 251072(64);										
+Start universe 250944(71);										
+Start universe 250800(70);										
+Start universe 250672(74);										
+Start universe 250528(66);										
+Start universe 250400(71);										
+Start universe 250256(68);										
+Start universe 250128(69);										
+Start universe 249984(54);										
+Start universe 247936(60);										
+Start universe 247680(66);										
+Start universe 247392(64);										
+Start universe 247136(68);										
+Start universe 246848(62);										
+Start universe 246720(69);										
+Start universe 246576(68);										
+Start universe 246448(72);										
+Start universe 246304(64);										
+Start universe 246176(69);										
+Start universe 246032(66);										
+Start universe 245904(67);										
+Start universe 245760(30);										
+Start universe 242688(50);										
+Start universe 242560(56);										
+Start universe 242496(58);										
+Start universe 242464(76);										
+Start universe 242336(80);										
+Start universe 242272(75);										
+Start universe 242240(74);										
+Start universe 242176(83);										
+Start universe 242144(79);										
+Start universe 242128(80);										
+Start universe 242064(84);										
+Start universe 242032(78);										
+Start universe 242016(76);										
+Start universe 241952(81);										
+Start universe 241920(77);										
+Start universe 241904(78);										
+Start universe 241840(79);										
+Start universe 241808(71);										
+Start universe 241792(54);										
+Start universe 238720(71);										
+Start universe 238592(77);										
+Start universe 238528(73);										
+Start universe 238496(77);										
+Start universe 238368(81);										
+Start universe 238304(76);										
+Start universe 238272(75);										
+Start universe 238208(84);										
+Start universe 238176(80);										
+Start universe 238160(81);										
+Start universe 238096(85);										
+Start universe 238064(79);										
+Start universe 238048(77);										
+Start universe 237984(82);										
+Start universe 237952(78);										
+Start universe 237936(79);										
+Start universe 237872(80);										
+Start universe 237840(69);										
+Start universe 237824(52);										
+Start universe 235776(59);										
+Start universe 235520(65);										
+Start universe 235232(66);										
+Start universe 234976(70);										
+Start universe 234688(64);										
+Start universe 234560(71);										
+Start universe 234416(70);										
+Start universe 234288(74);										
+Start universe 234144(66);										
+Start universe 234016(71);										
+Start universe 233872(68);										
+Start universe 233744(69);										
+Start universe 233600(54);										
+Start universe 231552(60);										
+Start universe 231296(66);										
+Start universe 231008(64);										
+Start universe 230752(68);										
+Start universe 230464(62);										
+Start universe 230336(69);										
+Start universe 230192(68);										
+Start universe 230064(72);										
+Start universe 229920(64);										
+Start universe 229792(69);										
+Start universe 229648(66);										
+Start universe 229520(67);										
+Start universe 229376(27);										
+Start universe 226304(50);										
+Start universe 226176(56);										
+Start universe 226112(58);										
+Start universe 226080(76);										
+Start universe 225952(80);										
+Start universe 225888(75);										
+Start universe 225856(74);										
+Start universe 225792(83);										
+Start universe 225760(79);										
+Start universe 225744(80);										
+Start universe 225680(84);										
+Start universe 225648(78);										
+Start universe 225632(76);										
+Start universe 225568(81);										
+Start universe 225536(77);										
+Start universe 225520(78);										
+Start universe 225456(79);										
+Start universe 225424(71);										
+Start universe 225408(54);										
+Start universe 222336(71);										
+Start universe 222208(77);										
+Start universe 222144(73);										
+Start universe 222112(77);										
+Start universe 221984(81);										
+Start universe 221920(76);										
+Start universe 221888(75);										
+Start universe 221824(84);										
+Start universe 221792(80);										
+Start universe 221776(81);										
+Start universe 221712(85);										
+Start universe 221680(79);										
+Start universe 221664(77);										
+Start universe 221600(82);										
+Start universe 221568(78);										
+Start universe 221552(79);										
+Start universe 221488(80);										
+Start universe 221456(69);										
+Start universe 221440(52);										
+Start universe 219392(59);										
+Start universe 219136(65);										
+Start universe 218848(66);										
+Start universe 218592(70);										
+Start universe 218304(64);										
+Start universe 218176(71);										
+Start universe 218032(70);										
+Start universe 217904(74);										
+Start universe 217760(66);										
+Start universe 217632(71);										
+Start universe 217488(68);										
+Start universe 217360(69);										
+Start universe 217216(54);										
+Start universe 215168(60);										
+Start universe 214912(66);										
+Start universe 214624(64);										
+Start universe 214368(68);										
+Start universe 214080(62);										
+Start universe 213952(69);										
+Start universe 213808(68);										
+Start universe 213680(72);										
+Start universe 213536(64);										
+Start universe 213408(69);										
+Start universe 213264(66);										
+Start universe 213136(67);										
+Start universe 212992(30);										
+Start universe 209920(50);										
+Start universe 209792(56);										
+Start universe 209728(58);										
+Start universe 209696(76);										
+Start universe 209568(80);										
+Start universe 209504(75);										
+Start universe 209472(74);										
+Start universe 209408(83);										
+Start universe 209376(79);										
+Start universe 209360(80);										
+Start universe 209296(84);										
+Start universe 209264(78);										
+Start universe 209248(76);										
+Start universe 209184(81);										
+Start universe 209152(77);										
+Start universe 209136(78);										
+Start universe 209072(79);										
+Start universe 209040(71);										
+Start universe 209024(54);										
+Start universe 205952(71);										
+Start universe 205824(77);										
+Start universe 205760(73);										
+Start universe 205728(77);										
+Start universe 205600(81);										
+Start universe 205536(76);										
+Start universe 205504(75);										
+Start universe 205440(84);										
+Start universe 205408(80);										
+Start universe 205392(81);										
+Start universe 205328(85);										
+Start universe 205296(79);										
+Start universe 205280(77);										
+Start universe 205216(82);										
+Start universe 205184(78);										
+Start universe 205168(79);										
+Start universe 205104(80);										
+Start universe 205072(69);										
+Start universe 205056(52);										
+Start universe 203008(59);										
+Start universe 202752(65);										
+Start universe 202464(66);										
+Start universe 202208(70);										
+Start universe 201920(64);										
+Start universe 201792(71);										
+Start universe 201648(70);										
+Start universe 201520(74);										
+Start universe 201376(66);										
+Start universe 201248(71);										
+Start universe 201104(68);										
+Start universe 200976(69);										
+Start universe 200832(54);										
+Start universe 198784(60);										
+Start universe 198528(66);										
+Start universe 198240(64);										
+Start universe 197984(68);										
+Start universe 197696(62);										
+Start universe 197568(69);										
+Start universe 197424(68);										
+Start universe 197296(72);										
+Start universe 197152(64);										
+Start universe 197024(69);										
+Start universe 196880(66);										
+Start universe 196752(67);										
+Start universe 196608(21);										
+Start universe 193024(51);										
+Start universe 192960(57);										
+Start universe 192928(59);										
+Start universe 192912(78);										
+Start universe 192848(82);										
+Start universe 192816(77);										
+Start universe 192800(76);										
+Start universe 192768(85);										
+Start universe 192752(81);										
+Start universe 192744(82);										
+Start universe 192712(86);										
+Start universe 192696(80);										
+Start universe 192688(78);										
+Start universe 192656(83);										
+Start universe 192640(79);										
+Start universe 192632(80);										
+Start universe 192600(81);										
+Start universe 192584(73);										
+Start universe 192576(55);										
+Start universe 188992(73);										
+Start universe 188928(79);										
+Start universe 188896(75);										
+Start universe 188880(79);										
+Start universe 188816(83);										
+Start universe 188784(78);										
+Start universe 188768(77);										
+Start universe 188736(86);										
+Start universe 188720(82);										
+Start universe 188712(83);										
+Start universe 188680(87);										
+Start universe 188664(81);										
+Start universe 188656(79);										
+Start universe 188624(84);										
+Start universe 188608(80);										
+Start universe 188600(81);										
+Start universe 188568(82);										
+Start universe 188552(71);										
+Start universe 188544(53);										
+Start universe 186496(60);										
+Start universe 186240(66);										
+Start universe 185968(67);										
+Start universe 185712(71);										
+Start universe 185440(65);										
+Start universe 185312(72);										
+Start universe 185176(71);										
+Start universe 185048(75);										
+Start universe 184912(67);										
+Start universe 184784(72);										
+Start universe 184648(69);										
+Start universe 184520(70);										
+Start universe 184384(55);										
+Start universe 182336(61);										
+Start universe 182080(67);										
+Start universe 181808(65);										
+Start universe 181552(69);										
+Start universe 181280(63);										
+Start universe 181152(70);										
+Start universe 181016(69);										
+Start universe 180888(73);										
+Start universe 180752(65);										
+Start universe 180624(70);										
+Start universe 180488(67);										
+Start universe 180360(68);										
+Start universe 180224(30);										
+Start universe 176640(51);										
+Start universe 176576(57);										
+Start universe 176544(59);										
+Start universe 176528(78);										
+Start universe 176464(82);										
+Start universe 176432(77);										
+Start universe 176416(76);										
+Start universe 176384(85);										
+Start universe 176368(81);										
+Start universe 176360(82);										
+Start universe 176328(86);										
+Start universe 176312(80);										
+Start universe 176304(78);										
+Start universe 176272(83);										
+Start universe 176256(79);										
+Start universe 176248(80);										
+Start universe 176216(81);										
+Start universe 176200(73);										
+Start universe 176192(55);										
+Start universe 172608(73);										
+Start universe 172544(79);										
+Start universe 172512(75);										
+Start universe 172496(79);										
+Start universe 172432(83);										
+Start universe 172400(78);										
+Start universe 172384(77);										
+Start universe 172352(86);										
+Start universe 172336(82);										
+Start universe 172328(83);										
+Start universe 172296(87);										
+Start universe 172280(81);										
+Start universe 172272(79);										
+Start universe 172240(84);										
+Start universe 172224(80);										
+Start universe 172216(81);										
+Start universe 172184(82);										
+Start universe 172168(71);										
+Start universe 172160(53);										
+Start universe 170112(60);										
+Start universe 169856(66);										
+Start universe 169584(67);										
+Start universe 169328(71);										
+Start universe 169056(65);										
+Start universe 168928(72);										
+Start universe 168792(71);										
+Start universe 168664(75);										
+Start universe 168528(67);										
+Start universe 168400(72);										
+Start universe 168264(69);										
+Start universe 168136(70);										
+Start universe 168000(55);										
+Start universe 165952(61);										
+Start universe 165696(67);										
+Start universe 165424(65);										
+Start universe 165168(69);										
+Start universe 164896(63);										
+Start universe 164768(70);										
+Start universe 164632(69);										
+Start universe 164504(73);										
+Start universe 164368(65);										
+Start universe 164240(70);										
+Start universe 164104(67);										
+Start universe 163976(68);										
+Start universe 163840(27);										
+Start universe 160256(51);										
+Start universe 160192(57);										
+Start universe 160160(59);										
+Start universe 160144(78);										
+Start universe 160080(82);										
+Start universe 160048(77);										
+Start universe 160032(76);										
+Start universe 160000(85);										
+Start universe 159984(81);										
+Start universe 159976(82);										
+Start universe 159944(86);										
+Start universe 159928(80);										
+Start universe 159920(78);										
+Start universe 159888(83);										
+Start universe 159872(79);										
+Start universe 159864(80);										
+Start universe 159832(81);										
+Start universe 159816(73);										
+Start universe 159808(55);										
+Start universe 156224(73);										
+Start universe 156160(79);										
+Start universe 156128(75);										
+Start universe 156112(79);										
+Start universe 156048(83);										
+Start universe 156016(78);										
+Start universe 156000(77);										
+Start universe 155968(86);										
+Start universe 155952(82);										
+Start universe 155944(83);										
+Start universe 155912(87);										
+Start universe 155896(81);										
+Start universe 155888(79);										
+Start universe 155856(84);										
+Start universe 155840(80);										
+Start universe 155832(81);										
+Start universe 155800(82);										
+Start universe 155784(71);										
+Start universe 155776(53);										
+Start universe 153728(60);										
+Start universe 153472(66);										
+Start universe 153200(67);										
+Start universe 152944(71);										
+Start universe 152672(65);										
+Start universe 152544(72);										
+Start universe 152408(71);										
+Start universe 152280(75);										
+Start universe 152144(67);										
+Start universe 152016(72);										
+Start universe 151880(69);										
+Start universe 151752(70);										
+Start universe 151616(55);										
+Start universe 149568(61);										
+Start universe 149312(67);										
+Start universe 149040(65);										
+Start universe 148784(69);										
+Start universe 148512(63);										
+Start universe 148384(70);										
+Start universe 148248(69);										
+Start universe 148120(73);										
+Start universe 147984(65);										
+Start universe 147856(70);										
+Start universe 147720(67);										
+Start universe 147592(68);										
+Start universe 147456(30);										
+Start universe 143872(51);										
+Start universe 143808(57);										
+Start universe 143776(59);										
+Start universe 143760(78);										
+Start universe 143696(82);										
+Start universe 143664(77);										
+Start universe 143648(76);										
+Start universe 143616(85);										
+Start universe 143600(81);										
+Start universe 143592(82);										
+Start universe 143560(86);										
+Start universe 143544(80);										
+Start universe 143536(78);										
+Start universe 143504(83);										
+Start universe 143488(79);										
+Start universe 143480(80);										
+Start universe 143448(81);										
+Start universe 143432(73);										
+Start universe 143424(55);										
+Start universe 139840(73);										
+Start universe 139776(79);										
+Start universe 139744(75);										
+Start universe 139728(79);										
+Start universe 139664(83);										
+Start universe 139632(78);										
+Start universe 139616(77);										
+Start universe 139584(86);										
+Start universe 139568(82);										
+Start universe 139560(83);										
+Start universe 139528(87);										
+Start universe 139512(81);										
+Start universe 139504(79);										
+Start universe 139472(84);										
+Start universe 139456(80);										
+Start universe 139448(81);										
+Start universe 139416(82);										
+Start universe 139400(71);										
+Start universe 139392(53);										
+Start universe 137344(60);										
+Start universe 137088(66);										
+Start universe 136816(67);										
+Start universe 136560(71);										
+Start universe 136288(65);										
+Start universe 136160(72);										
+Start universe 136024(71);										
+Start universe 135896(75);										
+Start universe 135760(67);										
+Start universe 135632(72);										
+Start universe 135496(69);										
+Start universe 135368(70);										
+Start universe 135232(55);										
+Start universe 133184(61);										
+Start universe 132928(67);										
+Start universe 132656(65);										
+Start universe 132400(69);										
+Start universe 132128(63);										
+Start universe 132000(70);										
+Start universe 131864(69);										
+Start universe 131736(73);										
+Start universe 131600(65);										
+Start universe 131472(70);										
+Start universe 131336(67);										
+Start universe 131208(68);										
+Start universe 131072(18);										
+Start universe 128000(48);										
+Start universe 127872(54);										
+Start universe 127808(56);										
+Start universe 127776(74);										
+Start universe 127648(78);										
+Start universe 127584(73);										
+Start universe 127552(72);										
+Start universe 127488(81);										
+Start universe 127456(77);										
+Start universe 127440(78);										
+Start universe 127376(82);										
+Start universe 127344(76);										
+Start universe 127328(74);										
+Start universe 127264(79);										
+Start universe 127232(75);										
+Start universe 127216(76);										
+Start universe 127152(77);										
+Start universe 127120(69);										
+Start universe 127104(52);										
+Start universe 124032(69);										
+Start universe 123904(75);										
+Start universe 123840(71);										
+Start universe 123808(75);										
+Start universe 123680(79);										
+Start universe 123616(74);										
+Start universe 123584(73);										
+Start universe 123520(82);										
+Start universe 123488(78);										
+Start universe 123472(79);										
+Start universe 123408(83);										
+Start universe 123376(77);										
+Start universe 123360(75);										
+Start universe 123296(80);										
+Start universe 123264(76);										
+Start universe 123248(77);										
+Start universe 123184(78);										
+Start universe 123152(67);										
+Start universe 123136(50);										
+Start universe 121088(57);										
+Start universe 120832(63);										
+Start universe 120544(64);										
+Start universe 120288(68);										
+Start universe 120000(62);										
+Start universe 119872(69);										
+Start universe 119728(68);										
+Start universe 119600(72);										
+Start universe 119456(64);										
+Start universe 119328(69);										
+Start universe 119184(66);										
+Start universe 119056(67);										
+Start universe 118912(52);										
+Start universe 116864(58);										
+Start universe 116608(64);										
+Start universe 116320(62);										
+Start universe 116064(66);										
+Start universe 115776(60);										
+Start universe 115648(67);										
+Start universe 115504(66);										
+Start universe 115376(70);										
+Start universe 115232(62);										
+Start universe 115104(67);										
+Start universe 114960(64);										
+Start universe 114832(65);										
+Start universe 114688(28);										
+Start universe 111616(48);										
+Start universe 111488(54);										
+Start universe 111424(56);										
+Start universe 111392(74);										
+Start universe 111264(78);										
+Start universe 111200(73);										
+Start universe 111168(72);										
+Start universe 111104(81);										
+Start universe 111072(77);										
+Start universe 111056(78);										
+Start universe 110992(82);										
+Start universe 110960(76);										
+Start universe 110944(74);										
+Start universe 110880(79);										
+Start universe 110848(75);										
+Start universe 110832(76);										
+Start universe 110768(77);										
+Start universe 110736(69);										
+Start universe 110720(52);										
+Start universe 107648(69);										
+Start universe 107520(75);										
+Start universe 107456(71);										
+Start universe 107424(75);										
+Start universe 107296(79);										
+Start universe 107232(74);										
+Start universe 107200(73);										
+Start universe 107136(82);										
+Start universe 107104(78);										
+Start universe 107088(79);										
+Start universe 107024(83);										
+Start universe 106992(77);										
+Start universe 106976(75);										
+Start universe 106912(80);										
+Start universe 106880(76);										
+Start universe 106864(77);										
+Start universe 106800(78);										
+Start universe 106768(67);										
+Start universe 106752(50);										
+Start universe 104704(57);										
+Start universe 104448(63);										
+Start universe 104160(64);										
+Start universe 103904(68);										
+Start universe 103616(62);										
+Start universe 103488(69);										
+Start universe 103344(68);										
+Start universe 103216(72);										
+Start universe 103072(64);										
+Start universe 102944(69);										
+Start universe 102800(66);										
+Start universe 102672(67);										
+Start universe 102528(52);										
+Start universe 100480(58);										
+Start universe 100224(64);										
+Start universe 99936(62);										
+Start universe 99680(66);										
+Start universe 99392(60);										
+Start universe 99264(67);										
+Start universe 99120(66);										
+Start universe 98992(70);										
+Start universe 98848(62);										
+Start universe 98720(67);										
+Start universe 98576(64);										
+Start universe 98448(65);										
+Start universe 98304(25);										
+Start universe 95232(48);										
+Start universe 95104(54);										
+Start universe 95040(56);										
+Start universe 95008(74);										
+Start universe 94880(78);										
+Start universe 94816(73);										
+Start universe 94784(72);										
+Start universe 94720(81);										
+Start universe 94688(77);										
+Start universe 94672(78);										
+Start universe 94608(82);										
+Start universe 94576(76);										
+Start universe 94560(74);										
+Start universe 94496(79);										
+Start universe 94464(75);										
+Start universe 94448(76);										
+Start universe 94384(77);										
+Start universe 94352(69);										
+Start universe 94336(52);										
+Start universe 91264(69);										
+Start universe 91136(75);										
+Start universe 91072(71);										
+Start universe 91040(75);										
+Start universe 90912(79);										
+Start universe 90848(74);										
+Start universe 90816(73);										
+Start universe 90752(82);										
+Start universe 90720(78);										
+Start universe 90704(79);										
+Start universe 90640(83);										
+Start universe 90608(77);										
+Start universe 90592(75);										
+Start universe 90528(80);										
+Start universe 90496(76);										
+Start universe 90480(77);										
+Start universe 90416(78);										
+Start universe 90384(67);										
+Start universe 90368(50);										
+Start universe 88320(57);										
+Start universe 88064(63);										
+Start universe 87776(64);										
+Start universe 87520(68);										
+Start universe 87232(62);										
+Start universe 87104(69);										
+Start universe 86960(68);										
+Start universe 86832(72);										
+Start universe 86688(64);										
+Start universe 86560(69);										
+Start universe 86416(66);										
+Start universe 86288(67);										
+Start universe 86144(52);										
+Start universe 84096(58);										
+Start universe 83840(64);										
+Start universe 83552(62);										
+Start universe 83296(66);										
+Start universe 83008(60);										
+Start universe 82880(67);										
+Start universe 82736(66);										
+Start universe 82608(70);										
+Start universe 82464(62);										
+Start universe 82336(67);										
+Start universe 82192(64);										
+Start universe 82064(65);										
+Start universe 81920(28);										
+Start universe 78848(48);										
+Start universe 78720(54);										
+Start universe 78656(56);										
+Start universe 78624(74);										
+Start universe 78496(78);										
+Start universe 78432(73);										
+Start universe 78400(72);										
+Start universe 78336(81);										
+Start universe 78304(77);										
+Start universe 78288(78);										
+Start universe 78224(82);										
+Start universe 78192(76);										
+Start universe 78176(74);										
+Start universe 78112(79);										
+Start universe 78080(75);										
+Start universe 78064(76);										
+Start universe 78000(77);										
+Start universe 77968(69);										
+Start universe 77952(52);										
+Start universe 74880(69);										
+Start universe 74752(75);										
+Start universe 74688(71);										
+Start universe 74656(75);										
+Start universe 74528(79);										
+Start universe 74464(74);										
+Start universe 74432(73);										
+Start universe 74368(82);										
+Start universe 74336(78);										
+Start universe 74320(79);										
+Start universe 74256(83);										
+Start universe 74224(77);										
+Start universe 74208(75);										
+Start universe 74144(80);										
+Start universe 74112(76);										
+Start universe 74096(77);										
+Start universe 74032(78);										
+Start universe 74000(67);										
+Start universe 73984(50);										
+Start universe 71936(57);										
+Start universe 71680(63);										
+Start universe 71392(64);										
+Start universe 71136(68);										
+Start universe 70848(62);										
+Start universe 70720(69);										
+Start universe 70576(68);										
+Start universe 70448(72);										
+Start universe 70304(64);										
+Start universe 70176(69);										
+Start universe 70032(66);										
+Start universe 69904(67);										
+Start universe 69760(52);										
+Start universe 67712(58);										
+Start universe 67456(64);										
+Start universe 67168(62);										
+Start universe 66912(66);										
+Start universe 66624(60);										
+Start universe 66496(67);										
+Start universe 66352(66);										
+Start universe 66224(70);										
+Start universe 66080(62);										
+Start universe 65952(67);										
+Start universe 65808(64);										
+Start universe 65680(65);										
+Start universe 65536(19);										
+Start universe 61952(44);										
+Start universe 61888(50);										
+Start universe 61856(52);										
+Start universe 61840(71);										
+Start universe 61776(75);										
+Start universe 61744(70);										
+Start universe 61728(69);										
+Start universe 61696(78);										
+Start universe 61680(74);										
+Start universe 61672(75);										
+Start universe 61640(79);										
+Start universe 61624(73);										
+Start universe 61616(71);										
+Start universe 61584(76);										
+Start universe 61568(72);										
+Start universe 61560(73);										
+Start universe 61528(74);										
+Start universe 61512(66);										
+Start universe 61504(48);										
+Start universe 57920(66);										
+Start universe 57856(72);										
+Start universe 57824(68);										
+Start universe 57808(72);										
+Start universe 57744(76);										
+Start universe 57712(71);										
+Start universe 57696(70);										
+Start universe 57664(79);										
+Start universe 57648(75);										
+Start universe 57640(76);										
+Start universe 57608(80);										
+Start universe 57592(74);										
+Start universe 57584(72);										
+Start universe 57552(77);										
+Start universe 57536(73);										
+Start universe 57528(74);										
+Start universe 57496(75);										
+Start universe 57480(64);										
+Start universe 57472(46);										
+Start universe 55424(53);										
+Start universe 55168(59);										
+Start universe 54896(60);										
+Start universe 54640(64);										
+Start universe 54368(58);										
+Start universe 54240(65);										
+Start universe 54104(64);										
+Start universe 53976(68);										
+Start universe 53840(60);										
+Start universe 53712(65);										
+Start universe 53576(62);										
+Start universe 53448(63);										
+Start universe 53312(48);										
+Start universe 51264(54);										
+Start universe 51008(60);										
+Start universe 50736(58);										
+Start universe 50480(62);										
+Start universe 50208(56);										
+Start universe 50080(63);										
+Start universe 49944(62);										
+Start universe 49816(66);										
+Start universe 49680(58);										
+Start universe 49552(63);										
+Start universe 49416(60);										
+Start universe 49288(61);										
+Start universe 49152(23);										
+Start universe 45568(44);										
+Start universe 45504(50);										
+Start universe 45472(52);										
+Start universe 45456(71);										
+Start universe 45392(75);										
+Start universe 45360(70);										
+Start universe 45344(69);										
+Start universe 45312(78);										
+Start universe 45296(74);										
+Start universe 45288(75);										
+Start universe 45256(79);										
+Start universe 45240(73);										
+Start universe 45232(71);										
+Start universe 45200(76);										
+Start universe 45184(72);										
+Start universe 45176(73);										
+Start universe 45144(74);										
+Start universe 45128(66);										
+Start universe 45120(48);										
+Start universe 41536(66);										
+Start universe 41472(72);										
+Start universe 41440(68);										
+Start universe 41424(72);										
+Start universe 41360(76);										
+Start universe 41328(71);										
+Start universe 41312(70);										
+Start universe 41280(79);										
+Start universe 41264(75);										
+Start universe 41256(76);										
+Start universe 41224(80);										
+Start universe 41208(74);										
+Start universe 41200(72);										
+Start universe 41168(77);										
+Start universe 41152(73);										
+Start universe 41144(74);										
+Start universe 41112(75);										
+Start universe 41096(64);										
+Start universe 41088(46);										
+Start universe 39040(53);										
+Start universe 38784(59);										
+Start universe 38512(60);										
+Start universe 38256(64);										
+Start universe 37984(58);										
+Start universe 37856(65);										
+Start universe 37720(64);										
+Start universe 37592(68);										
+Start universe 37456(60);										
+Start universe 37328(65);										
+Start universe 37192(62);										
+Start universe 37064(63);										
+Start universe 36928(48);										
+Start universe 34880(54);										
+Start universe 34624(60);										
+Start universe 34352(58);										
+Start universe 34096(62);										
+Start universe 33824(56);										
+Start universe 33696(63);										
+Start universe 33560(62);										
+Start universe 33432(66);										
+Start universe 33296(58);										
+Start universe 33168(63);										
+Start universe 33032(60);										
+Start universe 32904(61);										
+Start universe 32768(20);										
+Start universe 29184(42);										
+Start universe 29120(48);										
+Start universe 29088(50);										
+Start universe 29072(69);										
+Start universe 29008(73);										
+Start universe 28976(68);										
+Start universe 28960(67);										
+Start universe 28928(76);										
+Start universe 28912(72);										
+Start universe 28904(73);										
+Start universe 28872(77);										
+Start universe 28856(71);										
+Start universe 28848(69);										
+Start universe 28816(74);										
+Start universe 28800(70);										
+Start universe 28792(71);										
+Start universe 28760(72);										
+Start universe 28744(64);										
+Start universe 28736(46);										
+Start universe 25152(64);										
+Start universe 25088(70);										
+Start universe 25056(66);										
+Start universe 25040(70);										
+Start universe 24976(74);										
+Start universe 24944(69);										
+Start universe 24928(68);										
+Start universe 24896(77);										
+Start universe 24880(73);										
+Start universe 24872(74);										
+Start universe 24840(78);										
+Start universe 24824(72);										
+Start universe 24816(70);										
+Start universe 24784(75);										
+Start universe 24768(71);										
+Start universe 24760(72);										
+Start universe 24728(73);										
+Start universe 24712(62);										
+Start universe 24704(44);										
+Start universe 22656(51);										
+Start universe 22400(57);										
+Start universe 22128(58);										
+Start universe 21872(62);										
+Start universe 21600(56);										
+Start universe 21472(63);										
+Start universe 21336(62);										
+Start universe 21208(66);										
+Start universe 21072(58);										
+Start universe 20944(63);										
+Start universe 20808(60);										
+Start universe 20680(61);										
+Start universe 20544(46);										
+Start universe 18496(52);										
+Start universe 18240(58);										
+Start universe 17968(56);										
+Start universe 17712(60);										
+Start universe 17440(54);										
+Start universe 17312(61);										
+Start universe 17176(60);										
+Start universe 17048(64);										
+Start universe 16912(56);										
+Start universe 16784(61);										
+Start universe 16648(58);										
+Start universe 16520(59);										
+Start universe 16384(21);										
+Start universe 12800(42);										
+Start universe 12736(48);										
+Start universe 12704(50);										
+Start universe 12688(69);										
+Start universe 12624(73);										
+Start universe 12592(68);										
+Start universe 12576(67);										
+Start universe 12544(76);										
+Start universe 12528(72);										
+Start universe 12520(73);										
+Start universe 12488(77);										
+Start universe 12472(71);										
+Start universe 12464(69);										
+Start universe 12432(74);										
+Start universe 12416(70);										
+Start universe 12408(71);										
+Start universe 12376(72);										
+Start universe 12360(64);										
+Start universe 12352(46);										
+Start universe 8768(64);										
+Start universe 8704(70);										
+Start universe 8672(66);										
+Start universe 8656(70);										
+Start universe 8592(74);										
+Start universe 8560(69);										
+Start universe 8544(68);										
+Start universe 8512(77);										
+Start universe 8496(73);										
+Start universe 8488(74);										
+Start universe 8456(78);										
+Start universe 8440(72);										
+Start universe 8432(70);										
+Start universe 8400(75);										
+Start universe 8384(71);										
+Start universe 8376(72);										
+Start universe 8344(73);										
+Start universe 8328(62);										
+Start universe 8320(44);										
+Start universe 6272(51);										
+Start universe 6016(57);										
+Start universe 5744(58);										
+Start universe 5488(62);										
+Start universe 5216(56);										
+Start universe 5088(63);										
+Start universe 4952(62);										
+Start universe 4824(66);										
+Start universe 4688(58);										
+Start universe 4560(63);										
+Start universe 4424(60);										
+Start universe 4296(61);										
+Start universe 4160(46);										
+Start universe 2112(47);										
+Start universe 1856(53);										
+Start universe 1584(51);										
+Start universe 1328(55);										
+Start universe 1056(49);										
+Start universe 928(56);										
+Start universe 792(55);										
+Start universe 664(59);										
+Start universe 528(51);										
+Start universe 400(56);										
+Start universe 264(53);										
+Start universe 136(54);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+Attractor #4: 1;										
+Attractor #5: 1;										
+real 10.12
+user 10.11
+sys 0.00

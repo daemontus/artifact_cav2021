@@ -1,0 +1,60 @@
+Reducing VariableId(0). Remaining: 1024;										
+Eliminated bottom basin 768.;										
+Variable eliminated. 9 remaining.;										
+Reducing VariableId(1). Remaining: 256;										
+Variable eliminated. 8 remaining.;										
+Reducing VariableId(2). Remaining: 256;										
+Variable eliminated. 7 remaining.;										
+Reducing VariableId(3). Remaining: 256;										
+Eliminated bottom basin 64.;										
+Variable eliminated. 6 remaining.;										
+Reducing VariableId(4). Remaining: 192;										
+Eliminated bottom basin 96.;										
+Variable eliminated. 5 remaining.;										
+Reducing VariableId(5). Remaining: 96;										
+Eliminated bottom basin 56.;										
+Variable eliminated. 4 remaining.;										
+Reducing VariableId(6). Remaining: 40;										
+Eliminated bottom basin 20.;										
+Variable eliminated. 3 remaining.;										
+Reducing VariableId(7). Remaining: 20;										
+Eliminated bottom basin 4.;										
+Variable eliminated. 2 remaining.;										
+Reducing VariableId(8). Remaining: 16;										
+Variable eliminated. 1 remaining.;										
+Reducing VariableId(9). Remaining: 16;										
+Eliminated bottom basin 6.;										
+Variable eliminated. 0 remaining.;										
+Start universe 10(35);										
+Found attractor. State count 1;										
+Start universe 9(31);										
+Found attractor. State count 1;										
+Start universe 8(33);										
+Found attractor. State count 1;										
+Start universe 7(32);										
+Found attractor. State count 1;										
+Start universe 6(30);										
+Found attractor. State count 1;										
+Start universe 5(24);										
+Found attractor. State count 1;										
+Start universe 4(21);										
+Found attractor. State count 1;										
+Start universe 3(21);										
+Found attractor. State count 1;										
+Start universe 2(15);										
+Found attractor. State count 1;										
+Start universe 1(12);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+Attractor #4: 1;										
+Attractor #5: 1;										
+Attractor #6: 1;										
+Attractor #7: 1;										
+Attractor #8: 1;										
+Attractor #9: 1;										
+Attractor #10: 1;										
+real 0.00
+user 0.00
+sys 0.00

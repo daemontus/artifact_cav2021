@@ -1,0 +1,25 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v28]__[r45]__[DEATH-RECEPTOR-SIGNALING]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v28]__[r45]__[DEATH-RECEPTOR-SIGNALING]__[cellcollective].bnet -> benchmarks_real_life/[v28]__[r45]__[DEATH-RECEPTOR-SIGNALING]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 29 nodes 1 leaves 1 minterms
+0-1-0-1-1-0-1-0-0-0-1-1-0-1-1-0-0-0-0-0-0-0-1-1-1-1-1-1-  1
+
+======================== find attractor #2 : 1 states ========================
+: 29 nodes 1 leaves 1 minterms
+1-0-1-0-0-1-0-1-1-1-0-0-1-1-1-1-0-0-1-1-1-0-0-0-1-1-1-1-  1
+
+======================== find attractor #3 : 1 states ========================
+: 29 nodes 1 leaves 1 minterms
+1-1-0-1-0-0-0-0-0-0-0-1-0-1-1-0-1-1-0-0-0-1-1-1-1-1-1-1-  1
+
+number of attractors = 3
+time for attractor detection=0.179 seconds
+real 0.21
+user 0.20
+sys 0.00

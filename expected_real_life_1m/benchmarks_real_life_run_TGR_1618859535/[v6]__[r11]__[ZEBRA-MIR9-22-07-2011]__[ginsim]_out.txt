@@ -1,0 +1,28 @@
+Reducing VariableId(0). Remaining: 64;										
+Eliminated bottom basin 54.;										
+Variable eliminated. 5 remaining.;										
+Reducing VariableId(1). Remaining: 10;										
+Eliminated reach basin 3.;										
+Eliminated bottom basin 3.;										
+Variable eliminated. 4 remaining.;										
+Reducing VariableId(2). Remaining: 4;										
+Variable eliminated. 3 remaining.;										
+Reducing VariableId(3). Remaining: 4;										
+Variable eliminated. 2 remaining.;										
+Reducing VariableId(4). Remaining: 4;										
+Variable eliminated. 1 remaining.;										
+Reducing VariableId(5). Remaining: 4;										
+Eliminated bottom basin 1.;										
+Variable eliminated. 0 remaining.;										
+Start universe 3(16);										
+Found attractor. State count 1;										
+Start universe 2(13);										
+Found attractor. State count 1;										
+Start universe 1(8);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+real 0.00
+user 0.00
+sys 0.00

@@ -1,0 +1,12 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v66]__[r128]__[IMMUNE-CHECKPOINT-NETWORK]__[DOI-10.3390-cancers12123600].bnet
+Convert the model format: benchmarks_real_life/[v66]__[r128]__[IMMUNE-CHECKPOINT-NETWORK]__[DOI-10.3390-cancers12123600].bnet -> benchmarks_real_life/[v66]__[r128]__[IMMUNE-CHECKPOINT-NETWORK]__[DOI-103390-cancers12123600].ispl
+Command terminated by signal 11
+real 8.89
+user 8.68
+sys 0.06

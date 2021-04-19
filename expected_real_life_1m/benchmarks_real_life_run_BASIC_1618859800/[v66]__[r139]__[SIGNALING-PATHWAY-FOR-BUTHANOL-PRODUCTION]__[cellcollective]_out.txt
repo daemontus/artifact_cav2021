@@ -1,0 +1,492 @@
+Start universe 73786976294838210000(2);										
+Start universe 73780779447304060000(48);										
+Start universe 73779230235420525000(56);										
+Start universe 73777681023536990000(54);										
+Start universe 73776906417595220000(65);										
+Start universe 73776131811653450000(57);										
+Start universe 73775744508682570000(65);										
+Start universe 73775357205711680000(60);										
+Start universe 73775163554226240000(67);										
+Start universe 73774969902740800000(63);										
+Start universe 73774921489869440000(116);										
+Start universe 73774873076998080000(112);										
+Start universe 73774824664126720000(116);										
+Start universe 73774776251255360000(96);										
+Start universe 73770909818616280000(110);										
+Start universe 73769960665203606000(121);										
+Start universe 73769011511790930000(112);										
+Start universe 73765893846570370000(209);										
+Start universe 73765845468058750000(112);										
+Start universe 73764979327773970000(210);										
+Start universe 73764966133634430000(116);										
+Start universe 73764099993349650000(191);										
+Start universe 73764086799210120000(101);										
+Start universe 73763629677250870000(124);										
+Start universe 73763172555291620000(116);										
+Start universe 73763034016826520000(183);										
+Start universe 73763031817803270000(116);										
+Start universe 73762581292913790000(216);										
+Start universe 73762574695844020000(120);										
+Start universe 73762124170954540000(196);										
+Start universe 73762117573884770000(104);										
+Start universe 73761874856692940000(208);										
+Start universe 73761871558158060000(114);										
+Start universe 73761628840966230000(203);										
+Start universe 73761625542431340000(109);										
+Start universe 73761556273198790000(173);										
+Start universe 73761555173687165000(109);										
+Start universe 73761347365989515000(205);										
+Start universe 73761344067454630000(111);										
+Start universe 73761136259756980000(201);										
+Start universe 73761132961222100000(107);										
+Start universe 73761011602626180000(211);										
+Start universe 73761009953358740000(115);										
+Start universe 73760888594762826000(171);										
+Start universe 73760886945495380000(90);										
+Start universe 73760856605846405000(164);										
+Start universe 73760856193529545000(107);										
+Start universe 73760825853880566000(160);										
+Start universe 73760825441563705000(103);										
+Start universe 73760795101914730000(163);										
+Start universe 73760794689597870000(106);										
+Start universe 73760764349948890000(116);										
+Start universe 73760763937632030000(74);										
+Start universe 73760729303015750000(114);										
+Start universe 73760728753259940000(75);										
+Start universe 73760624849411110000(152);										
+Start universe 73760623200143670000(78);										
+Start universe 73760519296294850000(144);										
+Start universe 73760517647027405000(70);										
+Start universe 73760508988373340000(95);										
+Start universe 73760508850934380000(72);										
+Start universe 73760482874972180000(118);										
+Start universe 73760482462655320000(76);										
+Start universe 73760456486693110000(116);										
+Start universe 73760456074376250000(74);										
+Start universe 73760447415722180000(97);										
+Start universe 73760447278283230000(74);										
+Start universe 73760421302321020000(118);										
+Start universe 73760420890004160000(76);										
+Start universe 73760394914041954000(102);										
+Start universe 73760394501725090000(60);										
+Start universe 73749223326147940000(117);										
+Start universe 73746487672498550000(128);										
+Start universe 73743752018849170000(116);										
+Start universe 73742423740083340000(134);										
+Start universe 73741095461317510000(123);										
+Start universe 73740470869993456000(141);										
+Start universe 73739846278669400000(129);										
+Start universe 73739573531066240000(142);										
+Start universe 73739300783463070000(126);										
+Start universe 73739252370591710000(151);										
+Start universe 73739203957720350000(147);										
+Start universe 73738672240769110000(138);										
+Start universe 73738228347309130000(64);										
+Start universe 73732686671266185000(122);										
+Start universe 73731323208128270000(130);										
+Start universe 73729959744990350000(123);										
+Start universe 73724348249959040000(314);										
+Start universe 73724264687075330000(232);										
+Start universe 73722914005760080000(338);										
+Start universe 73722892015527530000(248);										
+Start universe 73721541334212280000(224);										
+Start universe 73721519343979725000(156);										
+Start universe 73720859568283580000(254);										
+Start universe 73720199792587440000(246);										
+Start universe 73720197593564185000(241);										
+Start universe 73719535206527930000(350);										
+Start universe 73719524211411650000(257);										
+Start universe 73718861824375390000(225);										
+Start universe 73718850829259110000(154);										
+Start universe 73718541316735890000(239);										
+Start universe 73718535819177755000(182);										
+Start universe 73718226306654536000(236);										
+Start universe 73718220809096400000(171);										
+Start universe 73718219709584770000(170);										
+Start universe 73717910197061550000(246);										
+Start universe 73717904699503410000(185);										
+Start universe 73717595186980190000(233);										
+Start universe 73717589689422050000(166);										
+Start universe 73717452250468580000(246);										
+Start universe 73717449501689510000(187);										
+Start universe 73717312062736040000(239);										
+Start universe 73717309313956970000(174);										
+Start universe 73717283337994764000(202);										
+Start universe 73717282925677900000(197);										
+Start universe 73717256949715700000(200);										
+Start universe 73717256537398840000(195);										
+Start universe 73717056838599440000(242);										
+Start universe 73717055876526770000(204);										
+Start universe 73716856177727370000(225);										
+Start universe 73716855215654700000(184);										
+Start universe 73716854665898885000(185);										
+Start universe 73716717226945410000(270);										
+Start universe 73716714478166340000(203);										
+Start universe 73716577039212870000(249);										
+Start universe 73716574290433800000(162);										
+Start universe 73716574152994850000(164);										
+Start universe 73716548177032640000(174);										
+Start universe 73716547764715780000(173);										
+Start universe 73716521788753580000(172);										
+Start universe 73716521376436716000(170);										
+Start universe 73716521238997760000(151);										
+Start universe 73716322639709995000(211);										
+Start universe 73716321677637320000(154);										
+Start universe 73716123078349550000(141);										
+Start universe 73716122116276880000(89);										
+Start universe 73713023692509810000(150);										
+Start universe 73712249086568040000(158);										
+Start universe 73711474480626270000(156);										
+Start universe 73711087177655390000(167);										
+Start universe 73710699874684500000(159);										
+Start universe 73710506223199060000(167);										
+Start universe 73710312571713620000(162);										
+Start universe 73710215745970900000(169);										
+Start universe 73710118920228176000(161);										
+Start universe 73710094713792496000(192);										
+Start universe 73710070507356815000(188);										
+Start universe 73710046300921135000(192);										
+Start universe 73710022094485455000(172);										
+Start universe 73708088878165920000(186);										
+Start universe 73707614301459580000(197);										
+Start universe 73707139724753240000(188);										
+Start universe 73705580892142960000(248);										
+Start universe 73705556702887150000(188);										
+Start universe 73705123632744760000(249);										
+Start universe 73705117035674990000(192);										
+Start universe 73704683965532600000(230);										
+Start universe 73704677368462836000(177);										
+Start universe 73704448807483210000(200);										
+Start universe 73704220246503590000(192);										
+Start universe 73704150977271040000(238);										
+Start universe 73704149877759410000(192);										
+Start universe 73703924615314670000(255);										
+Start universe 73703921316779790000(196);										
+Start universe 73703696054335046000(235);										
+Start universe 73703692755800160000(180);										
+Start universe 73703571397204250000(247);										
+Start universe 73703569747936805000(190);										
+Start universe 73703448389340890000(242);										
+Start universe 73703446740073450000(185);										
+Start universe 73703412105457170000(228);										
+Start universe 73703411555701360000(185);										
+Start universe 73703307651852530000(244);										
+Start universe 73703306002585090000(187);										
+Start universe 73703202098736270000(240);										
+Start universe 73703200449468826000(183);										
+Start universe 73703139770170870000(250);										
+Start universe 73703138945537150000(191);										
+Start universe 73703078266239190000(208);										
+Start universe 73703077441605470000(154);										
+Start universe 73703062271780980000(219);										
+Start universe 73703062065622550000(171);										
+Start universe 73703046895798060000(215);										
+Start universe 73703046689639630000(167);										
+Start universe 73703031519815140000(218);										
+Start universe 73703031313656710000(170);										
+Start universe 73703016143832220000(169);										
+Start universe 73703015937673790000(137);										
+Start universe 73702998620365650000(165);										
+Start universe 73702998345487745000(138);										
+Start universe 73702946393563330000(187);										
+Start universe 73702945568929610000(141);										
+Start universe 73702893617005200000(179);										
+Start universe 73702892792371480000(133);										
+Start universe 73702888463044444000(155);										
+Start universe 73702888394324970000(135);										
+Start universe 73702875406343864000(171);										
+Start universe 73702875200185434000(139);										
+Start universe 73702862212204330000(169);										
+Start universe 73702862006045900000(137);										
+Start universe 73702857676718870000(157);										
+Start universe 73702857607999390000(137);										
+Start universe 73702844620018290000(171);										
+Start universe 73702844413859860000(139);										
+Start universe 73702831425878750000(155);										
+Start universe 73702831219720320000(123);										
+Start universe 73701669310807670000(284);										
+Start universe 73701378833579510000(292);										
+Start universe 73701088356351345000(289);										
+Start universe 73700943117737260000(300);										
+Start universe 73700797879123180000(292);										
+Start universe 73700725259816140000(300);										
+Start universe 73700652640509100000(295);										
+Start universe 73700616330855580000(302);										
+Start universe 73700580021202060000(290);										
+Start universe 73700570943788680000(313);										
+Start universe 73700561866375300000(309);										
+Start universe 73700552788961920000(313);										
+Start universe 73700543711548540000(293);										
+Start universe 73699818755428710000(307);										
+Start universe 73699640789163835000(318);										
+Start universe 73699462822898960000(309);										
+Start universe 73698878260670100000(378);										
+Start universe 73698869189699174000(307);										
+Start universe 73698706788395780000(379);										
+Start universe 73698704314494616000(311);										
+Start universe 73698541913191220000(360);										
+Start universe 73698539439290060000(296);										
+Start universe 73698453728922700000(319);										
+Start universe 73698368018555340000(311);										
+Start universe 73698342042593130000(368);										
+Start universe 73698341630276270000(311);										
+Start universe 73698257156859494000(385);										
+Start universe 73698255919908910000(315);										
+Start universe 73698171446492135000(365);										
+Start universe 73698170209541554000(299);										
+Start universe 73698124700068086000(377);										
+Start universe 73698124081592795000(309);										
+Start universe 73698078572119330000(372);										
+Start universe 73698077953644040000(304);										
+Start universe 73698064965662930000(358);										
+Start universe 73698064759504500000(304);										
+Start universe 73698025795561190000(374);										
+Start universe 73698025177085900000(306);										
+Start universe 73697986213142590000(370);										
+Start universe 73697985594667300000(302);										
+Start universe 73697962839930570000(380);										
+Start universe 73697962530692920000(310);										
+Start universe 73697939775956190000(327);										
+Start universe 73697939466718540000(262);										
+Start universe 73697933778034360000(338);										
+Start universe 73697933700724950000(279);										
+Start universe 73697928012040765000(334);										
+Start universe 73697927934731354000(275);										
+Start universe 73697922246047170000(337);										
+Start universe 73697922168737760000(278);										
+Start universe 73697916480053576000(277);										
+Start universe 73697916402744164000(240);										
+Start universe 73697909908753610000(273);										
+Start universe 73697909805674400000(241);										
+Start universe 73697890323702740000(295);										
+Start universe 73697890014465100000(244);										
+Start universe 73697870532493440000(279);										
+Start universe 73697870223255800000(228);										
+Start universe 73697868599758160000(255);										
+Start universe 73697868573988360000(230);										
+Start universe 73697863703495440000(271);										
+Start universe 73697863626186030000(234);										
+Start universe 73697858755693120000(269);										
+Start universe 73697858678383710000(232);										
+Start universe 73697857054886070000(257);										
+Start universe 73697857029116264000(232);										
+Start universe 73697852158623350000(271);										
+Start universe 73697852081313940000(234);										
+Start universe 73697847210821026000(253);										
+Start universe 73697847133511614000(216);										
+Start universe 73692261545723036000(340);										
+Start universe 73690893718898340000(351);										
+Start universe 73689525892073650000(339);										
+Start universe 73688861752690740000(357);										
+Start universe 73688197613307820000(346);										
+Start universe 73687885317645795000(364);										
+Start universe 73687573021983770000(352);										
+Start universe 73687436648182190000(365);										
+Start universe 73687300274380600000(349);										
+Start universe 73687276067944920000(377);										
+Start universe 73687251861509240000(373);										
+Start universe 73686986003033620000(364);										
+Start universe 73686764056303630000(224);										
+Start universe 73683993218282160000(351);										
+Start universe 73683311486713200000(359);										
+Start universe 73682629755144240000(352);										
+Start universe 73679824007628590000(646);										
+Start universe 73679782226186730000(474);										
+Start universe 73679106885529110000(669);										
+Start universe 73679095890412830000(490);										
+Start universe 73678420549755210000(445);										
+Start universe 73678409554638930000(322);										
+Start universe 73678079666790860000(494);										
+Start universe 73677749778942790000(486);										
+Start universe 73677748679431160000(481);										
+Start universe 73677417485913030000(679);										
+Start universe 73677411988354890000(497);										
+Start universe 73677080794836760000(446);										
+Start universe 73677075297278620000(320);										
+Start universe 73676920541017014000(460);										
+Start universe 73676917792237945000(347);										
+Start universe 73676763035976335000(456);										
+Start universe 73676760287197270000(335);										
+Start universe 73676759737441450000(334);										
+Start universe 73676604981179840000(466);										
+Start universe 73676602232400770000(349);										
+Start universe 73676447476139160000(453);										
+Start universe 73676444727360094000(330);										
+Start universe 73676376007883360000(466);										
+Start universe 73676374633493820000(351);										
+Start universe 73676305914017090000(459);										
+Start universe 73676304539627550000(338);										
+Start universe 73676291551646450000(366);										
+Start universe 73676291345488020000(361);										
+Start universe 73676278357506920000(364);										
+Start universe 73676278151348490000(359);										
+Start universe 73676178301948790000(434);										
+Start universe 73676177820912450000(368);										
+Start universe 73676077971512754000(416);										
+Start universe 73676077490476420000(347);										
+Start universe 73676077215598510000(348);										
+Start universe 73676008496121770000(489);										
+Start universe 73676007121732240000(366);										
+Start universe 73675938402255500000(466);										
+Start universe 73675937027865970000(321);										
+Start universe 73675936959146490000(323);										
+Start universe 73675923971165390000(333);										
+Start universe 73675923765006960000(332);										
+Start universe 73675910777025855000(331);										
+Start universe 73675910570867425000(329);										
+Start universe 73675910502147950000(293);										
+Start universe 73675811202504065000(398);										
+Start universe 73675810721467730000(296);										
+Start universe 73675711421823844000(313);										
+Start universe 73675710940787510000(216);										
+Start universe 73673616345366790000(318);										
+Start universe 73673103410307530000(329);										
+Start universe 73672590475248270000(317);										
+Start universe 73672341422979680000(335);										
+Start universe 73672092370711085000(324);										
+Start universe 73671975259837825000(342);										
+Start universe 73671858148964565000(330);										
+Start universe 73671807008788970000(343);										
+Start universe 73671755868613380000(327);										
+Start universe 73671746791200000000(350);										
+Start universe 73671737713786620000(346);										
+Start universe 73671638016858260000(337);										
+Start universe 73671554786834510000(228);										
+Start universe 73670515722576460000(321);										
+Start universe 73670260073238100000(329);										
+Start universe 73670004423899740000(322);										
+Start universe 73668952268581370000(497);										
+Start universe 73668936600540680000(377);										
+Start universe 73668683347794070000(520);										
+Start universe 73668679224625460000(393);										
+Start universe 73668425971878855000(364);										
+Start universe 73668421848710250000(273);										
+Start universe 73668298140767220000(397);										
+Start universe 73668174432824200000(389);										
+Start universe 73668174020507340000(384);										
+Start universe 73668049822938040000(530);										
+Start universe 73668047761353740000(400);										
+Start universe 73667923563784440000(365);										
+Start universe 73667921502200136000(271);										
+Start universe 73667863468602030000(379);										
+Start universe 73667862437809880000(298);										
+Start universe 73667804404211780000(375);										
+Start universe 73667803373419630000(286);										
+Start universe 73667803167261200000(285);										
+Start universe 73667745133663090000(385);										
+Start universe 73667744102870940000(300);										
+Start universe 73667686069272840000(372);										
+Start universe 73667685038480690000(281);										
+Start universe 73667659268676910000(385);										
+Start universe 73667658753280836000(302);										
+Start universe 73667632983477060000(378);										
+Start universe 73667632468080980000(289);										
+Start universe 73667627597588070000(317);										
+Start universe 73667627520278660000(312);										
+Start universe 73667622649785745000(315);										
+Start universe 73667622572476330000(310);										
+Start universe 73667585128951450000(369);										
+Start universe 73667584948562820000(319);										
+Start universe 73667547505037935000(351);										
+Start universe 73667547324649310000(298);										
+Start universe 73667547221570090000(299);										
+Start universe 73667521451766320000(408);										
+Start universe 73667520936370240000(317);										
+Start universe 73667495166566466000(384);										
+Start universe 73667494651170390000(270);										
+Start universe 73667494625400590000(272);										
+Start universe 73667489754907670000(282);										
+Start universe 73667489677598260000(281);										
+Start universe 73667484807105350000(280);										
+Start universe 73667484729795940000(278);										
+Start universe 73667484704026130000(253);										
+Start universe 73667447466659680000(331);										
+Start universe 73667447286271050000(256);										
+Start universe 73667410048904590000(227);										
+Start universe 73667409868515970000(161);										
+Start universe 73664311444748894000(261);										
+Start universe 73663536838807130000(269);										
+Start universe 73662762232865360000(267);										
+Start universe 73662374929894470000(278);										
+Start universe 73661987626923590000(270);										
+Start universe 73661793975438150000(278);										
+Start universe 73661600323952706000(273);										
+Start universe 73661503498209985000(280);										
+Start universe 73661406672467260000(272);										
+Start universe 73661382466031580000(303);										
+Start universe 73661358259595900000(299);										
+Start universe 73661334053160220000(303);										
+Start universe 73661309846724540000(283);										
+Start universe 73659376630405005000(297);										
+Start universe 73658902053698670000(308);										
+Start universe 73658427476992330000(299);										
+Start universe 73656868644382050000(372);										
+Start universe 73656844455126240000(299);										
+Start universe 73656411384983850000(373);										
+Start universe 73656404787914080000(303);										
+Start universe 73655971717771690000(354);										
+Start universe 73655965120701920000(288);										
+Start universe 73655736559722300000(311);										
+Start universe 73655507998742675000(303);										
+Start universe 73655438729510126000(362);										
+Start universe 73655437629998500000(303);										
+Start universe 73655212367553760000(379);										
+Start universe 73655209069018870000(307);										
+Start universe 73654983806574130000(359);										
+Start universe 73654980508039250000(291);										
+Start universe 73654859149443334000(371);										
+Start universe 73654857500175890000(301);										
+Start universe 73654736141579980000(366);										
+Start universe 73654734492312535000(296);										
+Start universe 73654699857696260000(352);										
+Start universe 73654699307940450000(296);										
+Start universe 73654595404091620000(368);										
+Start universe 73654593754824180000(298);										
+Start universe 73654489850975355000(364);										
+Start universe 73654488201707910000(294);										
+Start universe 73654427522409955000(374);										
+Start universe 73654426697776234000(302);										
+Start universe 73654366018478280000(319);										
+Start universe 73654365193844556000(252);										
+Start universe 73654350024020070000(330);										
+Start universe 73654349817861640000(269);										
+Start universe 73654334648037150000(326);										
+Start universe 73654334441878720000(265);										
+Start universe 73654319272054230000(329);										
+Start universe 73654319065895800000(268);										
+Start universe 73654303896071310000(267);										
+Start universe 73654303689912880000(229);										
+Start universe 73654286372604740000(263);										
+Start universe 73654286097726830000(230);										
+Start universe 73654234145802420000(285);										
+Start universe 73654233321168700000(233);										
+Start universe 73654181369244290000(277);										
+Start universe 73654180544610570000(225);										
+Start universe 73654176215283530000(253);										
+Start universe 73654176146564055000(227);										
+Start universe 73654163158582950000(269);										
+Start universe 73654162952424520000(231);										
+Start universe 73654149964443420000(267);										
+Start universe 73654149758284990000(229);										
+Start universe 73654145428957950000(255);										
+Start universe 73654145360238480000(229);										
+Start universe 73654132372257374000(269);										
+Start universe 73654132166098940000(231);										
+Start universe 73654119178117840000(253);										
+Start universe 73654118971959410000(215);										
+Start universe 73648533384170830000(304);										
+Start universe 73647165557346140000(315);										
+Start universe 73645797730521450000(303);										
+Start universe 73645133591138530000(321);										
+Start universe 73644469451755620000(310);										
+Start universe 73644157156093590000(328);										
+Start universe 73643844860431565000(316);										
+Start universe 73643708486629980000(329);										
+Start universe 73643572112828400000(313);										
+Start universe 73643547906392720000(338);										
+Start universe 73643523699957040000(334);										
+Start universe 73643257841481420000(325);										
+Start universe 73643035894751430000(219);										
+Start universe 73640265056729960000(309);										
+Start universe 73639583325161000000(317);										
+Start universe 73638901593592040000(310);										

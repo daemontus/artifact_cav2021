@@ -1,0 +1,9 @@
+Start universe 131072(2);										
+Start universe 98304(4);										
+Start universe 65632(20);										
+Start universe 32864(21);										
+Found attractor. State count 1344;										
+Attractor #1: 1344;										
+real 0.02
+user 0.02
+sys 0.00

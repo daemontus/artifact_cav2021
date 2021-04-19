@@ -1,0 +1,53 @@
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Compute FWD set basin.;										
+Remaining universe: 262128(16);										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 18;										
+Remaining processes: 17;										
+Remaining processes: 17;										
+Remaining processes: 17;										
+Remaining processes: 16;										
+Remaining processes: 15;										
+Compute BOTTOM set basin.;										
+Remaining processes: 14;										
+Remaining processes: 14;										
+Remaining processes: 13;										
+Remaining processes: 12;										
+Compute BOTTOM set basin.;										
+Remaining processes: 11;										
+Compute BOTTOM set basin.;										
+Remaining processes: 10;										
+Compute BOTTOM set basin.;										
+Remaining processes: 9;										
+Compute BOTTOM set basin.;										
+Remaining processes: 8;										
+Compute BOTTOM set basin.;										
+Remaining processes: 7;										
+Remaining processes: 6;										
+Compute BOTTOM set basin.;										
+Remaining processes: 5;										
+Remaining processes: 5;										
+Remaining processes: 4;										
+Compute BOTTOM set basin.;										
+Remaining processes: 3;										
+Remaining processes: 3;										
+Remaining processes: 2;										
+Remaining processes: 2;										
+Remaining processes: 1;										
+Compute BOTTOM set basin.;										
+Total iterations: 839;										
+Start universe 262128(16);										
+Found attractor. State count 237600;										
+Attractor #1: 237600 (using 35 nodes);										
+real 0.13
+user 0.13
+sys 0.00

@@ -1,0 +1,17 @@
+Start universe 65536(2);										
+Start universe 49408(11);										
+Found attractor. State count 2048;										
+Start universe 33024(11);										
+Found attractor. State count 1;										
+Start universe 32768(3);										
+Start universe 16640(11);										
+Found attractor. State count 15872;										
+Start universe 256(10);										
+Found attractor. State count 1;										
+Attractor #1: 2048;										
+Attractor #2: 1;										
+Attractor #3: 15872;										
+Attractor #4: 1;										
+real 0.02
+user 0.01
+sys 0.00

@@ -1,0 +1,97 @@
+Reducing VariableId(0). Remaining: 4096;										
+Eliminated bottom basin 3072.;										
+Variable eliminated. 11 remaining.;										
+Reducing VariableId(1). Remaining: 1024;										
+Eliminated bottom basin 512.;										
+Variable eliminated. 10 remaining.;										
+Reducing VariableId(2). Remaining: 512;										
+Eliminated bottom basin 256.;										
+Variable eliminated. 9 remaining.;										
+Reducing VariableId(3). Remaining: 256;										
+Variable eliminated. 8 remaining.;										
+Reducing VariableId(4). Remaining: 256;										
+Eliminated bottom basin 56.;										
+Variable eliminated. 7 remaining.;										
+Reducing VariableId(5). Remaining: 200;										
+Variable eliminated. 6 remaining.;										
+Reducing VariableId(6). Remaining: 200;										
+Variable eliminated. 5 remaining.;										
+Reducing VariableId(7). Remaining: 200;										
+Eliminated bottom basin 100.;										
+Variable eliminated. 4 remaining.;										
+Reducing VariableId(8). Remaining: 100;										
+Eliminated reach basin 4.;										
+Eliminated bottom basin 44.;										
+Variable eliminated. 3 remaining.;										
+Reducing VariableId(9). Remaining: 52;										
+Eliminated reach basin 4.;										
+Eliminated bottom basin 20.;										
+Variable eliminated. 2 remaining.;										
+Reducing VariableId(10). Remaining: 28;										
+Variable eliminated. 1 remaining.;										
+Reducing VariableId(11). Remaining: 28;										
+Eliminated bottom basin 8.;										
+Variable eliminated. 0 remaining.;										
+Start universe 20(18);										
+Found attractor. State count 1;										
+Start universe 19(26);										
+Found attractor. State count 1;										
+Start universe 18(22);										
+Found attractor. State count 1;										
+Start universe 17(26);										
+Found attractor. State count 1;										
+Start universe 16(20);										
+Found attractor. State count 1;										
+Start universe 15(26);										
+Found attractor. State count 1;										
+Start universe 14(22);										
+Found attractor. State count 1;										
+Start universe 13(26);										
+Found attractor. State count 1;										
+Start universe 12(19);										
+Found attractor. State count 1;										
+Start universe 11(26);										
+Found attractor. State count 1;										
+Start universe 10(22);										
+Found attractor. State count 1;										
+Start universe 9(26);										
+Found attractor. State count 1;										
+Start universe 8(20);										
+Found attractor. State count 1;										
+Start universe 7(25);										
+Found attractor. State count 1;										
+Start universe 6(21);										
+Found attractor. State count 1;										
+Start universe 5(22);										
+Found attractor. State count 1;										
+Start universe 4(12);										
+Found attractor. State count 1;										
+Start universe 3(17);										
+Found attractor. State count 1;										
+Start universe 2(13);										
+Found attractor. State count 1;										
+Start universe 1(14);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+Attractor #4: 1;										
+Attractor #5: 1;										
+Attractor #6: 1;										
+Attractor #7: 1;										
+Attractor #8: 1;										
+Attractor #9: 1;										
+Attractor #10: 1;										
+Attractor #11: 1;										
+Attractor #12: 1;										
+Attractor #13: 1;										
+Attractor #14: 1;										
+Attractor #15: 1;										
+Attractor #16: 1;										
+Attractor #17: 1;										
+Attractor #18: 1;										
+Attractor #19: 1;										
+Attractor #20: 1;										
+real 0.00
+user 0.00
+sys 0.00

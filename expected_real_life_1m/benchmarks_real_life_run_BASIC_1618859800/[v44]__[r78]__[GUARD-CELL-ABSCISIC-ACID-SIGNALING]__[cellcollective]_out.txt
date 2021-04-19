@@ -1,0 +1,57 @@
+Start universe 17592186044416(2);										
+Start universe 7035999221760(2570);										
+Start universe 6057845293056(1070);										
+Start universe 3185510608896(4088);										
+Start universe 2220315942912(1559);										
+Start universe 2220199634944(2007);										
+Start universe 2220085936128(965);										
+Start universe 2213357133824(2217);										
+Start universe 2209554595840(1067);										
+Start universe 2202825793536(872);										
+Found attractor. State count 6272;										
+Start universe 2199023255552(5);										
+Start universe 1450084130816(1205);										
+Start universe 1375193956352(505);										
+Start universe 1003972714496(1235);										
+Start universe 963307405312(544);										
+Start universe 759841169408(2226);										
+Start universe 689251581952(930);										
+Start universe 588619902976(2303);										
+Start universe 552252571648(872);										
+Start universe 414931230720(2132);										
+Start universe 277433270272(2133);										
+Start universe 208835420160(2299);										
+Start universe 140181372928(1008);										
+Start universe 105939548160(2542);										
+Start universe 71523512320(2284);										
+Start universe 37285902336(2408);										
+Start universe 2992898048(608);										
+Start universe 2984869888(1246);										
+Start universe 2976841728(626);										
+Start universe 2972827648(1282);										
+Start universe 2968813568(644);										
+Start universe 2966806528(1354);										
+Start universe 2964799488(1106);										
+Start universe 2962792448(1124);										
+Start universe 2960785408(398);										
+Start universe 2502377472(1197);										
+Start universe 2228617216(482);										
+Start universe 2001420288(1275);										
+Start universe 1862533120(542);										
+Start universe 1404125184(1407);										
+Start universe 1130364928(473);										
+Start universe 903168000(1176);										
+Start universe 764280832(443);										
+Start universe 671756288(1308);										
+Start universe 577224704(1242);										
+Start universe 482693120(1335);										
+Start universe 382140416(485);										
+Start universe 289615872(1338);										
+Start universe 195084288(1048);										
+Start universe 100552704(1009);										
+Found attractor. State count 6272;										
+Attractor #1: 6272;										
+Attractor #2: 6272;										
+real 17.03
+user 17.00
+sys 0.01

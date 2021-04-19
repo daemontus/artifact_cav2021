@@ -1,0 +1,23 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v23]__[r43]__[AURORA-KINASE-A-IN-NEUROBLASTOMA]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v23]__[r43]__[AURORA-KINASE-A-IN-NEUROBLASTOMA]__[cellcollective].bnet -> benchmarks_real_life/[v23]__[r43]__[AURORA-KINASE-A-IN-NEUROBLASTOMA]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 24 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-1-1-1-0-0-0-0-1-0-1-0-0-0-0-0-1-  1
+
+======================== find attractor #2 : 224 states ========================
+: 19 nodes 1 leaves 224 minterms
+0-1---1-0-1-1-0-0-0-0---1-1-0-1---------0---1-  1
+0-1---1-0-1-1-0-0-0-0-0-1-1-0-1---------1---1-  1
+0-1---1-0-1-1-0-0-0-0-1-1-1-0-1-------0-1---1-  1
+
+number of attractors = 2
+time for attractor detection=0.092 seconds
+real 0.10
+user 0.10
+sys 0.00

@@ -1,0 +1,20 @@
+Start universe 1180591620717411300000(2);										
+Start universe 886599476632954600000(1207);										
+Start universe 886599379870092900000(987);										
+Start universe 886599371073999900000(981);										
+Start universe 886598984045906900000(1009);										
+Start universe 886598227581907000000(967);										
+Start universe 886598136872197700000(968);										
+Start universe 886598108284895400000(991);										
+Start universe 886598079697593000000(916);										
+Start universe 886598071451255800000(901);										
+Start universe 886598068152721000000(913);										
+Start universe 886598064854186100000(879);										
+Start universe 886597702015348900000(918);										
+Start universe 886596992830349000000(835);										
+Start universe 886596944451837400000(867);										
+Start universe 886596845495790900000(838);										
+Start universe 886596797117279200000(866);										
+Start universe 886596698161232700000(772);										
+Start universe 886525155161993500000(3066);										
+Start universe 886511829914104000000(3878);										

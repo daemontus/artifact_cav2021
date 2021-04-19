@@ -1,0 +1,12 @@
+Start universe 32(2);										
+Start universe 8(10);										
+Start universe 5(9);										
+Found attractor. State count 1;										
+Start universe 4(5);										
+Start universe 1(7);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+real 0.00
+user 0.00
+sys 0.00

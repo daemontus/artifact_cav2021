@@ -1,0 +1,93 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v12]__[r30]__[METABOLIC-INTERACTIONS-IN-THE-GUT-MICROBIOME]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v12]__[r30]__[METABOLIC-INTERACTIONS-IN-THE-GUT-MICROBIOME]__[cellcollective].bnet -> benchmarks_real_life/[v12]__[r30]__[METABOLIC-INTERACTIONS-IN-THE-GUT-MICROBIOME]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-0-0-1-0-1-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-0-0-1-1-1-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-0-1-1-0-1-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-0-1-1-1-1-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-1-0-1-0-1-0-0-  1
+
+======================== find attractor #6 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-1-0-1-1-1-0-0-  1
+
+======================== find attractor #7 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-1-1-1-0-1-0-0-  1
+
+======================== find attractor #8 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-0-0-1-1-1-1-1-1-0-0-  1
+
+======================== find attractor #9 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-0-0-1-0-1-0-0-  1
+
+======================== find attractor #10 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-0-0-1-1-1-0-0-  1
+
+======================== find attractor #11 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-0-1-1-0-1-0-0-  1
+
+======================== find attractor #12 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-0-1-1-1-1-0-0-  1
+
+======================== find attractor #13 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-1-0-1-0-1-0-0-  1
+
+======================== find attractor #14 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-1-0-1-1-1-0-0-  1
+
+======================== find attractor #15 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-1-1-1-0-1-0-0-  1
+
+======================== find attractor #16 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-0-1-0-1-1-1-1-1-1-0-0-  1
+
+======================== find attractor #17 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-1-0-1-1-0-0-1-0-1-1-1-  1
+
+======================== find attractor #18 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-1-0-1-1-0-0-1-1-1-1-1-  1
+
+======================== find attractor #19 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-1-1-1-1-0-0-1-0-1-1-1-  1
+
+======================== find attractor #20 : 1 states ========================
+: 13 nodes 1 leaves 1 minterms
+1-1-1-1-1-0-0-1-1-1-1-1-  1
+
+number of attractors = 20
+time for attractor detection=0.004 seconds
+real 0.01
+user 0.00
+sys 0.00

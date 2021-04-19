@@ -1,0 +1,6 @@
+Start universe 512(2);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+real 0.00
+user 0.00
+sys 0.00

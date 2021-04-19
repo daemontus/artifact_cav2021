@@ -1,0 +1,180 @@
+Reducing VariableId(0). Remaining: 4503599627370496;										
+Eliminated bottom basin 4337161054715904.;										
+Variable eliminated. 51 remaining.;										
+Reducing VariableId(1). Remaining: 166438572654592;										
+Variable eliminated. 50 remaining.;										
+Reducing VariableId(2). Remaining: 166438572654592;										
+Eliminated bottom basin 83219286327296.;										
+Variable eliminated. 49 remaining.;										
+Reducing VariableId(3). Remaining: 83219286327296;										
+Eliminated bottom basin 41609643163648.;										
+Variable eliminated. 48 remaining.;										
+Reducing VariableId(4). Remaining: 41609643163648;										
+Eliminated reach basin 103079215104.;										
+Eliminated bottom basin 35579509080064.;										
+Variable eliminated. 47 remaining.;										
+Reducing VariableId(5). Remaining: 5927054868480;										
+Eliminated bottom basin 2963527434240.;										
+Variable eliminated. 46 remaining.;										
+Reducing VariableId(6). Remaining: 2963527434240;										
+Eliminated reach basin 103079215104.;										
+Eliminated bottom basin 1821066133504.;										
+Variable eliminated. 45 remaining.;										
+Reducing VariableId(7). Remaining: 1039382085632;										
+Eliminated reach basin 42949672960.;										
+Eliminated bottom basin 732291923968.;										
+Variable eliminated. 44 remaining.;										
+Reducing VariableId(8). Remaining: 264140488704;										
+Eliminated bottom basin 118111600640.;										
+Variable eliminated. 43 remaining.;										
+Reducing VariableId(9). Remaining: 146028888064;										
+Eliminated bottom basin 73014444032.;										
+Variable eliminated. 42 remaining.;										
+Reducing VariableId(10). Remaining: 73014444032;										
+Eliminated bottom basin 54760833024.;										
+Variable eliminated. 41 remaining.;										
+Reducing VariableId(11). Remaining: 18253611008;										
+Variable eliminated. 40 remaining.;										
+Reducing VariableId(12). Remaining: 18253611008;										
+Variable eliminated. 39 remaining.;										
+Reducing VariableId(13). Remaining: 18253611008;										
+Eliminated bottom basin 13690208256.;										
+Variable eliminated. 38 remaining.;										
+Reducing VariableId(14). Remaining: 4563402752;										
+Variable eliminated. 37 remaining.;										
+Reducing VariableId(15). Remaining: 4563402752;										
+Eliminated bottom basin 2281701376.;										
+Variable eliminated. 36 remaining.;										
+Reducing VariableId(16). Remaining: 2281701376;										
+Eliminated bottom basin 838860800.;										
+Variable eliminated. 35 remaining.;										
+Reducing VariableId(17). Remaining: 1442840576;										
+Eliminated bottom basin 721420288.;										
+Variable eliminated. 34 remaining.;										
+Reducing VariableId(18). Remaining: 721420288;										
+Eliminated bottom basin 541065216.;										
+Variable eliminated. 33 remaining.;										
+Reducing VariableId(19). Remaining: 180355072;										
+Variable eliminated. 32 remaining.;										
+Reducing VariableId(20). Remaining: 180355072;										
+Variable eliminated. 31 remaining.;										
+Reducing VariableId(21). Remaining: 180355072;										
+Eliminated reach basin 121634816.;										
+Eliminated bottom basin 29360128.;										
+Variable eliminated. 30 remaining.;										
+Reducing VariableId(22). Remaining: 29360128;										
+Variable eliminated. 29 remaining.;										
+Reducing VariableId(23). Remaining: 29360128;										
+Variable eliminated. 28 remaining.;										
+Reducing VariableId(24). Remaining: 29360128;										
+Variable eliminated. 27 remaining.;										
+Reducing VariableId(25). Remaining: 29360128;										
+Eliminated bottom basin 4194304.;										
+Variable eliminated. 26 remaining.;										
+Reducing VariableId(26). Remaining: 25165824;										
+Eliminated reach basin 3145728.;										
+Eliminated bottom basin 11010048.;										
+Variable eliminated. 25 remaining.;										
+Reducing VariableId(27). Remaining: 11010048;										
+Eliminated reach basin 1572864.;										
+Eliminated bottom basin 4718592.;										
+Variable eliminated. 24 remaining.;										
+Reducing VariableId(28). Remaining: 4718592;										
+Eliminated reach basin 1572864.;										
+Eliminated bottom basin 1572864.;										
+Variable eliminated. 23 remaining.;										
+Reducing VariableId(29). Remaining: 1572864;										
+Eliminated bottom basin 786432.;										
+Variable eliminated. 22 remaining.;										
+Reducing VariableId(30). Remaining: 786432;										
+Eliminated bottom basin 491520.;										
+Variable eliminated. 21 remaining.;										
+Reducing VariableId(31). Remaining: 294912;										
+Eliminated bottom basin 98304.;										
+Variable eliminated. 20 remaining.;										
+Reducing VariableId(32). Remaining: 196608;										
+Eliminated bottom basin 147456.;										
+Variable eliminated. 19 remaining.;										
+Reducing VariableId(33). Remaining: 49152;										
+Variable eliminated. 18 remaining.;										
+Reducing VariableId(34). Remaining: 49152;										
+Eliminated bottom basin 24576.;										
+Variable eliminated. 17 remaining.;										
+Reducing VariableId(35). Remaining: 24576;										
+Eliminated bottom basin 12288.;										
+Variable eliminated. 16 remaining.;										
+Reducing VariableId(36). Remaining: 12288;										
+Eliminated bottom basin 6144.;										
+Variable eliminated. 15 remaining.;										
+Reducing VariableId(37). Remaining: 6144;										
+Variable eliminated. 14 remaining.;										
+Reducing VariableId(38). Remaining: 6144;										
+Eliminated bottom basin 3072.;										
+Variable eliminated. 13 remaining.;										
+Reducing VariableId(39). Remaining: 3072;										
+Eliminated bottom basin 1536.;										
+Variable eliminated. 12 remaining.;										
+Reducing VariableId(40). Remaining: 1536;										
+Eliminated bottom basin 768.;										
+Variable eliminated. 11 remaining.;										
+Reducing VariableId(41). Remaining: 768;										
+Eliminated bottom basin 384.;										
+Variable eliminated. 10 remaining.;										
+Reducing VariableId(42). Remaining: 384;										
+Eliminated bottom basin 192.;										
+Variable eliminated. 9 remaining.;										
+Reducing VariableId(43). Remaining: 192;										
+Variable eliminated. 8 remaining.;										
+Reducing VariableId(44). Remaining: 192;										
+Eliminated bottom basin 96.;										
+Variable eliminated. 7 remaining.;										
+Reducing VariableId(45). Remaining: 96;										
+Eliminated bottom basin 48.;										
+Variable eliminated. 6 remaining.;										
+Reducing VariableId(46). Remaining: 48;										
+Variable eliminated. 5 remaining.;										
+Reducing VariableId(47). Remaining: 48;										
+Variable eliminated. 4 remaining.;										
+Reducing VariableId(48). Remaining: 48;										
+Eliminated bottom basin 8.;										
+Variable eliminated. 3 remaining.;										
+Reducing VariableId(49). Remaining: 40;										
+Variable eliminated. 2 remaining.;										
+Reducing VariableId(50). Remaining: 40;										
+Eliminated bottom basin 30.;										
+Variable eliminated. 1 remaining.;										
+Reducing VariableId(51). Remaining: 10;										
+Variable eliminated. 0 remaining.;										
+Start universe 10(165);										
+Found attractor. State count 1;										
+Start universe 9(183);										
+Found attractor. State count 1;										
+Start universe 8(160);										
+Found attractor. State count 1;										
+Start universe 7(153);										
+Found attractor. State count 1;										
+Start universe 6(110);										
+Found attractor. State count 1;										
+Start universe 5(124);										
+Found attractor. State count 1;										
+Start universe 4(101);										
+Found attractor. State count 1;										
+Start universe 3(94);										
+Found attractor. State count 1;										
+Start universe 2(61);										
+Found attractor. State count 1;										
+Start universe 1(54);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+Attractor #2: 1;										
+Attractor #3: 1;										
+Attractor #4: 1;										
+Attractor #5: 1;										
+Attractor #6: 1;										
+Attractor #7: 1;										
+Attractor #8: 1;										
+Attractor #9: 1;										
+Attractor #10: 1;										
+real 0.16
+user 0.16
+sys 0.00

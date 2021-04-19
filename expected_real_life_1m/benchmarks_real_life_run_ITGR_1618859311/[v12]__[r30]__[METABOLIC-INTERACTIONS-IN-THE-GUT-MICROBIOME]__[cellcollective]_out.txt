@@ -1,0 +1,127 @@
+Compute FWD set basin.;										
+Remaining processes: 12;										
+Compute FWD set basin.;										
+Remaining processes: 12;										
+Compute FWD set basin.;										
+Remaining processes: 12;										
+Remaining variables: 11;										
+Remaining processes: 11;										
+Remaining variables: 10;										
+Remaining processes: 10;										
+Remaining variables: 9;										
+Remaining processes: 9;										
+Remaining processes: 9;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2048(3);										
+Remaining variables: 8;										
+Remaining processes: 8;										
+Remaining processes: 8;										
+Remaining processes: 8;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1024(4);										
+Remaining variables: 7;										
+Remaining processes: 7;										
+Compute BOTTOM set basin.;										
+Remaining universe: 512(5);										
+Remaining variables: 6;										
+Remaining processes: 6;										
+Remaining processes: 6;										
+Compute BOTTOM set basin.;										
+Remaining universe: 256(6);										
+Remaining variables: 5;										
+Remaining processes: 5;										
+Compute FWD set basin.;										
+Remaining universe: 240(12);										
+Remaining processes: 5;										
+Compute FWD set basin.;										
+Remaining universe: 208(13);										
+Remaining processes: 5;										
+Compute FWD set basin.;										
+Remaining processes: 5;										
+Compute BOTTOM set basin.;										
+Remaining universe: 144(14);										
+Remaining variables: 4;										
+Remaining processes: 4;										
+Compute BOTTOM set basin.;										
+Remaining universe: 80(15);										
+Remaining variables: 3;										
+Remaining processes: 3;										
+Compute BOTTOM set basin.;										
+Remaining universe: 48(15);										
+Remaining variables: 2;										
+Remaining processes: 2;										
+Remaining processes: 2;										
+Compute FWD set basin.;										
+Remaining universe: 40(17);										
+Remaining processes: 2;										
+Compute BOTTOM set basin.;										
+Remaining universe: 24(17);										
+Remaining variables: 1;										
+Remaining processes: 1;										
+Compute BOTTOM set basin.;										
+Remaining universe: 20(18);										
+Remaining variables: 0;										
+Total iterations: 33;										
+Start universe 20(18);										
+Found attractor. State count 1;										
+Start universe 19(26);										
+Found attractor. State count 1;										
+Start universe 18(22);										
+Found attractor. State count 1;										
+Start universe 17(26);										
+Found attractor. State count 1;										
+Start universe 16(20);										
+Found attractor. State count 1;										
+Start universe 15(26);										
+Found attractor. State count 1;										
+Start universe 14(22);										
+Found attractor. State count 1;										
+Start universe 13(26);										
+Found attractor. State count 1;										
+Start universe 12(19);										
+Found attractor. State count 1;										
+Start universe 11(26);										
+Found attractor. State count 1;										
+Start universe 10(22);										
+Found attractor. State count 1;										
+Start universe 9(26);										
+Found attractor. State count 1;										
+Start universe 8(20);										
+Found attractor. State count 1;										
+Start universe 7(25);										
+Found attractor. State count 1;										
+Start universe 6(21);										
+Found attractor. State count 1;										
+Start universe 5(22);										
+Found attractor. State count 1;										
+Start universe 4(12);										
+Found attractor. State count 1;										
+Start universe 3(17);										
+Found attractor. State count 1;										
+Start universe 2(13);										
+Found attractor. State count 1;										
+Start universe 1(14);										
+Found attractor. State count 1;										
+Attractor #1: 1 (using 14 nodes);										
+Attractor #2: 1 (using 14 nodes);										
+Attractor #3: 1 (using 14 nodes);										
+Attractor #4: 1 (using 14 nodes);										
+Attractor #5: 1 (using 14 nodes);										
+Attractor #6: 1 (using 14 nodes);										
+Attractor #7: 1 (using 14 nodes);										
+Attractor #8: 1 (using 14 nodes);										
+Attractor #9: 1 (using 14 nodes);										
+Attractor #10: 1 (using 14 nodes);										
+Attractor #11: 1 (using 14 nodes);										
+Attractor #12: 1 (using 14 nodes);										
+Attractor #13: 1 (using 14 nodes);										
+Attractor #14: 1 (using 14 nodes);										
+Attractor #15: 1 (using 14 nodes);										
+Attractor #16: 1 (using 14 nodes);										
+Attractor #17: 1 (using 14 nodes);										
+Attractor #18: 1 (using 14 nodes);										
+Attractor #19: 1 (using 14 nodes);										
+Attractor #20: 1 (using 14 nodes);										
+real 0.00
+user 0.00
+sys 0.00

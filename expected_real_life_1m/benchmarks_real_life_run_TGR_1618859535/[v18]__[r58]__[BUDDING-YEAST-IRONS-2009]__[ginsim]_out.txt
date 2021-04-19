@@ -1,0 +1,25 @@
+Reducing VariableId(0). Remaining: 262144;										
+Reducing VariableId(1). Remaining: 262144;										
+Reducing VariableId(2). Remaining: 262144;										
+Reducing VariableId(3). Remaining: 262144;										
+Reducing VariableId(4). Remaining: 262144;										
+Reducing VariableId(5). Remaining: 262144;										
+Reducing VariableId(6). Remaining: 262144;										
+Reducing VariableId(7). Remaining: 262144;										
+Reducing VariableId(8). Remaining: 262144;										
+Reducing VariableId(9). Remaining: 262144;										
+Reducing VariableId(10). Remaining: 262144;										
+Reducing VariableId(11). Remaining: 262144;										
+Reducing VariableId(12). Remaining: 262144;										
+Reducing VariableId(13). Remaining: 262144;										
+Eliminated reach basin 16.;										
+Reducing VariableId(14). Remaining: 262128;										
+Reducing VariableId(15). Remaining: 262128;										
+Reducing VariableId(16). Remaining: 262128;										
+Reducing VariableId(17). Remaining: 262128;										
+Start universe 262128(16);										
+Found attractor. State count 237600;										
+Attractor #1: 237600;										
+real 0.11
+user 0.11
+sys 0.00

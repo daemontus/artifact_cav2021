@@ -1,0 +1,19 @@
+Reducing VariableId(0). Remaining: 32;										
+Eliminated bottom basin 29.;										
+Variable eliminated. 4 remaining.;										
+Reducing VariableId(1). Remaining: 3;										
+Eliminated bottom basin 1.;										
+Variable eliminated. 3 remaining.;										
+Reducing VariableId(2). Remaining: 2;										
+Variable eliminated. 2 remaining.;										
+Reducing VariableId(3). Remaining: 2;										
+Variable eliminated. 1 remaining.;										
+Reducing VariableId(4). Remaining: 2;										
+Eliminated bottom basin 1.;										
+Variable eliminated. 0 remaining.;										
+Start universe 1(7);										
+Found attractor. State count 1;										
+Attractor #1: 1;										
+real 0.00
+user 0.00
+sys 0.00

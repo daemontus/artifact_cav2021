@@ -1,0 +1,687 @@
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Remaining processes: 131;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1361129467683754000000000000000000000000(3);										
+Remaining variables: 130;										
+Remaining processes: 130;										
+Compute BOTTOM set basin.;										
+Remaining universe: 680564733841877000000000000000000000000(4);										
+Remaining variables: 129;										
+Remaining processes: 129;										
+Compute BOTTOM set basin.;										
+Remaining universe: 340282366920938500000000000000000000000(5);										
+Remaining variables: 128;										
+Remaining processes: 128;										
+Compute BOTTOM set basin.;										
+Remaining universe: 170141183460469230000000000000000000000(6);										
+Remaining variables: 127;										
+Remaining processes: 127;										
+Compute BOTTOM set basin.;										
+Remaining universe: 85070591730234620000000000000000000000(7);										
+Remaining variables: 126;										
+Remaining processes: 126;										
+Compute BOTTOM set basin.;										
+Remaining universe: 42535295865117310000000000000000000000(8);										
+Remaining variables: 125;										
+Remaining processes: 125;										
+Compute BOTTOM set basin.;										
+Remaining universe: 21267647932558654000000000000000000000(9);										
+Remaining variables: 124;										
+Remaining processes: 124;										
+Compute BOTTOM set basin.;										
+Remaining universe: 10633823966279327000000000000000000000(10);										
+Remaining variables: 123;										
+Remaining processes: 123;										
+Compute BOTTOM set basin.;										
+Remaining universe: 5316911983139664000000000000000000000(11);										
+Remaining variables: 122;										
+Remaining processes: 122;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2658455991569832000000000000000000000(12);										
+Remaining variables: 121;										
+Remaining processes: 121;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1329227995784916000000000000000000000(13);										
+Remaining variables: 120;										
+Remaining processes: 120;										
+Remaining processes: 120;										
+Remaining processes: 120;										
+Compute BOTTOM set basin.;										
+Remaining universe: 664613997892458000000000000000000000(14);										
+Remaining variables: 119;										
+Remaining processes: 119;										
+Compute BOTTOM set basin.;										
+Remaining universe: 332306998946229000000000000000000000(15);										
+Remaining variables: 118;										
+Remaining processes: 118;										
+Remaining processes: 118;										
+Remaining processes: 118;										
+Compute BOTTOM set basin.;										
+Remaining universe: 166153499473114500000000000000000000(16);										
+Remaining variables: 117;										
+Remaining processes: 117;										
+Compute BOTTOM set basin.;										
+Remaining universe: 83076749736557240000000000000000000(17);										
+Remaining variables: 116;										
+Remaining processes: 116;										
+Remaining processes: 116;										
+Remaining processes: 116;										
+Remaining processes: 116;										
+Compute BOTTOM set basin.;										
+Remaining universe: 41538374868278620000000000000000000(18);										
+Remaining variables: 115;										
+Remaining processes: 115;										
+Compute BOTTOM set basin.;										
+Remaining universe: 20769187434139310000000000000000000(19);										
+Remaining variables: 114;										
+Remaining processes: 114;										
+Compute BOTTOM set basin.;										
+Remaining universe: 10384593717069655000000000000000000(20);										
+Remaining variables: 113;										
+Remaining processes: 113;										
+Remaining processes: 113;										
+Remaining processes: 113;										
+Compute BOTTOM set basin.;										
+Remaining universe: 5192296858534828000000000000000000(21);										
+Remaining variables: 112;										
+Remaining processes: 112;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2596148429267414000000000000000000(22);										
+Remaining variables: 111;										
+Remaining processes: 111;										
+Remaining processes: 111;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1298074214633707000000000000000000(23);										
+Remaining variables: 110;										
+Remaining processes: 110;										
+Remaining processes: 110;										
+Compute BOTTOM set basin.;										
+Remaining universe: 649037107316853500000000000000000(24);										
+Remaining variables: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Remaining processes: 109;										
+Compute BOTTOM set basin.;										
+Remaining universe: 324518553658426730000000000000000(25);										
+Remaining variables: 108;										
+Remaining processes: 108;										
+Compute BOTTOM set basin.;										
+Remaining universe: 162259276829213360000000000000000(26);										
+Remaining variables: 107;										
+Remaining processes: 107;										
+Compute BOTTOM set basin.;										
+Remaining universe: 81129638414606680000000000000000(27);										
+Remaining variables: 106;										
+Remaining processes: 106;										
+Compute BOTTOM set basin.;										
+Remaining universe: 40564819207303340000000000000000(28);										
+Remaining variables: 105;										
+Remaining processes: 105;										
+Compute BOTTOM set basin.;										
+Remaining universe: 20282409603651670000000000000000(29);										
+Remaining variables: 104;										
+Remaining processes: 104;										
+Compute BOTTOM set basin.;										
+Remaining universe: 10141204801825835000000000000000(30);										
+Remaining variables: 103;										
+Remaining processes: 103;										
+Compute BOTTOM set basin.;										
+Remaining universe: 5070602400912918000000000000000(31);										
+Remaining variables: 102;										
+Remaining processes: 102;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2535301200456459000000000000000(32);										
+Remaining variables: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Remaining processes: 101;										
+Compute BOTTOM set basin.;										
+Remaining universe: 79228171958997300000000000000(83);										
+Remaining variables: 100;										
+Remaining processes: 100;										
+Compute BOTTOM set basin.;										
+Remaining variables: 99;										
+Remaining processes: 99;										
+Compute BOTTOM set basin.;										
+Remaining variables: 98;										
+Remaining processes: 98;										
+Compute BOTTOM set basin.;										
+Remaining variables: 97;										
+Remaining processes: 97;										
+Compute BOTTOM set basin.;										
+Remaining universe: 39614090701865135000000000000(84);										
+Remaining variables: 96;										
+Remaining processes: 96;										
+Compute BOTTOM set basin.;										
+Remaining universe: 19807050073299050000000000000(85);										
+Remaining variables: 95;										
+Remaining processes: 95;										
+Compute BOTTOM set basin.;										
+Remaining universe: 9903529759016008000000000000(86);										
+Remaining variables: 94;										
+Remaining processes: 94;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4951769601874487000000000000(87);										
+Remaining variables: 93;										
+Remaining processes: 93;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2475889523303726300000000000(88);										
+Remaining variables: 92;										
+Remaining processes: 92;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1237949484018346000000000000(89);										
+Remaining variables: 91;										
+Remaining processes: 91;										
+Compute BOTTOM set basin.;										
+Remaining universe: 232123202098974540000000000(97);										
+Remaining variables: 90;										
+Remaining processes: 90;										
+Compute BOTTOM set basin.;										
+Remaining universe: 116066323415970140000000000(98);										
+Remaining variables: 89;										
+Remaining processes: 89;										
+Compute BOTTOM set basin.;										
+Remaining universe: 58037884074467940000000000(99);										
+Remaining variables: 88;										
+Remaining processes: 88;										
+Compute BOTTOM set basin.;										
+Remaining universe: 29023664403716840000000000(100);										
+Remaining variables: 87;										
+Remaining processes: 87;										
+Compute BOTTOM set basin.;										
+Remaining universe: 14516554568341290000000000(101);										
+Remaining variables: 86;										
+Remaining processes: 86;										
+Compute BOTTOM set basin.;										
+Remaining universe: 7262999650653514000000000(102);										
+Remaining variables: 85;										
+Remaining processes: 85;										
+Compute BOTTOM set basin.;										
+Remaining universe: 3636222191809627000000000(103);										
+Remaining variables: 84;										
+Remaining processes: 84;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1822833462387683000000000(104);										
+Remaining variables: 83;										
+Remaining processes: 83;										
+Compute BOTTOM set basin.;										
+Remaining universe: 916139097676711200000000(105);										
+Remaining variables: 82;										
+Remaining processes: 82;										
+Compute BOTTOM set basin.;										
+Remaining universe: 462791915321225200000000(106);										
+Remaining variables: 81;										
+Remaining processes: 81;										
+Compute BOTTOM set basin.;										
+Remaining universe: 236118324143482260000000(107);										
+Remaining variables: 80;										
+Remaining processes: 80;										
+Compute BOTTOM set basin.;										
+Remaining universe: 122781528554610780000000(108);										
+Remaining variables: 79;										
+Remaining processes: 79;										
+Compute BOTTOM set basin.;										
+Remaining universe: 37778931862957160000000(110);										
+Remaining variables: 78;										
+Remaining processes: 78;										
+Compute FWD set basin.;										
+Remaining universe: 28334198897217870000000(105);										
+Remaining processes: 78;										
+Compute BOTTOM set basin.;										
+Remaining variables: 77;										
+Remaining processes: 77;										
+Remaining processes: 77;										
+Compute BOTTOM set basin.;										
+Remaining variables: 76;										
+Remaining processes: 76;										
+Remaining processes: 76;										
+Compute BOTTOM set basin.;										
+Remaining universe: 18889465931478580000000(106);										
+Remaining variables: 75;										
+Remaining processes: 75;										
+Remaining processes: 75;										
+Compute BOTTOM set basin.;										
+Remaining variables: 74;										
+Remaining processes: 74;										
+Remaining processes: 74;										
+Compute BOTTOM set basin.;										
+Remaining variables: 73;										
+Remaining processes: 73;										
+Compute BOTTOM set basin.;										
+Remaining universe: 9444732965739290000000(108);										
+Remaining variables: 72;										
+Remaining processes: 72;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4722366482869645000000(110);										
+Remaining variables: 71;										
+Remaining processes: 71;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2361183241434822600000(112);										
+Remaining variables: 70;										
+Remaining processes: 70;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1180591620717411300000(114);										
+Remaining variables: 69;										
+Remaining processes: 69;										
+Remaining processes: 69;										
+Compute BOTTOM set basin.;										
+Remaining universe: 479615345916448340000(148);										
+Remaining variables: 68;										
+Remaining processes: 68;										
+Compute BOTTOM set basin.;										
+Remaining universe: 332041393326771900000(149);										
+Remaining variables: 67;										
+Remaining processes: 67;										
+Compute BOTTOM set basin.;										
+Remaining universe: 184467440737095500000(151);										
+Remaining variables: 66;										
+Remaining processes: 66;										
+Compute BOTTOM set basin.;										
+Remaining universe: 110680464442257310000(153);										
+Remaining variables: 65;										
+Remaining processes: 65;										
+Remaining processes: 65;										
+Remaining processes: 65;										
+Compute BOTTOM set basin.;										
+Remaining universe: 55340232221128655000(156);										
+Remaining variables: 64;										
+Remaining processes: 64;										
+Compute BOTTOM set basin.;										
+Remaining universe: 27670116110564327000(159);										
+Remaining variables: 63;										
+Remaining processes: 63;										
+Compute BOTTOM set basin.;										
+Remaining universe: 13835058055282164000(182);										
+Remaining variables: 62;										
+Remaining processes: 62;										
+Compute BOTTOM set basin.;										
+Remaining universe: 6917529027641082000(191);										
+Remaining variables: 61;										
+Remaining processes: 61;										
+Compute BOTTOM set basin.;										
+Remaining universe: 3458764513820541000(194);										
+Remaining variables: 60;										
+Remaining processes: 60;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1729382256910270500(197);										
+Remaining variables: 59;										
+Remaining processes: 59;										
+Remaining processes: 59;										
+Compute BOTTOM set basin.;										
+Remaining universe: 864691128455135200(200);										
+Remaining variables: 58;										
+Remaining processes: 58;										
+Compute BOTTOM set basin.;										
+Remaining universe: 432345564227567600(202);										
+Remaining variables: 57;										
+Remaining processes: 57;										
+Compute BOTTOM set basin.;										
+Remaining universe: 216172782113783800(204);										
+Remaining variables: 56;										
+Remaining processes: 56;										
+Compute BOTTOM set basin.;										
+Remaining universe: 108086391056891900(207);										
+Remaining variables: 55;										
+Remaining processes: 55;										
+Compute BOTTOM set basin.;										
+Remaining universe: 40532396646334460(282);										
+Remaining variables: 54;										
+Remaining processes: 54;										
+Compute BOTTOM set basin.;										
+Remaining universe: 31525197391593470(283);										
+Remaining variables: 53;										
+Remaining processes: 53;										
+Compute BOTTOM set basin.;										
+Remaining universe: 18014398509481984(285);										
+Remaining variables: 52;										
+Remaining processes: 52;										
+Compute BOTTOM set basin.;										
+Remaining universe: 11258999068426240(288);										
+Remaining variables: 51;										
+Remaining processes: 51;										
+Remaining processes: 51;										
+Remaining processes: 51;										
+Compute BOTTOM set basin.;										
+Remaining universe: 5629499534213120(293);										
+Remaining variables: 50;										
+Remaining processes: 50;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2814749767106560(298);										
+Remaining variables: 49;										
+Remaining processes: 49;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1407374883553280(303);										
+Remaining variables: 48;										
+Remaining processes: 48;										
+Compute BOTTOM set basin.;										
+Remaining universe: 703687441776640(308);										
+Remaining variables: 47;										
+Remaining processes: 47;										
+Compute BOTTOM set basin.;										
+Remaining universe: 351843720888320(355);										
+Remaining variables: 46;										
+Remaining processes: 46;										
+Compute BOTTOM set basin.;										
+Remaining universe: 175921860444160(362);										
+Remaining variables: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Remaining processes: 45;										
+Compute BOTTOM set basin.;										
+Remaining universe: 81381040324608(483);										
+Remaining processes: 44;										
+Compute BOTTOM set basin.;										
+Remaining universe: 46181635850240(491);										
+Remaining processes: 43;										
+Compute BOTTOM set basin.;										
+Remaining universe: 28587570757632(499);										
+Remaining processes: 42;										
+Compute BOTTOM set basin.;										
+Remaining universe: 15118553317376(607);										
+Remaining variables: 44;										
+Remaining processes: 41;										
+Compute BOTTOM set basin.;										
+Remaining universe: 14019041689600(608);										
+Remaining variables: 43;										
+Remaining processes: 40;										
+Compute BOTTOM set basin.;										
+Remaining universe: 7421971922944(611);										
+Remaining variables: 42;										
+Remaining processes: 39;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4123437039616(616);										
+Remaining variables: 41;										
+Remaining processes: 38;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2061852737536(624);										
+Remaining variables: 40;										
+Remaining processes: 37;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1031060586496(632);										
+Remaining variables: 39;										
+Remaining processes: 36;										
+Remaining processes: 36;										
+Compute BOTTOM set basin.;										
+Remaining universe: 515664510976(714);										
+Remaining variables: 38;										
+Remaining processes: 35;										
+Compute BOTTOM set basin.;										
+Remaining universe: 257966473216(711);										
+Remaining variables: 37;										
+Remaining processes: 34;										
+Compute BOTTOM set basin.;										
+Remaining universe: 129117454336(714);										
+Remaining variables: 36;										
+Remaining processes: 33;										
+Compute BOTTOM set basin.;										
+Remaining universe: 64692944896(717);										
+Remaining variables: 35;										
+Remaining processes: 32;										
+Compute BOTTOM set basin.;										
+Remaining universe: 32480690176(723);										
+Remaining variables: 34;										
+Remaining processes: 31;										
+Compute BOTTOM set basin.;										
+Remaining universe: 24964497408(730);										
+Remaining processes: 30;										
+Compute BOTTOM set basin.;										
+Remaining universe: 21206401024(737);										
+Remaining processes: 29;										
+Compute BOTTOM set basin.;										
+Remaining universe: 19327352832(744);										
+Remaining processes: 28;										
+Remaining processes: 28;										
+Remaining processes: 28;										
+Compute BOTTOM set basin.;										
+Remaining universe: 9663676416(746);										
+Remaining variables: 33;										
+Remaining processes: 27;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4831838208(751);										
+Remaining variables: 32;										
+Remaining processes: 26;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2415919104(757);										
+Remaining variables: 31;										
+Remaining processes: 25;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1207959552(761);										
+Remaining variables: 30;										
+Remaining processes: 24;										
+Compute BOTTOM set basin.;										
+Remaining universe: 603979776(764);										
+Remaining variables: 29;										
+Remaining processes: 23;										
+Compute BOTTOM set basin.;										
+Remaining universe: 301989888(773);										
+Remaining variables: 28;										
+Remaining processes: 22;										
+Compute BOTTOM set basin.;										
+Remaining universe: 284164096(782);										
+Remaining processes: 21;										
+Compute BOTTOM set basin.;										
+Remaining universe: 276824064(789);										
+Remaining processes: 20;										
+Compute BOTTOM set basin.;										
+Remaining universe: 272367616(798);										
+Remaining processes: 19;										
+Compute BOTTOM set basin.;										
+Remaining universe: 270532608(805);										
+Remaining processes: 18;										
+Compute BOTTOM set basin.;										
+Remaining universe: 269418496(814);										
+Remaining processes: 17;										
+Compute BOTTOM set basin.;										
+Remaining universe: 268959744(821);										
+Remaining processes: 16;										
+Compute BOTTOM set basin.;										
+Remaining universe: 134479872(830);										
+Remaining variables: 27;										
+Remaining processes: 15;										
+Compute BOTTOM set basin.;										
+Remaining universe: 67239936(834);										
+Remaining variables: 26;										
+Remaining processes: 14;										
+Remaining processes: 14;										
+Compute BOTTOM set basin.;										
+Remaining universe: 67162112(845);										
+Remaining processes: 13;										
+Compute BOTTOM set basin.;										
+Remaining universe: 67141632(850);										
+Remaining processes: 12;										
+Remaining processes: 12;										
+Compute BOTTOM set basin.;										
+Remaining universe: 21510656(964);										
+Remaining processes: 11;										
+Remaining processes: 11;										
+Compute BOTTOM set basin.;										
+Remaining universe: 21241088(982);										
+Remaining processes: 10;										
+Compute BOTTOM set basin.;										
+Remaining universe: 17041872(1416);										
+Remaining variables: 25;										
+Remaining processes: 9;										
+Compute BOTTOM set basin.;										
+Remaining universe: 17041616(1417);										
+Remaining variables: 24;										
+Remaining processes: 8;										
+Compute BOTTOM set basin.;										
+Remaining universe: 8652080(1423);										
+Remaining variables: 23;										
+Remaining processes: 7;										
+Compute BOTTOM set basin.;										
+Remaining universe: 4457312(1432);										
+Remaining variables: 22;										
+Remaining processes: 6;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2359744(1426);										
+Remaining variables: 21;										
+Remaining processes: 5;										
+Compute BOTTOM set basin.;										
+Remaining universe: 2359536(1439);										
+Remaining processes: 4;										
+Remaining processes: 4;										
+Remaining processes: 4;										
+Compute BOTTOM set basin.;										
+Remaining universe: 1179768(1456);										
+Remaining variables: 20;										
+Remaining processes: 3;										
+Compute BOTTOM set basin.;										
+Remaining universe: 589884(1473);										
+Remaining variables: 19;										
+Remaining processes: 2;										
+Compute BOTTOM set basin.;										
+Remaining universe: 294942(1679);										
+Remaining variables: 18;										
+Remaining processes: 1;										
+Compute BOTTOM set basin.;										
+Remaining universe: 147471(1685);										
+Remaining variables: 17;										
+Total iterations: 1025;										
+Start universe 147471(1685);										
+Found attractor. State count 1;										
+Start universe 147470(1578);										
+Found attractor. State count 1;										
+Start universe 147469(1487);										
+Found attractor. State count 1;										
+Start universe 147468(1393);										
+Found attractor. State count 1;										
+Start universe 147467(1302);										
+Found attractor. State count 1;										
+Start universe 147466(1201);										
+Found attractor. State count 1;										
+Start universe 147465(1109);										
+Found attractor. State count 1;										
+Start universe 147464(1014);										
+Found attractor. State count 1;										
+Start universe 147463(922);										
+Found attractor. State count 1;										
+Start universe 147462(807);										
+Found attractor. State count 1;										
+Start universe 147461(712);										
+Found attractor. State count 1;										
+Start universe 147460(613);										
+Found attractor. State count 1;										
+Start universe 147459(514);										
+Found attractor. State count 1;										
+Start universe 147458(398);										
+Found attractor. State count 1;										
+Start universe 147457(302);										
+Found attractor. State count 16384;										
+Start universe 131073(216);										
+Found attractor. State count 1;										
+Start universe 131072(116);										
+Found attractor. State count 131072;										
+Attractor #1: 1 (using 133 nodes);										
+Attractor #2: 1 (using 133 nodes);										
+Attractor #3: 1 (using 133 nodes);										
+Attractor #4: 1 (using 133 nodes);										
+Attractor #5: 1 (using 133 nodes);										
+Attractor #6: 1 (using 133 nodes);										
+Attractor #7: 1 (using 133 nodes);										
+Attractor #8: 1 (using 133 nodes);										
+Attractor #9: 1 (using 133 nodes);										
+Attractor #10: 1 (using 133 nodes);										
+Attractor #11: 1 (using 133 nodes);										
+Attractor #12: 1 (using 133 nodes);										
+Attractor #13: 1 (using 133 nodes);										
+Attractor #14: 1 (using 133 nodes);										
+Attractor #15: 16384 (using 119 nodes);										
+Attractor #16: 1 (using 133 nodes);										
+Attractor #17: 131072 (using 116 nodes);										
+real 3.02
+user 3.01
+sys 0.00

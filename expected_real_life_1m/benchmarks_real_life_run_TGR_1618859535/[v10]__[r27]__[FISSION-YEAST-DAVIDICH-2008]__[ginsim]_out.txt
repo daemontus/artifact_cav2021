@@ -1,0 +1,27 @@
+Reducing VariableId(0). Remaining: 1024;										
+Eliminated reach basin 48.;										
+Reducing VariableId(1). Remaining: 976;										
+Eliminated reach basin 48.;										
+Reducing VariableId(2). Remaining: 928;										
+Reducing VariableId(3). Remaining: 928;										
+Eliminated reach basin 96.;										
+Reducing VariableId(4). Remaining: 832;										
+Eliminated bottom basin 712.;										
+Variable eliminated. 9 remaining.;										
+Reducing VariableId(5). Remaining: 120;										
+Eliminated reach basin 48.;										
+Eliminated bottom basin 4.;										
+Variable eliminated. 8 remaining.;										
+Reducing VariableId(6). Remaining: 68;										
+Eliminated reach basin 4.;										
+Reducing VariableId(7). Remaining: 64;										
+Variable eliminated. 7 remaining.;										
+Reducing VariableId(8). Remaining: 64;										
+Variable eliminated. 6 remaining.;										
+Reducing VariableId(9). Remaining: 64;										
+Start universe 64(6);										
+Found attractor. State count 64;										
+Attractor #1: 64;										
+real 0.01
+user 0.01
+sys 0.00

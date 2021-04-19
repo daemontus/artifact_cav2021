@@ -1,0 +1,43 @@
+***************************************************************************
+                       CABEAN 2.0.0 
+ Please check http://satoss.uni.lu/software/CABEAN/ for the latest release.
+ Please send any feedback to <cui.su@uni.lu>
+***************************************************************************
+
+Command line: CABEAN-release-2.0.0/BinaryFile/Windows&Linux/cabean -compositional 2 benchmarks_real_life/[v26]__[r58]__[TRICHOSTRONGYLUS-RETORTAEFORMIS]__[cellcollective].bnet
+Convert the model format: benchmarks_real_life/[v26]__[r58]__[TRICHOSTRONGYLUS-RETORTAEFORMIS]__[cellcollective].bnet -> benchmarks_real_life/[v26]__[r58]__[TRICHOSTRONGYLUS-RETORTAEFORMIS]__[cellcollective].ispl
+======================== find attractor #1 : 1 states ========================
+: 27 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 27 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 27 nodes 1 leaves 1 minterms
+0-1-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 27 nodes 1 leaves 1 minterms
+0-1-1-1-1-1-0-0-1-1-0-0-0-0-1-0-0-0-0-0-0-0-1-0-0-0-  1
+
+======================== find attractor #5 : 38 states ========================
+: 44 nodes 1 leaves 38 minterms
+1-1-1-1-1-1-0-0-1-1-0-0-0---1-0-0-0-0-0-1-0-1---0-0-  1
+1-1-1-1-1-1-0-0-1-1-0-1-----1-0-0-0-0-0-1-0-1---0-0-  1
+1-1-1-1-1-1-0-0-1-1-0-1-1---1-0-0-0-0-1-1-0-1---0-0-  1
+1-1-1-1-1-1-0-0-1-1-0-0-0---1-0-0-0-0-0-1-0-1---1-0-  1
+1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-0-1-1-1-0-1---0-0-  1
+1-1-1-1-1-1-0-0-1-1-0-0-0---1-0-0-1-0-0-1-0-1---1-0-  1
+1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-0-1---0-0-  1
+1-1-1-1-1-1-0-0-1-1-0-0-0-0-1-0-0-1-1-0-1-0-1---1-0-  1
+1-1-1-1-1-1-0-0-1-1-0-0-0-1-1-0-0-1-1-0-1-0-1---1-0-  1
+1-1-1-1-1-1-0-0-1-1-0-0---1-1-0-0-1-1-1-1-0-1---1-0-  1
+1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-0-1---1-0-  1
+
+number of attractors = 5
+time for attractor detection=0.753 seconds
+real 0.79
+user 0.77
+sys 0.01

@@ -1,0 +1,33 @@
+Reducing VariableId(0). Remaining: 65536;										
+Reducing VariableId(1). Remaining: 65536;										
+Eliminated bottom basin 32768.;										
+Variable eliminated. 15 remaining.;										
+Reducing VariableId(2). Remaining: 32768;										
+Eliminated bottom basin 16384.;										
+Variable eliminated. 14 remaining.;										
+Reducing VariableId(3). Remaining: 16384;										
+Reducing VariableId(4). Remaining: 16384;										
+Eliminated bottom basin 8192.;										
+Variable eliminated. 13 remaining.;										
+Reducing VariableId(5). Remaining: 8192;										
+Reducing VariableId(6). Remaining: 8192;										
+Reducing VariableId(7). Remaining: 8192;										
+Reducing VariableId(8). Remaining: 8192;										
+Reducing VariableId(9). Remaining: 8192;										
+Reducing VariableId(10). Remaining: 8192;										
+Eliminated reach basin 2048.;										
+Eliminated bottom basin 3072.;										
+Variable eliminated. 12 remaining.;										
+Reducing VariableId(11). Remaining: 3072;										
+Reducing VariableId(12). Remaining: 3072;										
+Reducing VariableId(13). Remaining: 3072;										
+Reducing VariableId(14). Remaining: 3072;										
+Eliminated bottom basin 1024.;										
+Variable eliminated. 11 remaining.;										
+Reducing VariableId(15). Remaining: 2048;										
+Start universe 2048(7);										
+Found attractor. State count 1536;										
+Attractor #1: 1536;										
+real 0.02
+user 0.02
+sys 0.00
