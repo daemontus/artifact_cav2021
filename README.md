@@ -99,7 +99,7 @@ python3 bench_run.py 1m benchmarks_real_life CABEAN
 python3 bench_run.py 1m benchmarks_real_life BASIC
 ```
 
-The first three runs should be relatively fast, finishing in several minutes. The last run is the slowest algorithm and can take up to an hour to complete all benchmarks. If you do not have enough time, you can also replace `1m` with `30s`, or even a smaller value, but keep in mind that then your data will be cut off at that timepoint.
+The first three runs should be relatively fast, finishing in several minutes. The last run is the slowest algorithm and can take around one hour to complete all instances. If you do not have enough time, you can also replace `1m` with `30s`, or even a smaller value, but keep in mind that then your data will be cut off at that timepoint.
 
 > If you have enough CPU cores available, feel free to run the commands in different terminals so that all four experiments can run concurrently.
 
@@ -114,17 +114,19 @@ python3 bench_run.py 1m benchmarks_random CABEAN
 python3 bench_run.py 1m benchmarks_random BASIC
 ```
 
-These benchmarks contain larger models that will timeout more and will therefore take longer to complete, but should be still reasonable with the one minute timeout.
+These benchmarks contain larger models that will timeout more and will therefore take longer to complete, but should be still reasonable with the one minute timeout. In general, expect the `BASIC` algorithm to be near its 100 minutes maximum, with `CABEAN` and `TGR` also coming close to, or exceeding one hour runtime. 
 
 >  **[optional]** You can also try computing instances in the `benchmarks_random_1000`, but to the best of our knowledge, `TGR`, `CABEAN` or `BASIC` cannot compute even a single benchmark in this set. For the `ITGR` algorithm, the runtime should be usually around 10-15 minutes per instance.
 
-## Comapre results
+## Compare results
 
 Once the results are computed, you can compare them to the files in `expected_real_life_1m` and `expected_random_1m` folders. Here, we included our output from the experiments in the format as captured by the benchmark runner. For comparison, we also include the complete results computed with one hour timeouts in `expected_real_life_1h`, `expected_random_1h` and `expected_random_1000_1h` (TODO: This needs to be added!). 
 
-If you wish to compare the results visually, you can copy the `*_aggregated.csv` files from your test runs to the `figures` folder, where we have a prepared `figures.tex` document which will automatically generate graphs similar to what is presented in the paper. Note that the `figures.tex` assumes all 8 `.csv` files are present. If you don't have all the `.csv` files yet, you can comment out the corresponding `\addplot`  commands to render incomplete plots. We also include an `expected_1m.pdf` and `expected_1h.pdf` so that you can compare the results to the expected plots.
+If you wish to compare the results visually, you can copy the `*_aggregated.csv` files from your test runs to the `figures` folder, where we have a prepared `figures.tex` document which will automatically generate graphs similar to what is presented in the paper. Note that the `figures.tex` assumes all 8 `.csv` files are present. If you don't have all the `.csv` files yet, you can comment out the corresponding `\addplot`  commands to render incomplete plots. We also include an `expected_figures_1m.pdf` and `expected_figures_1h.pdf` so that you can compare the results to the expected plots.
 
-The plots in `figures.tex` correspond to Figures 2 (left) and Figure 3 (left and right) as presented in the paper. We do not have a fully automated script to produce Figure 2 (right) since it requires matching CABEAN and ITGR data together. However, you can roughly compare the results based on the `.csv` files. Note that the absolute speed will be different on every computer, but the overall trend should be preserved. Also remember that your plots will have a cut off at the timeout you used when computing your benchmarks.
+The plots in `figures.tex` correspond to Figures 2 (left) and Figure 3 (left and right) as presented in the paper. We do not have a fully automated script to produce Figure 2 (right) since it requires matching CABEAN and ITGR data together. However, you can roughly compare the results based on the `.csv` files. Remember that your plots will have a cut off at the timeout you used when computing your benchmarks. Note that the absolute speed will be different on every computer, but the overall trend should be preserved.
+
+The point of the figures is to illustrate that: (a) `ITGR` is much faster than `CABEAN`, (b) `ITGR` can easily compute all real life instances (with the one minute timeout, one model is not computed, this model requires a 15 minute timeout), (c) Interleaving ensures the technique scales to large models, i.e. note the strong lead of `ITGR` with respect to `TGR` in the random benchmarks.
 
 ## Availibility and Extendability
 

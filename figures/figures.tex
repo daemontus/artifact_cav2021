@@ -48,8 +48,6 @@
 		\addplot [color-tgr, line width=1.25pt] table [col sep=comma] {benchmarks_real_life_TGR_aggregated.csv};			
 		\addplot [color-basic, line width=1.25pt] table [col sep=comma] {benchmarks_real_life_BASIC_aggregated.csv};			
 	\end{axis}
-	\node[scale=0.8, color-cabean] at (3.6,2.8) {\textbf{CABEAN}};
-	\node[scale=0.8, color-itgr] at (3.6,4.0) {\textbf{ITGR}};	
 	\end{tikzpicture}	
 	\begin{tikzpicture}
 	\definecolor{color-itgr}{HTML}{1b5e20}
@@ -73,15 +71,13 @@
 		grid style={line width=.1pt, draw=gray!10},
 		major grid style={line width=.2pt,draw=gray!50},
 		]
-		\addplot [color-itgr, line width=1.25pt] table [col sep=comma] {benchmarks_random_ITGR_aggregated.csv};
-		\addplot [color-tgr, line width=1.25pt] table [col sep=comma] {benchmarks_random_TGR_aggregated.csv};		
-%		\addplot [color-tgr, line width=1.25pt] table [col sep=comma] {benchmarks_real_life_TGR_aggregated.csv};			
-%		\addplot [color-basic, line width=1.25pt] table [col sep=comma] {benchmarks_real_life_BASIC_aggregated.csv};			
+		\addplot [color-cabean, line width=1.25pt] table [col sep=comma] {benchmarks_random_CABEAN_aggregated.csv};
+		\addplot [color-itgr, line width=1.25pt] table [col sep=comma] {benchmarks_random_ITGR_aggregated.csv};		
+		\addplot [color-tgr, line width=1.25pt] table [col sep=comma] {benchmarks_random_TGR_aggregated.csv};			
+		\addplot [color-basic, line width=1.25pt] table [col sep=comma] {benchmarks_random_BASIC_aggregated.csv};			
 	\end{axis}
-	\node[scale=0.8, color-cabean] at (3.6,2.8) {\textbf{CABEAN}};
-	\node[scale=0.8, color-itgr] at (3.6,4.0) {\textbf{ITGR}};	
 \end{tikzpicture}	
-	\caption{no. of completed instances in the given time for ITGR (green), TGR (blue), CABEAN (orange) and BASIC (grey) algorithms. Left plot shows the real life benchmark. Right plot shows the random benchmark.}
+	\caption{no. of completed instances in the given time for ITGR (green), TGR (blue), CABEAN (orange) and BASIC (grey) algorithms. Left plot shows the real life benchmark. Right plot shows the random benchmark set.}
 \end{figure}
 
 \end{document}
