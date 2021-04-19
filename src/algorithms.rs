@@ -3,6 +3,8 @@ use crate::{log_message, log_progress};
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 
+/// Performs transition guided reduction and the processes are executed with priority based
+/// interleaving (priority being the size of the symbolic representation).
 pub fn priority_reduction(
     graph: &SymbolicAsyncGraph,
     universe: &GraphColoredVertices,
@@ -30,6 +32,8 @@ pub fn priority_reduction(
     scheduler.finalize()
 }
 
+/// Performs transition guided reduction, but the processes are executed with
+/// round robin interleaving.
 pub fn round_robin_reduction(
     graph: &SymbolicAsyncGraph,
     universe: &GraphColoredVertices,
@@ -57,6 +61,7 @@ pub fn round_robin_reduction(
     scheduler.finalize()
 }
 
+/// Performs transition guided reduction, but each process is executed sequentially.
 pub fn sequential_reduction(
     graph: &SymbolicAsyncGraph,
     mut universe: GraphColoredVertices,
@@ -112,6 +117,8 @@ pub fn sequential_reduction(
     (universe, active_variables)
 }
 
+/// A "scheduler" that does not do anything so that we can use asynchronous processes
+/// outside of interleaving algorithm.
 struct FakeScheduler {
     variables: Vec<VariableId>
 }
@@ -146,6 +153,8 @@ impl Scheduler for FakeScheduler {
     }
 }
 
+/// Perform exhaustive search for graph BSCCs, but only consider provided `universe` set
+/// and transitions in the given `variables`.
 pub fn find_attractors_lockstep(
     graph: &SymbolicAsyncGraph,
     variables: &[VariableId],
@@ -180,63 +189,6 @@ pub fn find_attractors_lockstep(
     }
     return result;
 }
-
-/* Original, slightly slower version of the attractor detection algorithm...
-
-pub fn find_attractors(
-    graph: &SymbolicAsyncGraph,
-    variables: &[VariableId],
-    mut universe: GraphColoredVertices,
-) -> Vec<GraphColoredVertices> {
-    let mut random = StdRng::seed_from_u64(1234567890);
-    let mut result = Vec::new();
-    log_message(&format!(
-        "Started attractor search in universe of size {}.",
-        universe.approx_cardinality()
-    ));
-    while !universe.is_empty() {
-        //let pivot = universe.pick_vertex();
-        let pivot = random_pivot(graph, &universe, &mut random);
-        let pivot_basin = reach_bwd(graph, variables, &pivot, &universe);
-        let pivot_component = reach_fwd(graph, variables, &pivot, &pivot_basin);
-        let component_post = graph.post(&pivot_component).minus(&pivot_component);
-        let is_terminal = pivot_component.colors().minus(&component_post.colors());
-        if !is_terminal.is_empty() {
-            let attr = pivot_component.intersect_colors(&is_terminal);
-            log_message(&format!(
-                "Found attractor. State count {}",
-                attr.vertices().approx_cardinality()
-            ));
-            result.push(attr);
-        }
-        universe = universe.minus(&pivot_basin);
-        log_progress(|| format!("Remaining universe: {};", universe.approx_cardinality()));
-    }
-    return result;
-}
-
-pub fn random_pivot(
-    graph: &SymbolicAsyncGraph,
-    set: &GraphColoredVertices,
-    random: &mut StdRng,
-) -> GraphColoredVertices {
-    let mut pivot = set.clone();
-    for v in graph.network().variables() {
-        let value = random.gen_bool(0.5);
-        let v_set = graph.fix_network_variable(v, value);
-        let applied = pivot.intersect(&v_set);
-        if !applied.is_empty() {
-            pivot = applied;
-        } else {
-            pivot = pivot.intersect(&graph.fix_network_variable(v, !value));
-        }
-    }
-    if pivot.approx_cardinality() != 1.0 {
-        eprintln!("WTF. Pivot selection fail.");
-    }
-    pivot
-}
- */
 
 /// Performs a saturating forwards reachability search.
 pub fn reach_fwd(

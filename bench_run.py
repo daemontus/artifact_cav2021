@@ -28,7 +28,7 @@ if ALGORITHM == "CABEAN":
 	BINARY = os.environ['CABEAN_BIN'] + " -compositional 2 "
 	print("CABEAN path:", BINARY)
 	code = os.system(os.environ['CABEAN_BIN'] + ' &> /dev/null')
-	if code == 256:
+	if code == 256 or code == 0: # 0 on linux, 256 on macos
 		print("CABEAN executable ok.")
 	else:		
 		print("Error: CABEAN executable exit code", code)

@@ -101,6 +101,8 @@ python3 bench_run.py 1m benchmarks_real_life BASIC
 
 The first three runs should be relatively fast, finishing in several minutes. The last run is the slowest algorithm and can take up to an hour to complete all benchmarks. If you do not have enough time, you can also replace `1m` with `30s`, or even a smaller value, but keep in mind that then your data will be cut off at that timepoint.
 
+> If you have enough CPU cores available, feel free to run the commands in different terminals so that all four experiments can run concurrently.
+
 #### Random benchmarks
 
 Similarly, you can compute the (smaller) random benchmarks using these commands:
@@ -122,12 +124,14 @@ Once the results are computed, you can compare them to the files in `expected_re
 
 If you wish to compare the results visually, you can copy the `*_aggregated.csv` files from your test runs to the `figures` folder, where we have a prepared `figures.tex` document which will automatically generate graphs similar to what is presented in the paper. Note that the `figures.tex` assumes all 8 `.csv` files are present. If you don't have all the `.csv` files yet, you can comment out the corresponding `\addplot`  commands to render incomplete plots. We also include an `expected_1m.pdf` and `expected_1h.pdf` so that you can compare the results to the expected plots.
 
-The plots in `figures.tex` correspond to Figures 2 (left) and Figure 3 (left and right) as presented in the paper. We do not have a fully automated script to produce Figure 2 (right) since it requires matching CABEAN and ITGR data together. However, you can roughly compare the results based on the `.csv` files. Note that the absolute speed will be different on every computer, but the overall trend should be preserved. Also remember that the data in the paper
+The plots in `figures.tex` correspond to Figures 2 (left) and Figure 3 (left and right) as presented in the paper. We do not have a fully automated script to produce Figure 2 (right) since it requires matching CABEAN and ITGR data together. However, you can roughly compare the results based on the `.csv` files. Note that the absolute speed will be different on every computer, but the overall trend should be preserved. Also remember that your plots will have a cut off at the timeout you used when computing your benchmarks.
 
 ## Availibility and Extendability
 
 This artifact and this tutorial is available on [Github](https://github.com/daemontus/artifact_cav2021) and via a pre-configured virtual machine available at [TODO]().
 
-The implementation is based on two of our already published Rust libraries: [biodivine-lib-bdd](https://crates.io/crates/biodivine-lib-bdd) and [biodivine-lib-param-bn](https://crates.io/crates/biodivine-lib-param-bn) which facilitate the symbolic encoding and of Boolean networks. The actual algorithms are then contained in `src/algorithms.rs` and `src/process/*` (implementation reduction via process-based interleaving).
+The implementation is based on two of our already published Rust libraries: [biodivine-lib-bdd](https://crates.io/crates/biodivine-lib-bdd) and [biodivine-lib-param-bn](https://crates.io/crates/biodivine-lib-param-bn) which facilitate the symbolic encoding of Boolean networks. The actual algorithms are then contained in `src/algorithms.rs` and `src/process/*` (implementation of reduction via process-based interleaving). The implementation itself is fairly minimal (well under 1000 LOC) and contains basic comments that explain the function of individual components.
 
 Everything is open-source and available with the permissive MIT License.
+
+The implementation is used (with additional modifications) in our tool [AEON](https://biodivine.fi.muni.cz/aeon), which you can also use to visualize and modify the Boolean networks included in this artifact. To simply open and modify the `.aeon` files, you can use the online interface available directly on the website. To also compute and visualise the BSCCs using AEON, you will need a native *compute engine* that AEON can connect to (download link for which can be found in the online interface).
