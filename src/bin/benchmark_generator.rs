@@ -18,8 +18,9 @@ fn main() {
     if args.len() < 3 {
         eprintln!("Please give number of variables and output path as first and second argument.");
     }
-    let num_vars = args[1].parse::<usize>().unwrap();
-    let out_dir = PathBuf::from(args[2].clone());
+    let num_vars_min = args[1].parse::<usize>().unwrap();
+    let num_vars_max = args[2].parse::<usize>().unwrap();
+    let out_dir = PathBuf::from(args[3].clone());
     if !out_dir.exists() {
         std::fs::create_dir_all(&out_dir).unwrap();
     }
@@ -34,6 +35,7 @@ fn main() {
 
     let mut i_model = 1;
     while i_model <= 100 {
+        let num_vars = random.gen_range(num_vars_min..num_vars_max);
         let sampled = connectivity.sample(&mut random);
         let regulations = ((num_vars as f64) * sampled).round() as usize;
         println!("Connectivity: {} (sampled {})", regulations, sampled);

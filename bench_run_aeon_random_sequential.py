@@ -12,7 +12,7 @@ def is_bench(benchmark):
 
 def bench_cmp(benchmark):
 	m = re_var_count.match(benchmark)
-	return -int(m.group(1))
+	return int(m.group(1))
 
 benchmarks = filter(is_bench, os.listdir("./benchmarks_random"))
 benchmarks = sorted(benchmarks, key=bench_cmp)
@@ -36,8 +36,7 @@ for benchmark in benchmarks:
 	with open(out_file, 'r') as f:
 		lines = f.read().splitlines()
 		time_line = lines[-1]
-		print lines[-2]
-		print lines[-3]
+		print lines[-2]		
 		if re_elapsed.match(time_line):
 			print("Success: " + time_line)
 			time = re_elapsed.match(time_line).group(1)

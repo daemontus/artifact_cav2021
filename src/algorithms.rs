@@ -1,10 +1,7 @@
-use crate::process::{PriorityScheduler, ReachAfterPostProcess, RoundRobinScheduler, Scheduler, FwdProcess, BwdProcess, Process};
+use crate::process::{PriorityScheduler, ReachAfterPostProcess, RoundRobinScheduler, Scheduler, FwdProcess, Process};
 use crate::{log_message, log_progress};
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
-use biodivine_lib_std::param_graph::Params;
-use rand::rngs::StdRng;
-use rand::{Rng, SeedableRng};
 
 pub fn priority_reduction(
     graph: &SymbolicAsyncGraph,
@@ -158,7 +155,7 @@ pub fn find_attractors_lockstep(
     let mut result = Vec::new();
     while !universe.is_empty() {
         log_message(&format!("Start universe {}({})", universe.approx_cardinality(), universe.as_bdd().size()));
-        let mut pivot = universe.pick_vertex();
+        let pivot = universe.pick_vertex();
         let bwd_set = reach_bwd(graph, variables, &pivot, &universe);
         let mut fwd = FwdProcess::new(&pivot, graph.unit_vertices());
         let mut is_terminal = true;
@@ -183,6 +180,8 @@ pub fn find_attractors_lockstep(
     }
     return result;
 }
+
+/* Original, slightly slower version of the attractor detection algorithm...
 
 pub fn find_attractors(
     graph: &SymbolicAsyncGraph,
@@ -237,6 +236,7 @@ pub fn random_pivot(
     }
     pivot
 }
+ */
 
 /// Performs a saturating forwards reachability search.
 pub fn reach_fwd(
