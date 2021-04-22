@@ -35,7 +35,7 @@ if timeout == 'none':
 	print('!!!ERROR!!! No timeout utility found.')
 
 cargo_ok = os.system('cargo --version > /dev/null 2>&1')
-if code == 0:
+if cargo_ok == 0:
 	print("Rust compiler installed.")
 	os.system('rustc --version')
 else:
