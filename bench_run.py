@@ -2,6 +2,7 @@ import sys
 import os
 import re
 import time
+from shlex import quote
 
 RE_TIME = re.compile("\\s*real\\s*(\\d+\\.?\\d*)\\s*")
 
@@ -25,9 +26,9 @@ print("Interactive:", INTERACTIVE)
 # Set binary based on algorithm (also setup so that an input file can be appended there).
 BINARY = ""
 if ALGORITHM == "CABEAN":
-	BINARY = os.environ['CABEAN_BIN'] + " -compositional 2 "
+	BINARY = quote(os.environ['CABEAN_BIN']) + " -compositional 2 "
 	print("CABEAN path:", BINARY)
-	code = os.system(os.environ['CABEAN_BIN'] + ' &> /dev/null')
+	code = os.system(quote(os.environ['CABEAN_BIN']) + ' &> /dev/null')
 	if code == 256 or code == 0: # 0 on linux, 256 on macos
 		print("CABEAN executable ok.")
 	else:		
