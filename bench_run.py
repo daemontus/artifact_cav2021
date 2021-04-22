@@ -28,7 +28,7 @@ BINARY = ""
 if ALGORITHM == "CABEAN":
 	BINARY = quote(os.environ['CABEAN_BIN']) + " -compositional 2 "
 	print("CABEAN path:", BINARY)
-	code = os.system(quote(os.environ['CABEAN_BIN']) + ' &> /dev/null')
+	code = os.system(quote(os.environ['CABEAN_BIN']) + ' > /dev/null 2>&1')
 	if code == 256 or code == 0: # 0 on linux, 256 on macos
 		print("CABEAN executable ok.")
 	else:		
@@ -50,13 +50,13 @@ if BINARY == "":
 TIMEOUT = 'none'
 
 if TIMEOUT == 'none':
-	code = os.system('timeout --help &> /dev/null')
+	code = os.system('timeout --help > /dev/null 2>&1')
 	if code == 0:
 		TIMEOUT = 'timeout'
 		print("Timeout utility ok.")
 
 if TIMEOUT == 'none':
-	code = os.system('gtimeout --help &> /dev/null')
+	code = os.system('gtimeout --help > /dev/null 2>&1')
 	if code == 0:
 		TIMEOUT = 'gtimeout'
 		print("Timeout utility ok.")
