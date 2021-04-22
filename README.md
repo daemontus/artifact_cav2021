@@ -2,7 +2,7 @@
 
 This is a replicability package for the CAV2021 paper 163, *"Computing Bottom SCCs Symbolically Using Transition Guided Reduction"*. It contains the implementation of algorithms presented in the paper, as well as all benchmark models used for experiments. This readme then contains instructions on how to re-compute main experimental results of the paper. The instructions should be compatible with unix-based systems (Linux, MacOS). The main binaries are also compatible with Windows, so you should be able to run individual tests, but the benchmark automation requires unix-specific utilities.
 
-There is also a virtual machine for this evaluation package available at [zenodo](10.5281/zenodo.4709882). However, this package only requires installation of rather basic dependencies (Python 3, Rust compiler, and LaTeX to generate the figures) with no extra configuration, so we encourage you to just follow the instructions directly on your machine. 
+There is also a virtual machine for this evaluation package available at [zenodo](10.5281/zenodo.4709882) (username and password are `elementary`). However, this package only requires installation of rather basic dependencies (Python 3, Rust compiler, and LaTeX to generate the figures) with no extra configuration, so we encourage you to just follow the instructions directly on your machine. 
 
 > The original paper evaluates three benchmark sets (together over 300 models) and uses a timeout of 1 hour for each computation. As a consequence of this timeout, comparisons with slower algorithms can take a very long time (>24h) to complete. To make the evaluation feasible, we provide the option to set custom timeout (1 minute is usually sufficient to demonstrate the point). The generated figures will be thus cut-off at the chosen timeout, whereas in the paper, they extend to the full one hour span.
 
@@ -130,7 +130,7 @@ The point of the figures is to illustrate that: (a) `ITGR` is much faster than `
 
 ## Availibility and Extendability
 
-This artifact and this tutorial are available on [Github](https://github.com/daemontus/artifact_cav2021) and via a pre-configured virtual machine available at [zenodo](10.5281/zenodo.4709882).
+This artifact and this tutorial are available on [Github](https://github.com/daemontus/artifact_cav2021) and via a pre-configured virtual machine available at [zenodo](10.5281/zenodo.4709882) (username and password are `elementary`).
 
 The implementation is based on two of our already published Rust libraries: [biodivine-lib-bdd](https://crates.io/crates/biodivine-lib-bdd) and [biodivine-lib-param-bn](https://crates.io/crates/biodivine-lib-param-bn) which facilitate the symbolic encoding of Boolean networks. The actual algorithms are then contained in `src/algorithms.rs` and `src/process/*` (implementation of reduction via process-based interleaving). The implementation itself is fairly minimal (well under 1000 LOC) and contains basic comments that explain the function of individual components.
 
