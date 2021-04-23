@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4709882.svg)](https://doi.org/10.5281/zenodo.4709882)
+
 # [Paper 163] Artifact Evaluation Package
 
 This is a replicability package for the CAV2021 paper 163, *"Computing Bottom SCCs Symbolically Using Transition Guided Reduction"*. It contains the implementation of algorithms presented in the paper, as well as all benchmark models used for experiments. This readme then contains instructions on how to re-compute main experimental results of the paper. The instructions should be compatible with unix-based systems (Linux, MacOS). The main binaries are also compatible with Windows, so you should be able to run individual tests, but the benchmark automation requires unix-specific utilities.
@@ -128,7 +130,7 @@ The plots in `figures.tex` correspond to Figures 2 (left) and Figure 3 (left and
 
 The point of the figures is to illustrate that: (a) `ITGR` is much faster than `CABEAN`, (b) `ITGR` can easily compute all real life instances (with the one minute timeout, one model is not computed, this model requires a 15 minute timeout), (c) Interleaving ensures the technique scales to large models, i.e. note the strong lead of `ITGR` with respect to `TGR` in the random benchmarks.
 
-## Availibility and Extendability
+## Availibility, Extendability and Reusability
 
 This artifact and this tutorial are available on [Github](https://github.com/daemontus/artifact_cav2021) and via a pre-configured virtual machine available at [zenodo](10.5281/zenodo.4709882) (username and password are `elementary`).
 
@@ -137,3 +139,7 @@ The implementation is based on two of our already published Rust libraries: [bio
 Everything is open-source and available with the permissive MIT License.
 
 The implementation is used (with additional modifications) in our tool [AEON](https://biodivine.fi.muni.cz/aeon), which you can also use to visualize and modify the Boolean networks included in this artifact. To simply open and modify the `.aeon` files (for example by changing the Boolean update functions for individual variables), you can use the online interface available directly on the website. To also compute and visualise the BSCCs using AEON, you will need a native *compute engine* that AEON can connect to (download link for which can be found in the online interface). A full introduction to AEON is beyond the scope of this readme, but feel free to reach out at `sybila@fi.muni.cz` if you run into any problems when using the tool.
+
+If you wish to modify the models without using AEON, you can simply open any `.aeon` file in a text editor. Here, every `$name: ...` line corresponds to a Boolean update function which you can modify. However, note that the remaining lines also encode dependencies between variables. So if you want to use a variable which was not used in the function before (or if you want to declare a new variable), you first need to declare it as a dependency of the variable whose function you are modifying. Easiest way to do so is by adding a `dep_source -?? dep_target` line anywhere in the file. Here, `dep_source` and `dep_target` are the names of the two dependent variables, while `-??` signifies that the dependency has no additional properties that should be checked before running the experiment (otherwise, the implementation also checks integrity of the functions with respect to the dependency graph, which is again beyond the scope of this readme).
+
+To run BSCC detection for you modified network, first run `cargo build --release` to make sure that all binaries are compiled. Then, execute `./target/release/algorithm_priority < path/to/modified/model.aeon`. An output should contain rough progress estimate with an approximation of the BSCC state count at the end.
