@@ -11,9 +11,9 @@ fn main() {
 
     let model = BooleanNetwork::try_from(buffer.as_str()).unwrap();
     let graph = SymbolicAsyncGraph::new(model).unwrap();
-    let variables = graph.network().variables().collect::<Vec<_>>();
+    let variables = graph.as_network().variables().collect::<Vec<_>>();
 
-    let attractors = find_attractors_lockstep(&graph, &variables, graph.mk_unit_vertices());
+    let attractors = find_attractors_lockstep(&graph, &variables, graph.mk_unit_colored_vertices());
 
     for (i, attr) in attractors.into_iter().enumerate() {
         log_message(&format!(

@@ -1,12 +1,13 @@
 use crate::log_message;
 use crate::process::{Process, RoundRobinScheduler, Scheduler};
+use biodivine_lib_param_bn::biodivine_std::traits::Set;
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 
 impl RoundRobinScheduler {
     pub fn new(graph: &SymbolicAsyncGraph, universe: &GraphColoredVertices) -> RoundRobinScheduler {
         RoundRobinScheduler {
-            active_variables: graph.network().variables().collect(),
+            active_variables: graph.as_network().variables().collect(),
             universe: universe.clone(),
             processes: Vec::new(),
             discarded: None,

@@ -1,4 +1,5 @@
 use crate::process::{FwdProcess, Process, Scheduler};
+use biodivine_lib_param_bn::biodivine_std::traits::Set;
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 
 impl FwdProcess {

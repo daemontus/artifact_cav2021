@@ -1,6 +1,7 @@
 use crate::algorithms::reach_bwd;
 use crate::log_message;
 use crate::process::{BwdProcess, ExtendedComponentProcess, Process, Scheduler};
+use biodivine_lib_param_bn::biodivine_std::traits::Set;
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 

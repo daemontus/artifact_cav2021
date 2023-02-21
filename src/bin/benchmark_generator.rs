@@ -5,6 +5,7 @@ use cav2021_artifact::connectivity_distribution::connectivity_distribution;
 use cav2021_artifact::in_degree_relative_distribution::in_degree_relative_distribution;
 use cav2021_artifact::out_degree_relative_distribution::out_degree_relative_distribution;
 use cav2021_artifact::SampledDistribution;
+use core::panic;
 use rand::rngs::StdRng;
 use rand::{Rng, SeedableRng};
 use std::cmp::min;
@@ -12,6 +13,11 @@ use std::collections::HashSet;
 use std::path::PathBuf;
 
 const P_REG_POSITIVE: f64 = 0.8066337893732103;
+
+const OUTPUT_FORMAT: &str = "bnet"; // Possible values: aeon/bnet/sbml
+const INPUT_NODE_FORMAT: &str = "identity"; // Possible values: true/false/identity/random
+const NETWORK_COUNT: usize = 100;
+const RANDOM_SEED: u64 = 123456789;
 
 fn main() {
     let args: Vec<String> = std::env::args().into_iter().collect();
@@ -31,10 +37,10 @@ fn main() {
     let relative_in_degree_distribution = in_degree_relative_distribution();
     let relative_out_degree_distribution = out_degree_relative_distribution();
 
-    let mut random = StdRng::seed_from_u64(123456789);
+    let mut random = StdRng::seed_from_u64(RANDOM_SEED);
 
     let mut i_model = 1;
-    while i_model <= 100 {
+    while i_model <= NETWORK_COUNT {
         let num_vars = random.gen_range(num_vars_min..num_vars_max);
         let sampled = connectivity.sample(&mut random);
         let regulations = ((num_vars as f64) * sampled).round() as usize;
@@ -65,7 +71,10 @@ fn main() {
             let source = pick_from_degree_vector(&out_degrees, &mut random);
             let target = pick_from_degree_vector(&in_degrees, &mut random);
             if rg
-                .find_regulation(VariableId::from(source), VariableId::from(target))
+                .find_regulation(
+                    VariableId::from_index(source),
+                    VariableId::from_index(target),
+                )
                 .is_none()
             {
                 out_degrees[source] -= 1;
@@ -84,6 +93,18 @@ fn main() {
                 .unwrap();
             }
         }
+        // If "identity" input nodes are required, we need to
+        // add self-loop regulations to all input nodes.
+        // These do not "count" towards our desired regulation count.
+        if INPUT_NODE_FORMAT == "identity" {
+            for var in rg.variables() {
+                if rg.regulators(var).is_empty() {
+                    let name = rg.get_variable_name(var).clone();
+                    rg.add_regulation(&name, &name, true, Some(Monotonicity::Activation))
+                        .unwrap();
+                }
+            }
+        }
 
         let mut bn = BooleanNetwork::new(rg.clone());
         for v in bn.variables() {
@@ -91,8 +112,14 @@ fn main() {
             if regulators.is_empty() && !bn.targets(v).is_empty() {
                 // Only add constant functions for variables that will appear in the network
                 // (if there are no targets, the variable will be just lost in translation)
-                bn.add_update_function(v, FnUpdate::Const(random.gen_bool(0.5)))
-                    .unwrap();
+                let function = match INPUT_NODE_FORMAT {
+                    "true" => FnUpdate::Const(true),
+                    "false" => FnUpdate::Const(false),
+                    "identity" => FnUpdate::Var(v),
+                    "random" => FnUpdate::Const(random.gen_bool(0.5)),
+                    _ => panic!("Unknown node input format: {}.", INPUT_NODE_FORMAT),
+                };
+                bn.add_update_function(v, function).unwrap();
             } else if !regulators.is_empty() {
                 let r = regulators[0];
                 let fst_is_activation = rg.find_regulation(r, v).unwrap().get_monotonicity()
@@ -131,11 +158,17 @@ fn main() {
             continue;
         }
 
-        let aeon_file = out_dir.join(&format!(
-            "{}_{}_{}.aeon",
-            i_model, actual_var_count, regulations
+        let output_file = out_dir.join(&format!(
+            "{}_{}_{}.{}",
+            i_model, actual_var_count, regulations, OUTPUT_FORMAT
         ));
-        std::fs::write(aeon_file, bn.to_string()).unwrap();
+        let output_content = match OUTPUT_FORMAT {
+            "aeon" => bn.to_string(),
+            "bnet" => bn.to_bnet(true).unwrap(),
+            "sbml" => bn.to_sbml(None),
+            _ => panic!("Unknown output format {}.", OUTPUT_FORMAT),
+        };
+        std::fs::write(output_file, output_content).unwrap();
         println!("{} generated...", i_model);
         i_model += 1;
     }

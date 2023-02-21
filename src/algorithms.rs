@@ -1,5 +1,8 @@
-use crate::process::{PriorityScheduler, ReachAfterPostProcess, RoundRobinScheduler, Scheduler, FwdProcess, Process};
+use crate::process::{
+    FwdProcess, PriorityScheduler, Process, ReachAfterPostProcess, RoundRobinScheduler, Scheduler,
+};
 use crate::{log_message, log_progress};
+use biodivine_lib_param_bn::biodivine_std::traits::Set;
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 
@@ -10,7 +13,7 @@ pub fn priority_reduction(
     universe: &GraphColoredVertices,
 ) -> (GraphColoredVertices, Vec<VariableId>) {
     let mut scheduler = PriorityScheduler::new(graph, &universe);
-    for variable in graph.network().variables() {
+    for variable in graph.as_network().variables() {
         scheduler.spawn(ReachAfterPostProcess::new(
             variable,
             graph,
@@ -39,7 +42,7 @@ pub fn round_robin_reduction(
     universe: &GraphColoredVertices,
 ) -> (GraphColoredVertices, Vec<VariableId>) {
     let mut scheduler = RoundRobinScheduler::new(graph, &universe);
-    for variable in graph.network().variables() {
+    for variable in graph.as_network().variables() {
         scheduler.spawn(ReachAfterPostProcess::new(
             variable,
             graph,
@@ -66,8 +69,8 @@ pub fn sequential_reduction(
     graph: &SymbolicAsyncGraph,
     mut universe: GraphColoredVertices,
 ) -> (GraphColoredVertices, Vec<VariableId>) {
-    let mut active_variables: Vec<VariableId> = graph.network().variables().collect();
-    for var in graph.network().variables() {
+    let mut active_variables: Vec<VariableId> = graph.as_network().variables().collect();
+    for var in graph.as_network().variables() {
         log_message(&format!(
             "Reducing {:?}. Remaining: {}",
             var,
@@ -120,7 +123,7 @@ pub fn sequential_reduction(
 /// A "scheduler" that does not do anything so that we can use asynchronous processes
 /// outside of interleaving algorithm.
 struct FakeScheduler {
-    variables: Vec<VariableId>
+    variables: Vec<VariableId>,
 }
 
 impl Scheduler for FakeScheduler {
@@ -160,13 +163,19 @@ pub fn find_attractors_lockstep(
     variables: &[VariableId],
     mut universe: GraphColoredVertices,
 ) -> Vec<GraphColoredVertices> {
-    let mut scheduler = FakeScheduler { variables: variables.to_vec() };
+    let mut scheduler = FakeScheduler {
+        variables: variables.to_vec(),
+    };
     let mut result = Vec::new();
     while !universe.is_empty() {
-        log_message(&format!("Start universe {}({})", universe.approx_cardinality(), universe.as_bdd().size()));
+        log_message(&format!(
+            "Start universe {}({})",
+            universe.approx_cardinality(),
+            universe.as_bdd().size()
+        ));
         let pivot = universe.pick_vertex();
         let bwd_set = reach_bwd(graph, variables, &pivot, &universe);
-        let mut fwd = FwdProcess::new(&pivot, graph.unit_vertices());
+        let mut fwd = FwdProcess::new(&pivot, graph.unit_colored_vertices());
         let mut is_terminal = true;
         loop {
             if !fwd.reach_set().is_subset(&bwd_set) {

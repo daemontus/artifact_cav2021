@@ -3,6 +3,7 @@ use crate::log_message;
 use crate::process::{
     ExtendedComponentProcess, FwdProcess, Process, ReachAfterPostProcess, Scheduler,
 };
+use biodivine_lib_param_bn::biodivine_std::traits::Set;
 use biodivine_lib_param_bn::symbolic_async_graph::{GraphColoredVertices, SymbolicAsyncGraph};
 use biodivine_lib_param_bn::VariableId;
 
