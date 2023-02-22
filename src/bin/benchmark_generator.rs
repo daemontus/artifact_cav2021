@@ -16,7 +16,8 @@ const P_REG_POSITIVE: f64 = 0.8066337893732103;
 
 const OUTPUT_FORMAT: &str = "bnet"; // Possible values: aeon/bnet/sbml
 const INPUT_NODE_FORMAT: &str = "identity"; // Possible values: true/false/identity/random
-const NETWORK_COUNT: usize = 100;
+const NETWORK_COUNT: usize = 200;
+const DENSITY_FACTOR: f64 = 2.0;
 const RANDOM_SEED: u64 = 123456789;
 
 fn main() {
@@ -42,7 +43,7 @@ fn main() {
     let mut i_model = 1;
     while i_model <= NETWORK_COUNT {
         let num_vars = random.gen_range(num_vars_min..num_vars_max);
-        let sampled = connectivity.sample(&mut random);
+        let sampled = DENSITY_FACTOR * connectivity.sample(&mut random);
         let regulations = ((num_vars as f64) * sampled).round() as usize;
         println!("Connectivity: {} (sampled {})", regulations, sampled);
 
@@ -150,7 +151,13 @@ fn main() {
 
         let actual_var_count = bn
             .variables()
-            .filter(|v| !bn.regulators(*v).is_empty() || !bn.targets(*v).is_empty())
+            .filter(|v| {  
+                if INPUT_NODE_FORMAT == "identity" {
+                    bn.regulators(*v) != vec![*v] || bn.targets(*v) != vec![*v]
+                } else {
+                    !bn.regulators(*v).is_empty() || !bn.targets(*v).is_empty()
+                }                
+            })
             .count();
         // At this point, the network must be at the very least weakly connected:
         if !is_weak_connected(&bn, actual_var_count) {
